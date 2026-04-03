@@ -126,6 +126,29 @@ Operational guide for the advance staff person managing event logistics. **Audie
 
 ---
 
+## Opposition Research Documents
+
+### Opposition Research Book
+Comprehensive file on the opponent's record, statements, and vulnerabilities. **Audience:** Campaign manager, communications director, debate prep team (internal, HIGHLY CONFIDENTIAL). **Tone:** Factual, documented, sourced. Every claim must have a citation. **Structure:** Biographical profile > Political record (votes, statements, positions) > Financial record (personal finances, campaign finance, business dealings) > Legal record (lawsuits, violations, complaints) > Public statements organized by topic > Vulnerabilities with supporting evidence > Strengths (know where they are strong to avoid unforced errors). **Length:** 20-50+ pages depending on the opponent's record. See `opposition-research.md`.
+
+### Self-Research Book
+The same opposition research process applied to your own candidate. Every vulnerability the opponent might find, you find first. **Audience:** Campaign manager, candidate, legal counsel (internal, HIGHLY CONFIDENTIAL). **Tone:** Unflinchingly honest. **Structure:** Same as opposition research book, applied to the candidate. Include prepared responses for every vulnerability. **Length:** 10-30 pages.
+
+---
+
+## Post-Event and Reporting Documents
+
+### Post-Event Report
+Documents what happened at each event for campaign records and follow-up. **Audience:** Campaign manager, data team (internal). **Structure:** Event name, date, location > Attendance (actual vs. expected) > Funds raised (if fundraiser) > Contacts collected > Media present and coverage > Notable conversations or commitments > Follow-up items with owners and deadlines > What worked, what to improve. **Length:** Half page to one page.
+
+### Weekly Status Report
+Internal report summarizing the campaign's progress across all departments. **Audience:** Campaign manager, candidate, senior staff (internal). **Tone:** Brief, data-driven, action-oriented. **Structure:** Key metrics (funds raised, doors knocked, calls made, new volunteers) > Wins this week > Challenges > Next week priorities > Budget status. **Length:** 1-2 pages.
+
+### Debate Prep Briefing Book
+Comprehensive preparation document for candidate debates and forums. **Audience:** Candidate, debate prep team (internal). **Tone:** Direct, strategic, scenario-based. **Structure:** Format and rules > Moderator background > Expected questions with prepared answers > Opponent's likely attacks with responses > Key pivots and soundbites > Opening and closing statements > Body language and delivery reminders. **Length:** 10-20 pages.
+
+---
+
 ## Document Management Rules
 
 1. **Version control:** Every document has a date in the filename or header. Never edit without updating the date.
