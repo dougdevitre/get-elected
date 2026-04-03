@@ -11,6 +11,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize All Expenditures + Contributions Over $100"]
+    ITEMIZE --> PREPARE["Prepare Report (DS-DE 2)"]
+    PREPARE --> FILE{"Office Level"}
+    FILE -->|"State/Multi-County"| DOE["File with Division of Elections"]
+    FILE -->|"County/Municipal"| SOE["File with Supervisor of Elections"]
+    DOE --> CONFIRM["Confirm Receipt"]
+    SOE --> CONFIRM
+    CONFIRM --> TRACK
+```
+
 ## Filing Agency
 
 Campaign finance reports are filed with the **Florida Division of Elections** (for state

@@ -11,6 +11,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> OFFICE{"Office Type"}
+    OFFICE -->|"Non-Judicial"| DT{"Donor Type"}
+    OFFICE -->|"Judicial"| JCFA["Check JCFA Limits by Court Level"]
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> ACCEPT["No Limit -- Accept"]
+    PAC --> ACCEPT
+    PARTY --> ACCEPT
+    CORP --> RULE{"Direct Treasury?"}
+    RULE -->|"Yes"| REJECT["Reject -- Must Use PAC"]
+    RULE -->|"No (Via PAC)"| ACCEPT
+    JCFA --> OK["Accept Within JCFA Limits"]
+    JCFA --> OVER["Return Excess"]
+```
+
 ## Background
 
 Texas is one of a small number of states that does **not** impose contribution limits

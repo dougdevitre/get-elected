@@ -11,6 +11,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $100 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report (Form 460)"]
+    PREPARE --> FILE["File with SOS via Cal-Access"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> LATE{"$1,000+ in Last 90 Days?"}
+    LATE -->|"Yes"| RUSH["File Form 497 Within 24 Hours"]
+    LATE -->|"No"| TRACK
+    RUSH --> TRACK
+```
+
 ## Filing Agency
 
 Campaign finance reports are filed with the **California Secretary of State** (for

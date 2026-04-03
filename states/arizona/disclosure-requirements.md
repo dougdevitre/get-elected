@@ -12,6 +12,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $500 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE{"Candidate Type"}
+    FILE -->|"Traditional"| SOS["File with Secretary of State"]
+    FILE -->|"Clean Elections"| CCEC["File with CCEC"]
+    SOS --> CONFIRM["Confirm Receipt"]
+    CCEC --> CONFIRM
+    CONFIRM --> TRACK
+```
+
 ## Overview
 
 Arizona has a layered disclosure system reflecting its dual traditional/Clean Elections
