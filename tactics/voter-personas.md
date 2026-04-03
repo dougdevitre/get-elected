@@ -14,6 +14,21 @@ Voter personas translate abstract data into concrete people your campaign can me
 
 ---
 
+## Persona-Building Process
+
+```mermaid
+flowchart TD
+    A["Gather District Data<br/>(demographics, election history)"] --> B["Identify Key<br/>Voter Segments"]
+    B --> C["Build 4-6 Personas<br/>(Demographics +<br/>Psychographics + Triggers)"]
+    C --> D["Assign Message<br/>per Persona"]
+    D --> E["Assign Channel<br/>per Persona"]
+    E --> F["Assign Ask<br/>per Persona"]
+    F --> G["Test & Refine"]
+    G -->|"Update monthly"| A
+```
+
+---
+
 ## How to Build 4-6 Personas for Any District
 
 ### Step 1: Gather Data

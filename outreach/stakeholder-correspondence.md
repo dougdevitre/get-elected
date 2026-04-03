@@ -4,6 +4,23 @@ Every piece of campaign communication either builds or erodes a relationship. Th
 
 ---
 
+## Stakeholder Universe
+
+```mermaid
+flowchart TD
+    C(("CANDIDATE"))
+
+    C -->|"Thank-yous, updates,<br/>asks"| DO["Donors"]
+    C -->|"Briefings,<br/>activation"| EN["Endorsers"]
+    C -->|"Mail, door knocks,<br/>digital ads"| VO["Voters"]
+    C -->|"Recruitment,<br/>appreciation"| VL["Volunteers"]
+    C -->|"Pitches, press<br/>releases, responses"| RE["Reporters"]
+    C -->|"Introductions,<br/>support requests"| PL["Party Leaders"]
+    C -->|"Debate invitations,<br/>formal letters"| OP["Opponents"]
+```
+
+---
+
 ## General Principles
 
 1. **Lead with the relationship, not the ask.** People give time, money, and support to candidates they feel connected to, not candidates who only call when they need something.

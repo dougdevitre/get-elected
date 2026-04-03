@@ -6,6 +6,22 @@ Every campaign will face a crisis. The difference between campaigns that survive
 
 ## The RESPOND Framework
 
+```mermaid
+flowchart TD
+    R["R - Recognize\nIdentify the crisis"] --> E["E - Evaluate\nSeverity, scope, timeline"]
+    E --> SEV{"Severity?"}
+    SEV -->|Low| MON["Monitor"]
+    SEV -->|Medium| PREP["Prepare Statement"]
+    SEV -->|High| WAR["Full War Room"]
+    MON --> S
+    PREP --> S
+    WAR --> S
+    S["S - Strategize\nResponse options"] --> P["P - Prepare\nDraft statements, brief team"]
+    P --> O["O - Orchestrate\nExecute response,\ncoordinate channels"]
+    O --> N["N - Normalize\nReturn to campaign message"]
+    N --> D["D - Document\nLessons learned"]
+```
+
 ### R — Recognize
 
 **What:** Identify that a crisis is happening or about to happen. Most campaigns lose because they recognize too late.

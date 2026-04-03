@@ -2,6 +2,21 @@
 
 The campaign treasurer is the legal custodian of your campaign's finances. In many jurisdictions, the treasurer bears personal liability for the accuracy of campaign finance reports. This guide covers everything your treasurer needs to know to set up systems, stay compliant, and avoid costly mistakes.
 
+```mermaid
+flowchart TD
+    A["Receive Contribution"] --> B["Verify Eligibility"]
+    B --> C["Check Limits"]
+    C --> D["Record Details\n(name, address, occupation,\nemployer, amount)"]
+    D --> E["Deposit"]
+    E --> F["Track Aggregate Totals"]
+    F --> G{"Filing Deadline\nApproaching?"}
+    G -->|Yes| H["Reconcile Records\nwith Bank"]
+    H --> I["Prepare Report"]
+    I --> J["File Report"]
+    J -->|Repeat| A
+    G -->|No| A
+```
+
 ---
 
 > **EDUCATIONAL DISCLAIMER:** Treasurer responsibilities, reporting requirements, and personal liability vary significantly by jurisdiction. Federal campaigns are governed by the FEC; state and local campaigns are governed by their respective election commissions or secretaries of state. The information below provides general best practices. Your treasurer should review the specific rules for your jurisdiction and consider consulting a campaign finance attorney. This guide is for educational purposes and does not constitute legal advice.

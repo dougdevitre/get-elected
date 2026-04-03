@@ -6,6 +6,24 @@ The candidate's time is the campaign's most finite and valuable resource. Every 
 
 ## Optimal Weekly Time Allocation
 
+```mermaid
+flowchart LR
+    subgraph Time["Weekly Time Allocation"]
+        CT["Call Time<br/>40%<br/>(28 hrs)"]
+        EA["Events &<br/>Appearances<br/>30%<br/>(21 hrs)"]
+        PM["Prep &<br/>Meetings<br/>15%<br/>(10.5 hrs)"]
+        PR["Personal &<br/>Rest<br/>15%<br/>(10.5 hrs)"]
+    end
+
+    subgraph Advance["Event Advance Flow"]
+        direction LR
+        SV[Site Visit] --> BM[Briefing Memo]
+        BM --> DT[Day-of Timeline]
+        DT --> EX[Event Execution]
+        EX --> FU[Post-Event<br/>Follow-up]
+    end
+```
+
 | Activity | % of Time | Hours/Week (70-hr week) | Purpose |
 |---|---|---|---|
 | Call time (fundraising) | 40% | 28 hours | Revenue generation -- the fuel for everything else |

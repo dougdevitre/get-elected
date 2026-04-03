@@ -2,6 +2,18 @@
 
 This reference covers the 7 phases of a typical US political campaign from initial exploration through post-election obligations. Phases may overlap, especially Fundraising which runs continuously once begun.
 
+```mermaid
+flowchart LR
+    P1["**Exploring**\nViability & Research"]
+    P2["**Filing**\nBallot Access & Committee"]
+    P3["**Building**\nTeam & Infrastructure"]
+    P4["**Fundraising**\nDonors & Compliance"]
+    P5["**Running**\nVoter Contact & GOTV"]
+    P6["**Reporting**\nDisclosure & Filings"]
+    P7["**Post-Election**\nTransition / Wind-Down"]
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6 --> P7
+```
+
 ---
 
 ## Phase 1: Exploring

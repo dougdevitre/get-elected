@@ -2,6 +2,17 @@
 
 A comprehensive guide to tracking, categorizing, and documenting every dollar your campaign spends. Proper expenditure tracking is not optional -- it is a legal requirement that protects the candidate, the treasurer, and the campaign from compliance violations and public embarrassment.
 
+```mermaid
+flowchart TD
+    A["Incur Expense"] --> B["Categorize\n(Personnel / Media / Fundraising /\nOffice / Travel / Events /\nConsulting / Legal)"]
+    B --> C{"Personal use?"}
+    C -->|Yes| D["PROHIBITED"]
+    C -->|No| E["Document\n(receipt, purpose, payee)"]
+    E --> F["Enter in\nTracking System"]
+    F --> G["Reconcile\nwith Bank"]
+    G --> H["Report on\nFiling"]
+```
+
 ---
 
 > **EDUCATIONAL DISCLAIMER:** Expenditure reporting requirements, categories, and restrictions vary by jurisdiction. Federal campaigns follow FEC rules; state and local campaigns follow their respective regulatory bodies. The guidance below reflects general best practices. Verify the specific requirements for your race and consult a campaign finance attorney if needed. This guide is for educational purposes and does not constitute legal advice.

@@ -17,6 +17,26 @@ Not all endorsements are equal. A newspaper endorsement in a local race can swin
 
 ---
 
+## Endorsement Process Overview
+
+```mermaid
+flowchart TD
+    BT["Build Target List"] --> PR["Prioritize<br/>(Influence x Likelihood<br/>matrix)"]
+    PR --> RS["Research Each Target"]
+    RS --> WI["Warm Introduction"]
+    WI --> ASK["The Ask<br/>(phone / in-person / letter)"]
+    ASK --> END{"Endorsed?"}
+
+    END -->|Yes| ANN["Announce<br/>(press release, social,<br/>voter guide)"]
+    ANN --> ACT["Activate<br/>(surrogate briefing,<br/>deployment)"]
+
+    END -->|No| TY["Thank Them<br/>Maintain Relationship"]
+    TY --> LATER["Ask Again Later"]
+    LATER -->|"Dynamics shift"| ASK
+```
+
+---
+
 ## Tiered Targeting
 
 ### Tier 1: Elected Officials and Major Political Figures

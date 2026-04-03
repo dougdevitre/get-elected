@@ -2,6 +2,23 @@
 
 A data management system for tracking all campaign donations, ensuring compliance with contribution limits, reconciling against bank records, and generating export files for regulatory filings.
 
+```mermaid
+flowchart TD
+    A[Receive Contribution] --> B[Collect Donor Info]
+    B --> B1[Name]
+    B --> B2[Address]
+    B --> B3[Occupation]
+    B --> B4[Employer]
+    B1 & B2 & B3 & B4 --> C[Enter in System]
+    C --> D[Calculate Aggregate YTD]
+    D --> E[Check Against Limits]
+    E --> F{Near or Over Limit?}
+    F -- Yes --> G[Flag for Review]
+    F -- No --> H[Reconcile with Bank Deposit]
+    G --> H
+    H --> I[Generate Report Data]
+```
+
 ---
 
 ## CSV Schema

@@ -2,6 +2,24 @@
 
 A strategic framework for raising the money your campaign needs to win. Fundraising is the single most important candidate activity -- it funds everything else. This guide covers goal-setting, source allocation, call time, events, online fundraising, and major donor cultivation.
 
+```mermaid
+flowchart TD
+    A["Set Fundraising Goal"] --> B["Identify Sources\n(Individuals / Events /\nOnline / PACs)"]
+    B --> C["Build Call List"]
+    C --> D["Call Time\n(40% of candidate time)"]
+    D --> E["Follow Up on Pledges"]
+    E --> F["Track Against Goal"]
+    F --> G{"On Target?"}
+    G -->|Yes| D
+    G -->|No| H["Adjust Strategy"]
+    H --> D
+
+    subgraph Ask Ladder
+        direction LR
+        L1["$25"] --> L2["$100"] --> L3["$500"] --> L4["Max"]
+    end
+```
+
 ---
 
 ## Fundraising Goal Calculation

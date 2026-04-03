@@ -41,6 +41,32 @@ The FEC's "internet exemption" (11 CFR 100.94 and 100.155) excludes most **unpai
 
 ---
 
+## Disclaimer Decision Tree
+
+```mermaid
+flowchart TD
+    START["Is this a\npublic communication?"] -->|"Yes"| PAID["Requires\n'Paid for by' disclaimer"]
+    START -->|"No\n(organic post, campaign website,\nvolunteer activity)"| NOREQUIRED["No disclaimer required\n(recommended as best practice)"]
+
+    PAID --> MEDIUM{"What medium?"}
+
+    MEDIUM --> PRINT["Print / Mail\n(500+ pieces)"]
+    MEDIUM --> TV["TV / Cable /\nSatellite"]
+    MEDIUM --> RADIO["Radio / Audio"]
+    MEDIUM --> DIGITAL["Digital Ads\n(Facebook, Google, etc.)"]
+    MEDIUM --> EMAIL["Paid Email\n(to rented lists)"]
+    MEDIUM --> TEXT["Paid Text / SMS\n(via vendor)"]
+    MEDIUM --> SOCIAL["Boosted / Promoted\nSocial Media"]
+
+    PRINT --> PRINT_REQ["Full written disclaimer\nclear and conspicuous"]
+    TV --> TV_REQ["Visual disclaimer\n+ spoken 'approved by'\nfor candidate ads"]
+    RADIO --> RADIO_REQ["Spoken disclaimer\nat understandable pace"]
+    DIGITAL --> DIGITAL_REQ["'Paid for by' text\nin ad creative;\nsmall-item exception\nif space is limited"]
+    EMAIL --> EMAIL_REQ["'Paid for by' + address\n(best practice;\ncheck state laws)"]
+    TEXT --> TEXT_REQ["'Paid for by' or abbreviation;\nimpracticable exception\nfor character limits"]
+    SOCIAL --> SOCIAL_REQ["Same as digital ads;\ndisclaimer in post\nor creative"]
+```
+
 ## "Paid for by" Disclaimer Requirements
 
 ### Standard Disclaimer for Candidate Committees

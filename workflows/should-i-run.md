@@ -2,6 +2,19 @@
 
 A structured framework for evaluating whether you should run for office. This is the most important decision you will make in your campaign -- the decision to begin. Use this guide honestly. The goal is not to talk you into or out of running, but to help you make an informed choice.
 
+```mermaid
+flowchart TD
+    Start([Start]) --> Personal{"Personal\nreadiness?"}
+    Personal -->|Red flags| DontRun["Don't run yet"]
+    Personal -->|Clear| Political{"Political landscape\nfavorable?"}
+    Political -->|Unfavorable| Wait["Consider waiting"]
+    Political -->|Favorable| Resources{"Resource\npotential?"}
+    Resources -->|Low| Grassroots["Run grassroots\nor wait"]
+    Resources -->|Sufficient| Issues{"Issue fit with\nelectorate?"}
+    Issues -->|Poor fit| DiffRace["Consider a\ndifferent race"]
+    Issues -->|Good fit| Run(["RUN!"])
+```
+
 ---
 
 ## How to Use This Framework

@@ -173,6 +173,15 @@ A comprehensive guide to buying paid media for political campaigns. Covers budge
 
 ## Campaign Media Timeline
 
+```mermaid
+flowchart LR
+    A["6 Months Out\nDigital Ads\n(Awareness)"] --> B["3 Months Out\nAdd Direct Mail"]
+    B --> C["6 Weeks Out\nAdd Radio"]
+    C --> D["4 Weeks Out\nAdd TV\n(If budget allows)"]
+    D --> E["2 Weeks Out\nFull Blitz\nAll Channels"]
+    E --> F["Election Day\nGOTV Everything"]
+```
+
 | Weeks Out | Medium | Purpose |
 |-----------|------------------------------|-------------------------------|
 | 20-16 | Digital (awareness) | Name ID, list building |

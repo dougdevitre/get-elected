@@ -2,6 +2,28 @@
 
 A data management system for tracking all campaign spending, monitoring budget performance, ensuring compliance with reporting requirements, and flagging potential personal use violations.
 
+```mermaid
+flowchart TD
+    A[Authorize Expense] --> B[Make Payment]
+    B --> B1[Check]
+    B --> B2[Card]
+    B --> B3[Cash]
+    B1 & B2 & B3 --> C[Get Receipt]
+    C --> D[Enter in System]
+    D --> D1[Date]
+    D --> D2[Payee]
+    D --> D3[Purpose]
+    D --> D4[Amount]
+    D --> D5[Category]
+    D1 & D2 & D3 & D4 & D5 --> E[Update Budget]
+    E --> E1[Allocated vs Spent]
+    E1 --> F[Calculate Burn Rate]
+    F --> G{Over Budget?}
+    G -- Yes --> H[Flag for Review]
+    G -- No --> I[Reconcile Monthly]
+    H --> I
+```
+
 ---
 
 ## CSV Schema

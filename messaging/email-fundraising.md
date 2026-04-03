@@ -60,6 +60,21 @@ High-performing subject line formulas:
 
 ## Email Structure
 
+```mermaid
+flowchart TD
+    subgraph "Email Structure"
+        H["Hook\n(1 sentence)"] --> S["Story\n(Personal connection)"]
+        S --> A["The Ask\n(Specific dollar amount)"]
+        A --> U["Urgency\n(Deadline/match/goal)"]
+        U --> P["P.S.\n(Repeat the ask with link)"]
+    end
+
+    subgraph "Deadline Email Sequence"
+        E1["Email 1 (7 days out)\nSet up the deadline"] --> E2["Email 2 (2 days out)\nUrgency"]
+        E2 --> E3["Email 3 (Day of)\nFinal push: 'hours left'"]
+    end
+```
+
 Every fundraising email follows this five-part structure:
 
 ### 1. Hook (1 sentence)

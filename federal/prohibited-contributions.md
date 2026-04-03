@@ -8,6 +8,28 @@
 
 ---
 
+## Decision Tree: Is This Contribution Allowed?
+
+```mermaid
+flowchart TD
+    START["Who is the contributor?"] --> FN{"Foreign\nNational?"}
+    START --> FC{"Federal\nContractor?"}
+    START --> CORP{"Corporation\nor Union?"}
+    START --> INDIV{"Individual?"}
+
+    FN -->|"Yes"| FN_NO["PROHIBITED\n(civil + criminal penalties)"]
+
+    FC -->|"Yes"| FC_NO["PROHIBITED\n(direct to candidates/parties/PACs)\nAllowed: Super PAC contributions,\nemployee personal contributions"]
+
+    CORP -->|"Direct to\ncandidate"| CORP_NO["PROHIBITED"]
+    CORP -->|"Sponsor a\nPAC (SSF)"| CORP_OK["ALLOWED\n(PAC collects voluntary\nemployee contributions)"]
+    CORP -->|"Contribute to\nSuper PAC"| CORP_SUPER["ALLOWED\n(unlimited)"]
+
+    INDIV --> CIT{"US Citizen or\nGreen Card Holder?"}
+    CIT -->|"Yes"| ALLOWED["ALLOWED\n(subject to contribution limits)"]
+    CIT -->|"No (visa holder,\nDACA, TPS, etc.)"| NOT_ALLOWED["PROHIBITED\n(foreign national)"]
+```
+
 ## Overview
 
 Federal law prohibits certain sources from making contributions to federal candidates, party committees, and traditional PACs. Violations can result in civil penalties, criminal prosecution, and reputational damage. Treasurers have an affirmative obligation to screen contributions and return those from prohibited sources.

@@ -51,6 +51,22 @@ The FEC does **not** regulate:
 
 ---
 
+## Federal Candidate Registration Process
+
+```mermaid
+flowchart TD
+    A["Raise/Spend $5,000\nin connection with\na federal election"] --> B["File Statement of Candidacy\n(FEC Form 2)\nwithin 15 days"]
+    B --> C["Designate Principal\nCampaign Committee"]
+    C --> D["File Statement of Organization\n(FEC Form 1)\nwithin 10 days"]
+    D --> E["Begin Filing\nFinancial Reports"]
+
+    C --> F{"Committee Types"}
+    F --> G["Authorized Committee\n(candidate-controlled)"]
+    F --> H["PAC\n(contribution limits apply)"]
+    F --> I["Super PAC\n(unlimited raised,\nindependent expenditures only)"]
+    F --> J["Party Committee\n(national, state, local)"]
+```
+
 ## The $5,000 Registration Threshold
 
 You become a **candidate** under federal law when you (or persons acting on your behalf) **raise or spend more than $5,000** in connection with a federal election. At that point:

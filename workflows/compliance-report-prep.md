@@ -8,6 +8,23 @@ A pre-filing checklist for preparing and filing campaign finance reports. This w
 
 ---
 
+## Process Overview
+
+```mermaid
+flowchart TD
+    A["1. Reconcile Bank Account"] --> B["2. Verify All Contributions Entered"]
+    B --> C["3. Verify All Expenditures Entered"]
+    C --> D["4. Check Itemization Thresholds"]
+    D --> E["5. Verify Donor Info Completeness"]
+    E --> F["6. Run Limit Checks"]
+    F --> G["7. Review Debts/Obligations"]
+    G --> H["8. Generate Draft Report"]
+    H --> I["9. Review for Errors"]
+    I --> J["10. File by Deadline"]
+```
+
+---
+
 ## Report Preparation Timeline
 
 | Days Before Deadline | Task |

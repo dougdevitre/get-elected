@@ -10,6 +10,30 @@ When the user pastes any issue, topic, or attack, generate all eight formats sim
 
 ---
 
+```mermaid
+flowchart TD
+    A["User Pastes Issue/Topic/Attack"] --> B["Generate 8 Formats Simultaneously"]
+    B --> C1["1. Door Response\n30sec"]
+    B --> C2["2. Forum Response\n2min"]
+    B --> C3["3. Position Statement"]
+    B --> C4["4. Social Media\nshort + long"]
+    B --> C5["5. Empathy-First"]
+    B --> C6["6. Surrogate\nTalking Points"]
+    B --> C7["7. Inoculation\nLanguage"]
+    B --> C8["8. Bridge Phrases"]
+    C1 --> D["Refine with More Context"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    C6 --> D
+    C7 --> D
+    C8 --> D
+    D --> A
+```
+
+---
+
 ## Format 1: Door Response (30 Seconds)
 
 **Purpose:** What the candidate or canvasser says when a voter raises this issue on the doorstep. Must be conversational, concise, and end with a bridge back to the candidate's core message.

@@ -28,6 +28,20 @@ The rest is free: your time, your volunteers' time, earned media, social media, 
 
 ## 20+ Tactics Ranked by Cost-Per-Vote
 
+```mermaid
+flowchart TD
+    T["Tactics Ranked by ROI"]
+    T --> D1["1. Door-to-Door Canvassing\n--- HIGHEST ROI ---"]
+    D1 --> D2["2. Relational Voter Contact"]
+    D2 --> D3["3. Earned Media"]
+    D3 --> D4["4. Community Events"]
+    D4 --> D5["5. Phone Banking"]
+    D5 --> D6["6. Peer Texting"]
+    D6 --> D7["7. Social Media Organic"]
+    D7 --> D8["8. Letters to the Editor"]
+    D8 --> D9["9. Yard Signs\n--- LOWEST PROVEN ROI ---"]
+```
+
 ### 1. Door-to-Door Canvassing — HIGHEST ROI
 
 **Cost:** Free (volunteer labor) to $2-3/door (paid canvassers)

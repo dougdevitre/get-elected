@@ -14,6 +14,23 @@ Coalitions win elections. No candidate wins with a single demographic — you wi
 
 ---
 
+```mermaid
+flowchart TD
+    C(["Candidate"])
+    C -- "School quality & childcare" --- P["Parents"]
+    C -- "Social Security & Medicare" --- S["Seniors"]
+    C -- "VA healthcare & service" --- V["Veterans"]
+    C -- "Moral values & community" --- F["Faith Communities"]
+    C -- "Tax & regulatory relief" --- SB["Small Business"]
+    C -- "Debt, housing & climate" --- Y["Young Voters"]
+    C -- "Wages & worker rights" --- L["Labor"]
+    C -- "Clean energy & conservation" --- E["Environmentalists"]
+    C -- "Language access & inclusion" --- I["Immigrant Communities"]
+    C -- "Broadband & agriculture" --- R["Rural"]
+    C -- "Property tax & schools" --- SU["Suburban"]
+    C -- "Housing & transit" --- U["Urban"]
+```
+
 ## Parents and Families
 
 **How to reach:** PTA/PTO meetings, school board meetings, youth sports leagues, daycare and preschool networks, parenting Facebook groups, pediatrician waiting rooms (with permission), back-to-school events, playground conversations.

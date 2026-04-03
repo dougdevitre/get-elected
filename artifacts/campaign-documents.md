@@ -4,6 +4,24 @@ The index and structural guide for every document type a campaign produces. For 
 
 ---
 
+## Document Categories and Relationships
+
+```mermaid
+flowchart TD
+    CP["Campaign Plan<br/>(Strategy)"] --> MSG["Messaging Documents<br/>(speeches, emails, scripts)"]
+    CP --> COMP["Compliance Documents<br/>(reports, disclaimers)"]
+    CP --> VC["Voter Contact<br/>(door / phone / text scripts)"]
+    CP --> DIG["Digital<br/>(social, email, ads)"]
+    CP --> EVT["Event Documents<br/>(run of show,<br/>briefing memos)"]
+
+    MSG --- VC
+    MSG --- DIG
+    VC --- DIG
+    EVT --- MSG
+```
+
+---
+
 ## Speeches
 
 ### Stump Speech

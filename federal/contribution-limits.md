@@ -8,6 +8,25 @@
 
 ---
 
+## Contribution Flow Overview
+
+```mermaid
+graph LR
+    IND["Individual\nDonor"] -->|"$3,300\nper election"| CAND["Candidate\nCommittee"]
+    IND -->|"$5,000\nper year"| PAC["Traditional\nPAC"]
+    IND -->|"$41,300\nper year"| PARTY["Party\nCommittee"]
+    IND -->|"Unlimited"| SUPER["Super PAC"]
+
+    PAC -->|"$5,000\nper election"| CAND
+    PARTY -->|"$5,000\nper election\n+ coordinated\nexpenditures"| CAND
+
+    SUPER -->|"Independent\nExpenditures Only\n(NO direct contributions)"| IE["Ads, Mail, Digital\nSupporting/Opposing\nCandidates"]
+
+    CORP["Corporation\n/ Union"] -->|"Prohibited\n(direct)"| CAND
+    CORP -->|"Unlimited"| SUPER
+    CORP -->|"Can establish\nSSF/Connected PAC"| PAC
+```
+
 ## 2025-2026 Federal Contribution Limits Table
 
 ### Limits on Contributions TO Candidates and Committees

@@ -8,6 +8,36 @@ A guide to understanding coordination rules in U.S. campaign finance law. Coordi
 
 ---
 
+## Decision Tree: Working with Outside Groups
+
+```mermaid
+flowchart TD
+    A{"Are you working with\nan outside group?"} -- No --> Z["No coordination\nconcerns"]
+    A -- Yes --> B{"What type of group?"}
+
+    B --> C{"Is it a Super PAC?"}
+    B --> D{"Is it a PAC?"}
+    B --> E{"Is it a Party Committee?"}
+
+    C --> C1{"Any coordination?"}
+    C1 -- Yes --> C2["ILLEGAL"]
+    C1 -- No --> C3["Maintain firewall,\nindependent only"]
+
+    D --> D1{"Direct contribution?"}
+    D1 -- Yes --> D2["Check contribution\nlimits"]
+    D1 -- No --> D3{"Any coordination\non spending?"}
+    D3 -- Yes --> D4["Treated as in-kind\ncontribution -- check limits"]
+    D3 -- No --> D5["Independent expenditure\n-- maintain firewall"]
+
+    E --> E1{"Coordinated\nexpenditure?"}
+    E1 -- Yes --> E2["Check coordinated\nexpenditure limits"]
+    E1 -- No --> E3{"Independent\nexpenditure?"}
+    E3 -- Yes --> E4["Maintain firewall"]
+    E3 -- No --> E5["Direct contribution\n-- check limits"]
+```
+
+---
+
 ## What Is Coordination?
 
 Coordination occurs when an outside group (PAC, Super PAC, 501(c)(4), or individual) creates, produces, or distributes a communication or engages in activity that is done in cooperation with, at the request or suggestion of, or with the material involvement of a candidate or campaign.

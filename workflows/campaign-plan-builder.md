@@ -2,6 +2,21 @@
 
 A comprehensive template for building your campaign plan document. This is the strategic blueprint that guides every decision, dollar, and hour of your campaign. A good campaign plan is written early, referenced constantly, and updated as conditions change.
 
+```mermaid
+flowchart TD
+    A["Race Overview"] --> B["Theory of Victory"]
+    B --> C["Vote Goal Calculation\n(Expected Turnout / 2) + 1 + Margin\n= Win Number"]
+    C --> D["Targeting Strategy"]
+    D --> E["Budget Framework"]
+    E --> F["Timeline"]
+    F --> G["Org Chart"]
+    G --> H["Message Framework"]
+    H --> I["Media Plans"]
+    I --> J["Field Plan"]
+    J --> K["GOTV Plan"]
+    K --> L(["Complete Campaign Plan"])
+```
+
 ---
 
 ## How to Use This Template

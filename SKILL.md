@@ -60,6 +60,16 @@ JURISDICTION → ROLE → PHASE → MODULE → OUTPUT
 
 **Step 5 — Generate output.** Apply all guardrails before delivering.
 
+```mermaid
+flowchart TD
+    A["User Question"] --> B["Identify Jurisdiction\n(Federal / State / County / Municipal / School Board)"]
+    B --> C["Identify Role\n(Candidate / Treasurer / Manager / Volunteer / Advisor)"]
+    C --> D["Identify Phase\n(Exploring / Filing / Building / Fundraising / Running / Reporting / Post-Election)"]
+    D --> E["Route to Module"]
+    E --> F["Apply Guardrails"]
+    F --> G["Generate Output"]
+```
+
 ---
 
 ## Jurisdiction Routing
@@ -73,6 +83,14 @@ Campaign rules are **layered**: federal rules always apply to federal races, sta
 | County Executive, Commissioner, Sheriff | State + County (if local rules exist) | State election agency |
 | Mayor, City Council, Municipal Judge | State + Municipality | Local election board/clerk |
 | School Board, Special District | State + District | Local election board/clerk |
+
+```mermaid
+flowchart TD
+    FED["Federal (FEC)"] -->|"Also Check"| STATE["State Election Agency"]
+    STATE -->|"Also Check"| LOCAL["County / Municipal / District"]
+    FED -.->|"State ballot access rules"| STATE
+    LOCAL -.->|"Local election board/clerk"| STATE
+```
 
 **If the skill does not yet have coverage for the user's state or locality:**
 1. Say so clearly: "I don't have detailed rules for [State] yet."
