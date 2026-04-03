@@ -1,191 +1,223 @@
-# Post-Election
+# Post-Election Guide
 
-A guide to everything that happens after the polls close. Whether you win or lose, there are critical steps to take in the hours, days, and weeks following election day. Handle them with grace and diligence -- your conduct after the election defines your reputation for years to come.
+Everything that happens after the polls close. Whether you win, lose, or face a recount, your conduct in the days and weeks after election day defines your reputation. Handle this phase with discipline and grace.
 
 ---
 
-## Election Night
+## Election Night Protocol
 
 ### Before Results Come In
-- [ ] Gather your core team, family, and key supporters at your election night location
-- [ ] Have two speeches prepared: a victory speech and a concession speech
-- [ ] Designate one person to monitor results as they are reported
-- [ ] Have your campaign attorney on call in case of close results or irregularities
-- [ ] Prepare a media point of contact for press inquiries
+- [ ] Gather core team, family, and key supporters at your election night location
+- [ ] Have two speeches fully prepared: victory and concession
+- [ ] Designate one person as results monitor (tracking by precinct against projections)
+- [ ] Have your campaign attorney on standby for close-result scenarios
+- [ ] Assign a press spokesperson for all media inquiries
+- [ ] Prepare a private space for the candidate away from the crowd
 
 ### As Results Come In
-- [ ] Track results by precinct and compare to your projections
-- [ ] Do not make public statements until the picture is reasonably clear
-- [ ] Wait for official or near-complete results before declaring victory or conceding
-- [ ] Consult with your campaign manager and attorney about the result
+- [ ] Track results by precinct and compare to your win-number model
+- [ ] Do not make public statements until the picture is clear
+- [ ] Wait for official or near-complete results before any declaration
+- [ ] Consult campaign manager and attorney before calling the race
+- [ ] If the margin is within recount territory, do not concede -- wait and consult counsel
 
 ---
 
-## If You Win
+## If You WIN
 
-### Election Night
-- [ ] Wait for your opponent to concede (customary, but not required) or for results to be sufficiently clear
-- [ ] Deliver your victory speech: thank supporters, volunteers, family, and voters; be gracious toward your opponent; outline your vision
-- [ ] Call your opponent to thank them for the race (this is expected and important)
-- [ ] Celebrate with your team -- they earned it
+### Election Night Actions
+- [ ] Wait for your opponent to concede (customary but not required) or for results to be decisive
+- [ ] Call your opponent to thank them for a hard-fought race
+- [ ] Deliver your victory speech
 
-### First 48 Hours
-- [ ] Issue a press release and social media statement
-- [ ] Send a thank-you email to your full supporter list
-- [ ] Call major donors, endorsers, and key volunteers personally to thank them
-- [ ] Begin thinking about your transition to office (do not start governing yet -- focus on gratitude)
+**Victory Speech Structure (8-12 minutes):**
+1. Thank the voters for their trust
+2. Thank your opponent and call for unity
+3. Thank your campaign team, volunteers, and staff by name where possible
+4. Thank your family -- they sacrificed the most
+5. Thank your donors and endorsers
+6. Restate the 2-3 core issues you ran on
+7. Outline your vision and first priorities in office
+8. Close with an aspirational call to service
+
+**Tone:** Humble, grateful, forward-looking. You won -- do not spike the football. Half the electorate did not vote for you. Speak to them too.
+
+### First 48 Hours After a Win
+- [ ] Issue a press release and social media victory statement
+- [ ] Send a thank-you email blast to your full supporter list
+- [ ] Call major donors personally (top 25 minimum)
+- [ ] Call every endorser personally
+- [ ] Call your top 10 volunteers personally
 - [ ] Designate a media spokesperson for post-election press
+- [ ] Begin transition planning (do not start governing -- focus on gratitude first)
 
 ### Transition Planning
-- [ ] Research the transition process for your office (swearing-in date, office setup, staff hiring)
-- [ ] Begin identifying people for appointed positions, staff roles, or advisory positions
-- [ ] Schedule meetings with the outgoing officeholder (if applicable and willing)
-- [ ] Schedule meetings with key stakeholders (department heads, community leaders)
+- [ ] Research the transition process: swearing-in date, office setup, staffing timeline
+- [ ] Begin identifying candidates for staff roles, appointed positions, advisory roles
+- [ ] Schedule a meeting with the outgoing officeholder (if applicable and willing)
+- [ ] Schedule meetings with key stakeholders: department heads, community leaders, partner agencies
 - [ ] Review the budget and operations of the office you are entering
 - [ ] Identify your first 90-day priorities in office
 - [ ] Attend any required orientation or training for new officeholders
+- [ ] Set up your official office (separate from campaign office -- do not mix government and campaign)
+
+### Hiring for Office
+- [ ] Define roles and responsibilities for each position
+- [ ] Prioritize: chief of staff or equivalent first, then constituent services, then policy
+- [ ] Consider retaining experienced staff from the previous officeholder
+- [ ] Recruit from your campaign team where appropriate (but not everyone is suited for governing)
+- [ ] Post positions publicly -- governing staff should reflect the community you serve
 
 ---
 
-## If You Lose
+## If You LOSE
 
-### Election Night
-- [ ] Accept the result with grace. Deliver your concession speech promptly once the result is clear.
-- [ ] Thank your supporters, volunteers, family, and voters sincerely
-- [ ] Call your opponent to congratulate them (this is expected)
-- [ ] Do not blame others or make excuses in your public remarks
-- [ ] Allow yourself and your team time to grieve -- losing is painful, and that is okay
+### Election Night Actions
+- [ ] Accept the result once it is clear. Do not wait unnecessarily.
+- [ ] Call your opponent to congratulate them
+- [ ] Deliver your concession speech promptly
 
-### Concession Speech Framework
-1. Acknowledge the result and congratulate your opponent
-2. Thank your supporters, volunteers, donors, and family by name where appropriate
-3. Reaffirm the values and issues you ran on
-4. Call for unity and encourage supporters to stay engaged
-5. Express hope for the future
+**Concession Speech Structure (5-8 minutes):**
+1. Acknowledge the result clearly and congratulate your opponent by name
+2. Thank your supporters, volunteers, donors, and family
+3. Reaffirm the values and issues you ran on -- they still matter
+4. Call for unity and encourage supporters to stay civically engaged
+5. Express gratitude for the democratic process
+6. Close with hope
 
-### First Week After a Loss
-- [ ] Send thank-you emails and notes to your supporter list
-- [ ] Personally call your top donors, volunteers, and endorsers to thank them
-- [ ] Allow yourself time to rest and decompress
+**Tone:** Gracious, dignified, brief. Do not assign blame. Do not make excuses. Your supporters are hurting -- give them something to be proud of.
+
+### Concession Call Etiquette
+- Call before your public concession speech
+- Keep it brief: congratulate, wish them well, offer to help with transition if appropriate
+- Be sincere -- your opponent can tell if you are not
+- If you cannot reach them, leave a message and try again
+
+### Thank-You Communications (First 7 Days)
+- [ ] **Donors:** Personal calls to top 25 donors. Personalized email to all donors within 48 hours. Handwritten notes to top 50 within 2 weeks.
+- [ ] **Volunteers:** Personal calls to volunteer captains. Mass thank-you email to all volunteers. Host a thank-you gathering within 2-3 weeks.
+- [ ] **Endorsers:** Personal calls to every endorser within 48 hours. Written thank-you notes within 1 week.
+- [ ] **Family:** Private time with family immediately. They need to hear from you, not the campaign.
+- [ ] **Staff:** Meet individually with each paid staff member. Thank them. Discuss timeline for final pay and transition.
+- [ ] **Opponent:** A brief, gracious written note regardless of the race's tone.
+
+### Post-Loss Reflection
+- [ ] Allow yourself time to grieve -- losing is painful and that is normal
 - [ ] Resist the urge to publicly relitigate the race
-- [ ] Begin thinking about your next chapter (but do not rush into decisions)
+- [ ] Debrief with your core team after 2-3 weeks (not immediately -- emotions are too raw)
+- [ ] Document lessons learned for yourself or future candidates
+- [ ] Consider your next chapter: run again, support another candidate, pursue appointed office, return to private life
 
 ---
 
-## Thank-Yous
+## Final Campaign Finance Report
 
-Regardless of outcome, thank everyone who helped. This is non-negotiable.
-
-### Priority Thank-You List
-- [ ] Family members who supported you through the campaign
-- [ ] Campaign staff (paid and unpaid)
-- [ ] Top volunteers (especially volunteer captains and shift leaders)
-- [ ] Major donors and fundraising hosts
-- [ ] Endorsers (elected officials, organizations, community leaders)
-- [ ] Campaign vendors and consultants
-- [ ] Media contacts who covered the race fairly
-- [ ] Your opponent (a brief, gracious note regardless of outcome)
-
-### Methods
-- [ ] Handwritten notes to your top 25-50 supporters (the candidate should write these personally)
-- [ ] Personal phone calls to major donors and endorsers
-- [ ] A mass thank-you email to your full list
-- [ ] A social media post of gratitude
-- [ ] A thank-you event or gathering for volunteers and supporters (within 2-3 weeks)
-
----
-
-## Final Campaign Finance Reports
-
-> **EDUCATIONAL DISCLAIMER:** Post-election reporting requirements vary by jurisdiction. Federal campaigns have specific post-election report due dates. State and local requirements vary. Verify all deadlines with your regulatory body. This guide is for educational purposes and does not constitute legal advice.
+> **EDUCATIONAL DISCLAIMER:** Post-election reporting requirements vary by jurisdiction. Federal campaigns have specific post-election report due dates. State and local requirements vary. This guide is for educational purposes and does not constitute legal advice.
 
 - [ ] Identify the post-election report due date (typically 30 days after the election)
 - [ ] Follow the full report preparation process (see `compliance-report-prep.md`)
-- [ ] Report all contributions received through election day
+- [ ] Report all contributions received through the end of the reporting period
 - [ ] Report all expenditures made through the reporting period
 - [ ] Report all outstanding debts and obligations
-- [ ] File on time -- post-election reports receive significant public and media scrutiny
-- [ ] Continue filing reports on schedule until the committee is terminated
+- [ ] File on time -- post-election reports receive heavy public and media scrutiny
+- [ ] Continue filing on schedule until the committee is formally terminated
 
 ---
 
-## Debt Retirement
+## Debt Retirement Plan
 
-If your campaign has outstanding debts, you must retire them before closing the committee.
+If your campaign owes money, you must retire debts before closing the committee.
 
-- [ ] Compile a complete list of all debts owed (vendors, loans, credit cards)
-- [ ] Prioritize debts: legal obligations first (vendors, contractors), then loans
-- [ ] Continue fundraising to retire debt (contribution limits still apply)
-- [ ] Negotiate with vendors if necessary (some may accept partial payment to close the account)
-- [ ] Candidate loans to the campaign: note that federal rules limit the amount a candidate can repay themselves from post-election contributions (the amount and deadline vary; check current FEC rules)
-- [ ] Document all debt retirement activity in campaign finance reports
-- [ ] Do not dissolve the committee until all debts are settled or forgiven
-
----
-
-## Surplus Funds
-
-If your campaign has money left over after all debts are paid, you must dispose of it properly.
-
-> **EDUCATIONAL DISCLAIMER:** Rules for disposing of surplus campaign funds vary by jurisdiction. The options below represent common possibilities, but your specific rules may differ. Verify with your regulatory body.
-
-### Common Options for Surplus Funds
-- [ ] **Donate to charity:** Transfer surplus to one or more 501(c)(3) charitable organizations
-- [ ] **Donate to a party committee:** Transfer to your local, state, or national party committee
-- [ ] **Donate to other candidates:** Contribute to other candidates' campaigns (subject to contribution limits)
-- [ ] **Retain for a future campaign:** If you plan to run again, you may be able to keep the committee open and use funds for a future race (rules vary)
-- [ ] **Return to donors:** Refund contributions on a pro-rata basis
-- [ ] **Transfer to an officeholder account:** Some jurisdictions allow officeholders to maintain accounts for official duties
-
-### What You CANNOT Do with Surplus Funds
-- [ ] Convert campaign funds to personal use (this is illegal in virtually every jurisdiction)
-- [ ] Use funds for personal expenses, investments, or gifts to yourself or family
-- [ ] Simply leave the money in the account indefinitely without filing reports
+- [ ] Compile a complete list of all debts: vendors, loans, credit cards, candidate personal loans
+- [ ] Prioritize: legal obligations first (vendor contracts, payroll), then loans
+- [ ] Continue fundraising to retire debt (contribution limits still apply post-election)
+- [ ] Negotiate with vendors if necessary -- some will accept partial payment to close the account
+- [ ] Candidate personal loans: federal rules limit the amount a candidate can repay themselves from post-election contributions (check current FEC rules for amount and deadline)
+- [ ] Document all debt retirement activity in ongoing campaign finance reports
+- [ ] Do not dissolve the committee until all debts are settled, forgiven, or written off
 
 ---
 
-## Committee Termination
+## Surplus Funds Options
 
-Once all debts are retired and surplus funds are disposed of, you can close the committee.
+If money remains after all debts are paid, you must dispose of it properly.
 
-- [ ] Verify the account balance is zero (or within the regulatory threshold for termination)
-- [ ] File a final / termination report with your campaign finance regulatory body
-- [ ] Indicate on the report that this is the final report and the committee is terminating
-- [ ] Close the campaign bank account
-- [ ] Cancel any recurring expenses (subscriptions, software, phone lines)
-- [ ] Archive all campaign records (retain for at least 3-5 years, longer in some jurisdictions)
-- [ ] Notify the IRS if the committee had an EIN and will no longer be operating
-- [ ] Retain the treasurer's contact information and records access in case of future inquiries
+> **EDUCATIONAL DISCLAIMER:** Rules for surplus fund disposition vary by jurisdiction. Verify with your regulatory body.
+
+| Option | Details |
+|---|---|
+| **Donate to charity** | Transfer to one or more 501(c)(3) organizations. Popular and good optics. |
+| **Transfer to future campaign committee** | If you plan to run again, keep the committee open and retain funds. Rules vary by jurisdiction. |
+| **Return to donors** | Refund contributions pro-rata. Rare but legally clean. |
+| **Transfer to party** | Give to your local, state, or national party committee. Builds goodwill. |
+| **Donate to other candidates** | Contribute to other campaigns (subject to contribution limits). |
+| **Transfer to officeholder account** | Some jurisdictions allow accounts for official duties. |
+
+**What you CANNOT do:** Convert campaign funds to personal use. This is illegal everywhere. No personal expenses, investments, or gifts to yourself or family.
 
 ---
 
 ## Recount Procedures
 
-If the result is very close, a recount may occur.
+### Automatic Recount Thresholds
+Thresholds vary by state. Common patterns:
+- **Percentage-based:** Automatic recount if margin is less than 0.5% (some states use 0.25% or 1%)
+- **Fixed-number:** Automatic recount if margin is fewer than a set number of votes
+- **No automatic recount:** Some states only allow requested recounts
 
-> **EDUCATIONAL DISCLAIMER:** Recount triggers, procedures, costs, and deadlines vary significantly by state. Some states have automatic recounts at certain margins; others require the candidate to request and sometimes pay for a recount. Consult your campaign attorney immediately if a recount is possible. This guide is for educational purposes and does not constitute legal advice.
+Check your state's specific threshold before election night so you know what to expect.
 
-- [ ] Determine if your jurisdiction has an automatic recount threshold (e.g., margin of 0.5% or less)
-- [ ] If not automatic, determine the deadline and process for requesting a recount
-- [ ] Assess the cost of a recount (some jurisdictions charge the requesting candidate)
-- [ ] Consult your campaign attorney before deciding whether to request a recount
-- [ ] If a recount proceeds, recruit observers for every counting location
-- [ ] Train observers on what to watch for and how to challenge questionable ballots
-- [ ] Maintain public composure during the recount -- do not make inflammatory statements
+### Requested Recount Process
+- [ ] Determine the deadline for requesting a recount (often 2-5 days after certification)
+- [ ] Assess the cost -- some jurisdictions charge the requesting candidate (refunded if the result changes)
+- [ ] Consult your campaign attorney before deciding
+- [ ] File the recount petition with the appropriate authority by the deadline
 - [ ] Continue fundraising if needed to cover recount costs
-- [ ] Accept the recount result with grace, regardless of outcome
+
+### Legal Representation
+- [ ] Retain an election lawyer at filing (not after election day -- it is too late)
+- [ ] Have counsel review recount statutes and procedures in advance
+- [ ] Engage recount-experienced counsel if your regular attorney lacks this expertise
+- [ ] Budget for legal costs: recounts can cost $10,000 to $100,000+ depending on scope
+
+### Observer Deployment
+- [ ] Recruit trained observers for every recount counting location
+- [ ] Train observers: what to watch for, how to challenge, what they cannot do
+- [ ] Credential observers through the proper legal channels
+- [ ] Establish a real-time communication chain: observers report to a legal coordinator, who reports to counsel
+- [ ] Maintain composure -- observers must be professional, not confrontational
+
+---
+
+## Committee Termination
+
+### Requirements
+- [ ] All debts retired or formally forgiven
+- [ ] All surplus funds disposed of properly
+- [ ] Account balance at zero (or within the regulatory threshold)
+- [ ] All required reports filed and up to date
+
+### Timeline
+- [ ] File the final/termination report with your campaign finance regulatory body
+- [ ] Indicate on the report that this is the final report and the committee is terminating
+- [ ] Close the campaign bank account
+- [ ] Cancel all recurring expenses: subscriptions, software, phone lines, PO boxes
+- [ ] Notify the IRS if the committee had an EIN
+
+### Record Retention
+- [ ] Retain all campaign records for a minimum of 3 years (5+ years recommended, longer in some jurisdictions)
+- [ ] Records to keep: all financial records, contribution records, expenditure receipts, bank statements, reports filed, contracts, correspondence
+- [ ] Store securely -- these records may be needed for audits, legal inquiries, or future campaigns
+- [ ] Retain the treasurer's contact information and records access in case of future inquiries
+- [ ] Do not destroy records prematurely -- check your jurisdiction's specific retention requirements
 
 ---
 
 ## Looking Ahead
 
 Whether you won or lost:
-
-- [ ] Reflect on what worked and what did not (debrief with your core team)
-- [ ] Document lessons learned for yourself or future candidates
-- [ ] Maintain your supporter list and relationships (with their consent for future communication)
-- [ ] If you lost, consider: running again, supporting another candidate, volunteering for a cause, or pursuing appointed positions
-- [ ] If you won, focus on governing well -- the best way to win re-election is to do the job you were elected to do
-- [ ] Thank your family again. They sacrificed more than anyone.
-
-The campaign ends, but the relationships you built and the skills you developed last a lifetime.
+- [ ] Debrief with your core team (what worked, what failed, what you would do differently)
+- [ ] Maintain your supporter list and relationships (with consent for future communication)
+- [ ] If you lost: consider running again, supporting another candidate, or pursuing other civic roles
+- [ ] If you won: govern well -- the best re-election strategy is doing the job you were elected to do
+- [ ] Thank your family one more time. They gave more than anyone.
