@@ -11,6 +11,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against $2,875 Per-Election Limit"]
+    PAC --> CHECK
+    CORP --> CHECK
+    PARTY --> EXEMPT["No Limit -- Accept"]
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+```
+
 ## Background
 
 Missouri's contribution limits have a turbulent history:

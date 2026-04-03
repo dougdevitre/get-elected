@@ -12,6 +12,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against ~$13,838 Per-Election Limit"]
+    PAC --> CHECK
+    PARTY --> CHECK2["Check Against Higher Party Limits"]
+    CORP --> RULE{"Direct Treasury?"}
+    RULE -->|"Yes"| REJECT["Reject -- Must Use PAC"]
+    RULE -->|"No (Via PAC)"| CHECK
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+    CHECK2 --> OK
+    CHECK2 --> OVER
+```
+
 ## Background
 
 Ohio has maintained contribution limits since the 1970s, with periodic adjustments.

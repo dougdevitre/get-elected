@@ -12,6 +12,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against Limits by Office Level"]
+    PAC --> CHECK2["Check Against Higher PAC Limits"]
+    PARTY --> CHECK3["Check Against Party Limits"]
+    CORP --> RULE{"Direct Treasury?"}
+    RULE -->|"Yes"| REJECT["Reject -- Must Use PAC"]
+    RULE -->|"No (Via PAC)"| CHECK2
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+    CHECK2 --> OK
+    CHECK2 --> OVER
+    CHECK3 --> OK
+    CHECK3 --> OVER
+```
+
 ## Background
 
 Michigan's campaign finance laws are codified in the Michigan Campaign Finance Act

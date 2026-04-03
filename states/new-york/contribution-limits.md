@@ -12,6 +12,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> NYC{"NYC Matching Funds Candidate?"}
+    NYC -->|"Yes"| NYCLIM["Check Against Lower NYC CFB Limits"]
+    NYC -->|"No"| DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / LLC"]
+    IND --> CHECK["Check Against Limits by Office Level"]
+    PAC --> CHECK
+    PARTY --> CHECK2["Check Against Higher Party Limits"]
+    CORP --> REJECT["Reject -- Prohibited Since 2019"]
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+    CHECK2 --> OK
+    CHECK2 --> OVER
+    NYCLIM --> OK
+    NYCLIM --> OVER
+```
+
 ## Background
 
 New York has a complex contribution limit system that varies significantly by office

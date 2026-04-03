@@ -12,6 +12,23 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> ACCEPT["No Limit -- Accept"]
+    PAC --> ACCEPT
+    PARTY --> ACCEPT
+    CORP --> ACCEPT
+    DT --> FOREIGN["Foreign National"]
+    FOREIGN --> REJECT["Reject -- Prohibited"]
+    DT --> ANON["Anonymous Over $50"]
+    ANON --> REJECT
+```
+
 ## Background
 
 Pennsylvania is one of a small number of states that impose **no contribution limits**
