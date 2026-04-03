@@ -2,6 +2,22 @@
 
 Contact information for election agencies in all 50 states, DC, and the FEC. All contact details should be web-verified before relying on them; agencies may update URLs and phone numbers without notice.
 
+```mermaid
+flowchart TD
+    FED["Federal Level\nFEC - Federal Election Commission"]
+    STATE["State Level\nSecretary of State / Election Commission / Ethics Board"]
+    LOCAL["Local Level\nCounty Clerk / City Election Board / Municipal Authority"]
+
+    FED -->|"President, Senate, House"| STATE
+    STATE -->|"Governor, Legislature, Statewide"| LOCAL
+    LOCAL -->|"County, City, School Board, Special District"| CANDIDATES["Candidates Navigate All Applicable Levels"]
+
+    style FED fill:#1a5276,color:#fff
+    style STATE fill:#2e86c1,color:#fff
+    style LOCAL fill:#85c1e9,color:#000
+    style CANDIDATES fill:#f0f0f0,color:#000
+```
+
 ---
 
 ## Federal

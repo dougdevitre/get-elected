@@ -13,6 +13,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    FPPC["Fair Political Practices Commission"]
+    SOS["Secretary of State"]
+    CF["Campaign Finance Rules & Enforcement"]
+    CALACCESS["CAL-ACCESS Electronic Disclosure"]
+    BA["Ballot Access & Candidate Filing"]
+    LOCAL["County Registrars & City Clerks"]
+
+    FPPC --> CF
+    SOS --> CALACCESS
+    SOS --> BA
+    FPPC --> LOCAL
+    SOS --> LOCAL
+```
+
 ## Filing Agency
 
 | Field | Details |

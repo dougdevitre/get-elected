@@ -2,6 +2,23 @@
 
 State-specific election law, contribution limits, ballot access rules, and local regulations. Coverage varies by state -- some have a single overview file, others have multiple detailed files.
 
+```mermaid
+flowchart TD
+    A["State Question"] --> B{"Check Coverage"}
+    B --> |"Full Coverage"| C["Missouri: 5 Files"]
+    B --> |"Overview Only"| D["10 States: Overview File"]
+    B --> |"No Coverage"| E["Agency Directory + Web Search"]
+
+    C --> C1["Overview"]
+    C --> C2["Contribution Limits"]
+    C --> C3["Disclosure Requirements"]
+    C --> C4["Ballot Access"]
+    C --> C5["Local Rules"]
+
+    D --> F["Use State Template to Expand"]
+    E --> G["Search Official Agency Website"]
+```
+
 ## Coverage Map
 
 | State | Files | Topics |

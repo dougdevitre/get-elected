@@ -6,6 +6,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    SOS["Georgia Secretary of State"]
+    ETHICS["Government Transparency & Campaign Finance Commission"]
+    BA["Ballot Access & Qualifying"]
+    CF["Campaign Finance Disclosure"]
+    ENF["Enforcement & Penalties"]
+    LOCAL["County & Municipal Election Offices"]
+
+    SOS --> BA
+    ETHICS --> CF
+    ETHICS --> ENF
+    SOS --> LOCAL
+```
+
 ## Filing Agencies
 
 ### Dual Oversight

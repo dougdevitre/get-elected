@@ -2,6 +2,40 @@
 
 Strategic playbooks and frameworks for specific campaign challenges. Each file provides actionable methods you can deploy immediately.
 
+```mermaid
+flowchart TD
+    subgraph Strategy
+        A["Primary-General Strategy"]
+        B["Low-Cost High-Impact"]
+    end
+
+    subgraph Targeting
+        C["Influence Network Targeting"]
+        D["Voter Personas"]
+        E["Coalition Building"]
+    end
+
+    subgraph Communications
+        F["Issue Response Engine"]
+        G["Crisis Management"]
+        H["Candidate Performance"]
+        I["Surrogate Program"]
+    end
+
+    subgraph Operations
+        J["Scheduling and Advance"]
+        K["Ballot Chase Program"]
+        L["Guerrilla Campaigning"]
+        M["Election Protection"]
+    end
+
+    Strategy --> Targeting
+    Targeting --> Communications
+    Targeting --> Operations
+    Communications --> M
+    Operations --> M
+```
+
 ## Files
 
 - [ballot-chase-program.md](ballot-chase-program.md) -- Systematic tracking and follow-up to ensure every supporter actually votes

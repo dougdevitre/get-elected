@@ -6,6 +6,20 @@
 
 ---
 
+```mermaid
+flowchart TD
+    SOS["Secretary of State -- Bureau of Elections"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Petitions"]
+    EFILING["Electronic Filing System"]
+    COUNTY["County Clerks (Local Filings)"]
+
+    SOS --> CF
+    SOS --> BA
+    SOS --> EFILING
+    SOS --> COUNTY
+```
+
 ## Filing Agencies
 
 **Michigan Secretary of State -- Bureau of Elections**

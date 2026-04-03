@@ -6,6 +6,23 @@
 
 ---
 
+```mermaid
+flowchart TD
+    SOS["Arizona Secretary of State"]
+    CCEC["Citizens Clean Elections Commission"]
+    CF["Campaign Finance Disclosure"]
+    CE["Clean Elections Public Financing"]
+    BA["Ballot Access & Candidate Filing"]
+    DISC["Reporting & Compliance"]
+    LOCAL["County & Municipal Jurisdictions"]
+
+    SOS --> CF
+    SOS --> BA
+    CCEC --> CE
+    CCEC --> DISC
+    SOS --> LOCAL
+```
+
 ## Filing Agencies
 
 ### Dual Oversight

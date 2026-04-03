@@ -12,6 +12,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    MEC["Missouri Ethics Commission"]
+    SOS["Secretary of State"]
+    CF["Campaign Finance Registration & Reporting"]
+    ENF["Enforcement & Penalties"]
+    BA["Ballot Access & Candidate Filing"]
+    LOCAL["County & Municipal Elections"]
+
+    MEC --> CF
+    MEC --> ENF
+    SOS --> BA
+    SOS --> LOCAL
+```
+
 ## Filing Agency
 
 | Field | Details |

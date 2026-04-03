@@ -6,6 +6,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    DOE["Florida Division of Elections"]
+    FEC["Florida Elections Commission"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Qualifying"]
+    ENF["Enforcement & Complaints"]
+    SOE["County Supervisors of Elections"]
+
+    DOE --> CF
+    DOE --> BA
+    FEC --> ENF
+    DOE --> SOE
+```
+
 ## Filing Agency
 
 **Florida Division of Elections** (within the Department of State)

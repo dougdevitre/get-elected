@@ -2,6 +2,45 @@
 
 Instant-generation triggers. When a user types any of these commands, generate the specified artifact immediately using the user's campaign context (jurisdiction, office, candidate name, party, issues). If context is missing, ask for it first.
 
+```mermaid
+flowchart TD
+    HUB["Campaign Commands\n80+ Slash Commands"]
+
+    GS["Getting Started\n5 commands"]
+    IR["Issue Response\n4 commands"]
+    IT["Influence Targeting\n4 commands"]
+    FR["Fundraising\n8 commands"]
+    MC["Messaging and Content\n11 commands"]
+    SM["Social Media\n5 commands"]
+    PC["Podcasts\n8 commands"]
+    VC["Voter Contact\n5 commands"]
+    OC["Outreach\n6 commands"]
+    CO["Compliance\n5 commands"]
+    VE["Voter Engagement\n15 commands"]
+    GV["GOTV and Events\n5 commands"]
+    VS["Strategy\n4 commands"]
+    CP["Candidate Performance\n4 commands"]
+    EP["Election Protection\n3 commands"]
+    PE["Post-Election\n4 commands"]
+
+    HUB --> GS
+    HUB --> IR
+    HUB --> IT
+    HUB --> FR
+    HUB --> MC
+    HUB --> SM
+    HUB --> PC
+    HUB --> VC
+    HUB --> OC
+    HUB --> CO
+    HUB --> VE
+    HUB --> GV
+    HUB --> VS
+    HUB --> CP
+    HUB --> EP
+    HUB --> PE
+```
+
 ---
 
 ## Command Reference

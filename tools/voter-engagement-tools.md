@@ -4,6 +4,44 @@ This file provides a summary reference to the main voter engagement tools docume
 
 For full documentation, see the primary file: **`/voter-engagement-tools.md`**
 
+```mermaid
+flowchart TD
+    subgraph Awareness["Awareness"]
+        VR["Voter Registration Drives"]
+        CE["Community Events"]
+    end
+
+    subgraph Identification["Identification"]
+        VF["Voter File Analysis"]
+        CA["Canvassing"]
+        PB["Phone Banking"]
+    end
+
+    subgraph Persuasion["Persuasion"]
+        P2P["P2P Texting"]
+        DM["Direct Mail"]
+        YS["Yard Signs"]
+    end
+
+    subgraph Mobilization["Mobilization"]
+        AB["Absentee / Vote-by-Mail"]
+        EV["Early Vote Mobilization"]
+        ES["Endorsement Solicitation"]
+        CB["Coalition Building"]
+    end
+
+    subgraph Turnout["Turnout"]
+        GOTV["Election Day GOTV"]
+        RP["Ride to Polls"]
+        EDO["Election Day Ops"]
+    end
+
+    Awareness -->|"build the universe"| Identification
+    Identification -->|"target supporters"| Persuasion
+    Persuasion -->|"convert to committed"| Mobilization
+    Mobilization -->|"lock in votes"| Turnout
+```
+
 ---
 
 ## Tool Summary

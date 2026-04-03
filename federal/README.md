@@ -2,6 +2,19 @@
 
 Federal election law references covering FEC rules, contribution limits, and compliance requirements. All files include staleness warnings -- verify current rules at fec.gov before relying on any figure.
 
+```mermaid
+flowchart TD
+    A["FEC Overview"] --> B["Contribution Limits"]
+    A --> C["Prohibited Contributions"]
+    A --> D["Disclosure Requirements"]
+    A --> E["Compliance Calendar"]
+    A --> F["Digital Advertising"]
+    B --> D
+    C --> D
+    D --> E
+    F --> D
+```
+
 ## Files
 
 - [compliance-calendar.md](compliance-calendar.md) -- FEC filing deadlines and reporting schedule

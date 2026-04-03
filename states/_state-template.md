@@ -9,6 +9,26 @@
 > only. It does not constitute legal advice. Campaigns should consult a qualified election
 > law attorney or the relevant filing agency for guidance specific to their situation.
 
+```mermaid
+flowchart TD
+    OV["Overview\nAgency, key features,\ncommittee types"]
+    CL["Contribution Limits\nDonor types, office levels,\ninflation adjustments"]
+    DR["Disclosure Requirements\nSchedules, thresholds,\nitemization rules"]
+    BA["Ballot Access\nPetitions, fees,\nfiling deadlines"]
+    LR["Local Rules\nCounty, city,\nschool board specifics"]
+
+    OV --> CL
+    OV --> DR
+    OV --> BA
+    OV --> LR
+
+    style OV fill:#1a5276,color:#fff
+    style CL fill:#2e86c1,color:#fff
+    style DR fill:#2e86c1,color:#fff
+    style BA fill:#2e86c1,color:#fff
+    style LR fill:#2e86c1,color:#fff
+```
+
 ---
 
 ## Filing Agency

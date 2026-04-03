@@ -2,6 +2,29 @@
 
 Step-by-step operational guides for every phase of a campaign. Each workflow walks you through a process from start to finish.
 
+```mermaid
+flowchart TD
+    A["Should I Run?"] --> B["First 30 Days"]
+    B --> C["Filing Checklist"]
+    C --> D["Treasurer Setup"]
+    D --> E["Campaign Plan Builder"]
+    E --> F["Fundraising Plan"]
+    F --> G["Donation Intake"]
+    G --> H["Expenditure Tracking"]
+    H --> I["Compliance Report Prep"]
+    E --> J["Voter Targeting"]
+    J --> K["Opposition Research"]
+    E --> L["Volunteer Management"]
+    L --> M["GOTV Plan"]
+    I --> N["Post-Election"]
+    M --> N
+    E -.-> O["Coordination Rules"]
+    E -.-> P["Accessibility and Inclusion"]
+
+    style A fill:#f9f,stroke:#333
+    style N fill:#9f9,stroke:#333
+```
+
 ## Files
 
 - [accessibility-inclusion.md](accessibility-inclusion.md) -- Making your campaign accessible to voters with disabilities, non-English speakers, and underserved communities

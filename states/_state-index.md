@@ -8,6 +8,23 @@
 > only. It does not constitute legal advice. Campaigns should consult a qualified election
 > law attorney or the relevant state filing agency for guidance specific to their situation.
 
+```mermaid
+flowchart TD
+    ALL["51 Jurisdictions\n50 States + DC"]
+    FULL["Full Coverage: 1 State\nMissouri\n5 files: overview, limits,\ndisclosure, ballot, local"]
+    OVERVIEW["Overview Coverage: 10 States\nAZ, CA, FL, GA, IL,\nMI, NY, OH, PA, TX"]
+    NONE["No Coverage Yet: 40 States\nAgency directory only"]
+
+    ALL --> FULL
+    ALL --> OVERVIEW
+    ALL --> NONE
+
+    style FULL fill:#27ae60,color:#fff
+    style OVERVIEW fill:#f39c12,color:#fff
+    style NONE fill:#e74c3c,color:#fff
+    style ALL fill:#2c3e50,color:#fff
+```
+
 ---
 
 ## Coverage Summary

@@ -2,6 +2,35 @@
 
 Interactive utilities for tracking, checking, and generating campaign artifacts. Each tool provides a structured system you can use repeatedly throughout the campaign.
 
+```mermaid
+flowchart TD
+    subgraph "Money In"
+        A["Contribution Tracker"]
+        B["Donor Limit Checker"]
+    end
+
+    subgraph "Campaign Operations"
+        C["Expenditure Tracker"]
+        D["Filing Deadline Calendar"]
+        E["Campaign Tech Stack"]
+    end
+
+    subgraph "Compliance Output"
+        F["Disclaimer Generator"]
+    end
+
+    subgraph "Voter Contact"
+        G["Voter Engagement Tools"]
+    end
+
+    A --> B
+    A --> C
+    C --> D
+    D --> F
+    E --> G
+    A --> F
+```
+
 ## Files
 
 - [campaign-tech-stack.md](campaign-tech-stack.md) -- Recommended technology organized by budget tier with free alternatives

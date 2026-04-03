@@ -2,6 +2,20 @@
 
 Foundational reference material: directories, glossaries, role definitions, and guardrails. Consult these when you need background knowledge rather than a specific workflow.
 
+```mermaid
+flowchart TD
+    A["Campaign Lifecycle"] --> D["All Skill Outputs"]
+    B["Roles"] --> D
+    C["Glossary"] -.-> |"Term Lookup"| D
+    E["Ethics and Guardrails"] ==> |"Filter Applied"| D
+    F["Agency Directory"] -.-> |"Verification Source"| D
+    G["Update Log"] -.-> |"Change Tracking"| A
+    G -.-> |"Change Tracking"| B
+    G -.-> |"Change Tracking"| F
+
+    style E fill:#f99,stroke:#333
+```
+
 ## Files
 
 - [agency-directory.md](agency-directory.md) -- Contact information for election agencies in all 50 states, DC, and the FEC

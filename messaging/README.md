@@ -2,6 +2,17 @@
 
 Guides and templates for every communication channel your campaign will use. From core message development to platform-specific playbooks.
 
+```mermaid
+flowchart TD
+    A["Core Message: Positioning Framework"] --> B["Speeches: Stump Speech Builder"]
+    A --> C["Debates: Debate Prep"]
+    A --> D["Press: Press Release Templates"]
+    A --> E["Social: Social Media Strategy"]
+    A --> F["Email: Email Fundraising"]
+    A --> G["Ads: Paid Media Planning"]
+    A --> H["Podcasts: Podcast Campaign"]
+```
+
 ## Files
 
 - [debate-prep.md](debate-prep.md) -- Opponent research, message pillars, pivot techniques, and post-debate strategy

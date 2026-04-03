@@ -6,6 +6,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    NYSBOE["NY State Board of Elections"]
+    CFB["NYC Campaign Finance Board"]
+    CF["Statewide Campaign Finance Disclosure"]
+    BA["Ballot Access & Petitions"]
+    MATCH["NYC 8:1 Public Matching Funds"]
+    LOCAL["County & Local Filings"]
+
+    NYSBOE --> CF
+    NYSBOE --> BA
+    NYSBOE --> LOCAL
+    CFB --> MATCH
+```
+
 ## Filing Agencies
 
 ### State Level

@@ -6,6 +6,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    SBE["Illinois State Board of Elections"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Petitions"]
+    ENF["Enforcement & Penalties"]
+    EFILING["Centralized Electronic Filing"]
+    LOCAL["Local Races (Filed with SBE)"]
+
+    SBE --> CF
+    SBE --> BA
+    SBE --> ENF
+    SBE --> EFILING
+    EFILING --> LOCAL
+```
+
 ## Filing Agency
 
 **Illinois State Board of Elections (SBE)**

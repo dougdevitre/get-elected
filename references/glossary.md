@@ -2,6 +2,52 @@
 
 Concise definitions of 65+ terms commonly encountered in US political campaigns. Organized alphabetically.
 
+```mermaid
+flowchart TD
+    subgraph Money["Money"]
+        Contributions
+        Bundling
+        BurnRate["Burn Rate"]
+        PAC
+        DarkMoney["Dark Money"]
+        Conduit
+    end
+
+    subgraph Voters["Voters"]
+        BaseVoters["Base Voters"]
+        Canvassing
+        GOTV
+        VoterFile["Voter File"]
+        Targeting["Persuasion Universe"]
+    end
+
+    subgraph Legal["Legal"]
+        Disclaimer
+        Electioneering["Electioneering Communication"]
+        FEC
+        Filing["Filing Deadline"]
+    end
+
+    subgraph Strategy["Strategy"]
+        EarnedMedia["Earned Media"]
+        Endorsement
+        OppoResearch["Opposition Research"]
+        Tracking["Field Operation"]
+    end
+
+    Contributions -->|"fund"| Strategy
+    VoterFile -->|"informs"| Targeting
+    Targeting -->|"drives"| Canvassing
+    Canvassing -->|"feeds"| GOTV
+    FEC -->|"regulates"| Money
+    Disclaimer -->|"required on"| EarnedMedia
+    Endorsement -->|"boosts"| Voters
+    PAC -->|"makes"| Contributions
+    Conduit -->|"routes"| Contributions
+    OppoResearch -->|"shapes"| Strategy
+    Filing -->|"governs"| Legal
+```
+
 ---
 
 **Advance** -- Logistical preparation for a candidate's public appearance, including venue, security, staging, and press arrangements.
