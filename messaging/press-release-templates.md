@@ -8,6 +8,18 @@ Standard press release format and ready-to-customize templates for every major c
 
 Every campaign press release follows this structure:
 
+```mermaid
+flowchart TD
+    A["FOR IMMEDIATE RELEASE + Date"] --> B["Contact Info"]
+    B --> C["Headline\n(Action verb)"]
+    C --> D["Dateline + Lead Paragraph\n(Who/What/When/Where/Why)"]
+    D --> E["Quote from Candidate"]
+    E --> F["Supporting Details /\nBackground"]
+    F --> G["Second Quote\n(Supporter/endorser)"]
+    G --> H["Boilerplate"]
+    H --> I["###\n(End mark)"]
+```
+
 1. **Header**: "FOR IMMEDIATE RELEASE" (or "EMBARGOED UNTIL [date/time]") in all caps
 2. **Date**: Full date of release
 3. **Contact**: Press contact name, phone, email

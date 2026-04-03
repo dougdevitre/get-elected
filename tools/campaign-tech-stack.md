@@ -3,32 +3,20 @@
 Recommended campaign technology organized by budget tier. Every campaign needs technology for voter data, communications, fundraising, compliance, and digital presence. This guide maps tools to budget levels and identifies free alternatives for every category.
 
 ```mermaid
-block-beta
-    columns 1
-    block:T4["Top Tier: $500K+ "]
-        T4A["Full CRM"]
-        T4B["Compliance Software"]
-        T4C["Media Buying Tools"]
-        T4D["Data Analytics"]
+flowchart TB
+    subgraph T4["Top Tier: $500K+"]
+        T4A["Full CRM"] ~~~ T4B["Compliance Software"] ~~~ T4C["Media Buying Tools"] ~~~ T4D["Data Analytics"]
     end
-    block:T3["Upper Tier: $50K-$500K"]
-        T3A["VAN / Voter File"]
-        T3B["Professional Email"]
-        T3C["Digital Ads"]
-        T3D["Phone Banking"]
+    subgraph T3["Upper Tier: $50K-$500K"]
+        T3A["VAN / Voter File"] ~~~ T3B["Professional Email"] ~~~ T3C["Digital Ads"] ~~~ T3D["Phone Banking"]
     end
-    block:T2["Mid Tier: $5K-$50K"]
-        T2A["ActBlue / WinRed"]
-        T2B["Basic CRM"]
-        T2C["Texting Platform"]
-        T2D["Compliance Software"]
+    subgraph T2["Mid Tier: $5K-$50K"]
+        T2A["ActBlue / WinRed"] ~~~ T2B["Basic CRM"] ~~~ T2C["Texting Platform"] ~~~ T2D["Compliance Software"]
     end
-    block:T1["Bottom Tier: $0-$5K (Free Tools)"]
-        T1A["Google Sheets"]
-        T1B["Mailchimp Free"]
-        T1C["Social Media"]
-        T1D["Squarespace / Google Sites"]
+    subgraph T1["Bottom Tier: $0-$5K - Free Tools"]
+        T1A["Google Sheets"] ~~~ T1B["Mailchimp Free"] ~~~ T1C["Social Media"] ~~~ T1D["Squarespace / Google Sites"]
     end
+    T4 --> T3 --> T2 --> T1
 ```
 
 ---

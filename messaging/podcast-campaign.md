@@ -6,6 +6,18 @@ Podcasts offer candidates extended, unfiltered time to connect with voters -- so
 
 ## TRACK A: Guesting on Existing Podcasts
 
+```mermaid
+flowchart TD
+    A["Research Shows"] --> B["Pitch Host\n(Personalized email)"]
+    B --> C{"Accepted?"}
+    C -->|"Yes"| D["Prep\n(Research host, prepare\nmessages, stories)"]
+    D --> E["Record Interview"]
+    E --> F["Follow Up\n(Thank you)"]
+    F --> G["Promote Episode\n(Social media, email)"]
+    C -->|"No"| H["Follow Up Once"]
+    H --> I["Move to Next Show"]
+```
+
 ### Step 1: Research Target Shows
 
 Build a spreadsheet of 20-40 target podcasts with these columns:
