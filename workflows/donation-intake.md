@@ -2,6 +2,20 @@
 
 A step-by-step workflow for processing every contribution your campaign receives. Proper intake procedures protect your campaign from compliance violations, ensure accurate reporting, and maintain donor relationships. Every person who handles contributions should be trained on this process.
 
+```mermaid
+flowchart TD
+    A["Receive Donation"] --> B{"Donor Type?"}
+    B -->|Individual| C{"Within\ncontribution\nlimit?"}
+    C -->|Yes| Accept["Accept, record,\nand deposit"]
+    C -->|No| Return["Return excess\nto donor"]
+    B -->|Corporation| D{"Federal race?"}
+    D -->|Yes| Prohib1["PROHIBITED"]
+    D -->|No / State race| E{"Check state\nrules"}
+    E --> F["Follow jurisdiction\nguidance"]
+    B -->|Foreign National| Prohib2["PROHIBITED"]
+    B -->|Cash over $100| Prohib3["PROHIBITED\n(federal)"]
+```
+
 ---
 
 > **EDUCATIONAL DISCLAIMER:** Contribution limits, prohibited sources, reporting thresholds, and required donor information vary by jurisdiction. Federal campaigns are governed by FEC regulations; state and local campaigns have their own rules. Always verify the specific requirements for your race. This guide provides general best practices and does not constitute legal advice.

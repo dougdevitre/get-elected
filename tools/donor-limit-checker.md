@@ -2,6 +2,29 @@
 
 A decision tree system for determining whether a prospective donor can legally contribute more to the campaign. Checks donor type, jurisdiction, office sought, aggregate limits, per-election limits, and prohibited source status. Returns a clear yes/no answer with the remaining amount available.
 
+```mermaid
+flowchart TD
+    A{Who is the donor?} --> B[Individual]
+    A --> Z[Other type - check specific rules]
+
+    B --> C{What jurisdiction?}
+    C --> D["Federal: $3,300/election"]
+    C --> E["State: Check state limits"]
+
+    D & E --> F{"What is their
+    aggregate this cycle?"}
+    F --> G{Under limit?}
+    G -- Yes --> H["Can give $remaining"]
+    G -- No --> I["At limit, cannot give more"]
+
+    H --> J{Are they prohibited?}
+    I --> END1[STOP - Return contribution]
+
+    J -- "Yes (foreign national,
+    federal contractor)" --> K[CANNOT GIVE]
+    J -- No --> L[PROCEED - Accept contribution]
+```
+
 ---
 
 ## Quick-Check Decision Tree

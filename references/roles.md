@@ -159,3 +159,21 @@ The skill infers role from context when not explicitly stated. Indicators includ
 - **Advisor:** Technical jargon, references to multiple clients or campaigns
 
 When the role is ambiguous, the skill defaults to Candidate and adjusts if later context suggests otherwise.
+
+---
+
+## Role-to-Module Map
+
+```mermaid
+flowchart TD
+    CA["**Candidate**\nAll modules"]
+    TR["**Treasurer**\nCompliance-heavy:\ncontribution limits, filings,\nreporting, expenditure tracking"]
+    CM["**Campaign Manager**\nStrategy + Ops:\ncampaign plan, voter targeting,\nbudget, volunteer management"]
+    VO["**Volunteer / Supporter**\nGOTV + Donations:\ncanvassing, phone banking,\ndonation rules, events"]
+    AD["**Advisor / Consultant**\nFull access:\nprofessional-grade frameworks,\nregulatory citations, benchmarks"]
+
+    CA --- TR
+    CA --- CM
+    CA --- VO
+    CA --- AD
+```

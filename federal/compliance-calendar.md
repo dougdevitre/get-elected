@@ -255,6 +255,46 @@ Typical penalties range from a few hundred dollars for low-activity late reports
 
 ---
 
+## Annual Compliance Calendar Diagram
+
+```mermaid
+gantt
+    title Federal Campaign Filing Calendar (Election Year)
+    dateFormat YYYY-MM-DD
+    axisFormat %b
+
+    section Quarterly Reports
+    Q1 Report (Jan 1-Mar 31)         :done, q1, 2025-01-01, 2025-03-31
+    Q1 Due Apr 15                    :milestone, 2025-04-15, 0d
+    Q2 Report (Apr 1-Jun 30)         :done, q2, 2025-04-01, 2025-06-30
+    Q2 Due Jul 15                    :milestone, 2025-07-15, 0d
+    Q3 Report (Jul 1-Sep 30)         :done, q3, 2025-07-01, 2025-09-30
+    Q3 Due Oct 15                    :milestone, 2025-10-15, 0d
+    Year-End (Oct 1-Dec 31)          :done, ye, 2025-10-01, 2025-12-31
+    Year-End Due Jan 31              :milestone, 2026-01-31, 0d
+
+    section Election Reports
+    Pre-General Report Due (~Oct 23) :milestone, 2025-10-23, 0d
+    General Election Day             :milestone, 2025-11-04, 0d
+    Post-General Due (~Dec 4)        :milestone, 2025-12-04, 0d
+
+    section 48-Hour Notices
+    48-Hr Window (20 days before)    :active, 48h, 2025-10-15, 2025-11-04
+
+    section Monthly Filer Deadlines
+    Jan Monthly (due Feb 20)         :milestone, 2025-02-20, 0d
+    Feb Monthly (due Mar 20)         :milestone, 2025-03-20, 0d
+    Mar Monthly (due Apr 20)         :milestone, 2025-04-20, 0d
+    Apr Monthly (due May 20)         :milestone, 2025-05-20, 0d
+    May Monthly (due Jun 20)         :milestone, 2025-06-20, 0d
+    Jun Monthly (due Jul 20)         :milestone, 2025-07-20, 0d
+    Jul Monthly (due Aug 20)         :milestone, 2025-08-20, 0d
+    Aug Monthly (due Sep 20)         :milestone, 2025-09-20, 0d
+    Sep Monthly (due Oct 20)         :milestone, 2025-10-20, 0d
+    Oct Monthly (due Nov 20)         :milestone, 2025-11-20, 0d
+    Nov Monthly (due Dec 20)         :milestone, 2025-12-20, 0d
+```
+
 ## Annual Compliance Calendar Summary
 
 | Month | Key Deadlines |

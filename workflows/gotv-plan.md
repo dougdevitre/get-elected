@@ -4,6 +4,36 @@ A detailed operational guide for Get Out The Vote (GOTV) -- the final push to en
 
 ---
 
+## GOTV Final Two Weeks Timeline
+
+```mermaid
+flowchart LR
+    subgraph W1["Day -14 to -8"]
+        A1["Early Vote Chase"] --> A2["Identify who\nhasn't voted"]
+    end
+
+    subgraph W2["Day -7 to -2"]
+        B1["Intensify contact"] --> B2["Absentee chase"]
+        B2 --> B3["Text/phone blitz"]
+    end
+
+    subgraph W3["Day -1"]
+        C1["Final prep"] --> C2["Materials ready"]
+        C2 --> C3["Volunteer deployment\nplanned"]
+    end
+
+    subgraph W4["Election Day"]
+        D1["5 AM: Setup"] --> D2["Waves of\ndoor knocks"]
+        D2 --> D3["Chase outstanding\nvoters"]
+        D3 --> D4["Polls close"]
+        D4 --> D5["Celebrate / Concede"]
+    end
+
+    W1 --> W2 --> W3 --> W4
+```
+
+---
+
 ## GOTV Overview
 
 GOTV has one goal: convert identified supporters into actual voters. By this point in the campaign, persuasion is mostly over. The question is not "who will they vote for?" but "will they vote at all?"

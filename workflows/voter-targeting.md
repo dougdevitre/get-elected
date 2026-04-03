@@ -35,6 +35,25 @@ The voter file is your campaign's most important data asset. It contains records
 
 ### The Three Universes
 
+```mermaid
+flowchart TD
+    A["Total Registered Voters"] --> B["Base Voters"]
+    A --> C["Persuadable Voters"]
+    A --> D["Opposition Voters"]
+
+    B --> B1["Will vote for you"]
+    B1 --> B2["Strategy: Mobilize"]
+    B2 --> B3["GOTV contacts, early vote chase, reminders"]
+
+    C --> C1["Could go either way"]
+    C1 --> C2["Strategy: Persuade"]
+    C2 --> C3["Message-heavy contacts, mail, digital ads"]
+
+    D --> D1["Won't vote for you"]
+    D1 --> D2["Strategy: Ignore"]
+    D2 --> D3["Do not spend resources"]
+```
+
 Every voter in your district falls into one of these categories. Your job is to classify them and allocate resources accordingly.
 
 #### 1. Base Voters (Mobilization Targets)

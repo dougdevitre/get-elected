@@ -4,6 +4,34 @@ A guide to conducting thorough, ethical, and legally sound opposition research. 
 
 ---
 
+## Opposition Research Process
+
+```mermaid
+flowchart TD
+    A["Start: Self-Research First"] --> B["Then: Opponent Research"]
+    B --> C["Sources"]
+    C --> C1["Public Records"]
+    C --> C2["Voting Record"]
+    C --> C3["Financial Disclosures"]
+    C --> C4["Social Media"]
+    C --> C5["Public Statements"]
+    C1 --> D["Compile Research Book"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    D --> E{"Evaluate"}
+    E --> F{"Factual?"}
+    F -- Yes --> G{"Verifiable?"}
+    F -- No --> K["Do Not Use"]
+    G -- Yes --> H{"Relevant?"}
+    G -- No --> K
+    H -- Yes --> J["Deploy Responsibly"]
+    H -- No --> K
+```
+
+---
+
 ## Why Opposition Research Matters
 
 Opposition research serves three purposes:

@@ -8,6 +8,28 @@
 
 ---
 
+## Reporting Cycle Overview
+
+```mermaid
+gantt
+    title Federal Campaign Reporting Timeline (Annual Cycle)
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section Quarterly Reports
+    Q1 Report Due (Apr 15)           :milestone, 2025-04-15, 0d
+    Q2 Report Due (Jul 15)           :milestone, 2025-07-15, 0d
+    Q3 Report Due (Oct 15)           :milestone, 2025-10-15, 0d
+    Year-End Report Due (Jan 31)     :milestone, 2026-01-31, 0d
+
+    section Election Reports
+    Pre-Election Report (12 days before) :milestone, 2025-10-23, 0d
+    Post-General Report (30 days after)  :milestone, 2025-12-04, 0d
+
+    section 48-Hour Notices
+    48-Hr Notice Window (last 20 days, $1,000+) :active, 2025-10-15, 2025-11-04
+```
+
 ## Reporting Schedules
 
 Federal candidate committees must file regular financial disclosure reports with the FEC. The schedule depends on the type of committee and the office sought.

@@ -12,6 +12,21 @@ A campaign that converts 50 key influencers can move 5,000 votes through downstr
 
 ---
 
+```mermaid
+flowchart TD
+    A["Identify 12 Categories\nof Influencers"] --> B["Score Each\nInfluence x Accessibility\nx Alignment x Activation Potential"]
+    B --> C["Prioritize Top Targets"]
+    C --> D["Research Phase"]
+    D --> E["Warm Introduction"]
+    E --> F["The Meeting"]
+    F --> G["The Ask"]
+    G --> H{"Accepted?"}
+    H -->|Yes| I["Activate\nAnnouncement, deployment"]
+    H -->|No| J["Maintain Relationship"]
+    I --> K["Deploy Surrogates"]
+    J --> D
+```
+
 ## The 12 Categories of Influential People
 
 ### 1. Elected Officials

@@ -2,6 +2,18 @@
 
 A universal checklist for filing your candidacy and establishing your campaign as a legal entity. These are the non-negotiable first steps before any public campaign activity, fundraising, or spending can begin.
 
+```mermaid
+flowchart TD
+    A["Determine Requirements"] --> B["Gather Documents"]
+    B --> C["File Statement of Candidacy"]
+    C --> D["Register Campaign Committee"]
+    D --> E["Get EIN"]
+    E --> F["Open Bank Account"]
+    F --> G["Appoint Treasurer"]
+    G --> H["File Initial Report"]
+    H --> I["Set Up Record-Keeping"]
+```
+
 ---
 
 > **EDUCATIONAL DISCLAIMER:** Filing requirements vary significantly across jurisdictions -- federal, state, county, and municipal races each have their own rules, forms, deadlines, and regulatory bodies. This checklist provides general best practices applicable to most U.S. campaigns. Always verify the specific requirements for your race with your local elections office, secretary of state, or the Federal Election Commission (FEC). Consider consulting a campaign finance attorney. This guide is for educational purposes and does not constitute legal advice.

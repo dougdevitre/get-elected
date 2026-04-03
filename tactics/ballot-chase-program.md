@@ -15,6 +15,27 @@ Every phase uses the same core loop: identify your universe, track who has voted
 
 ---
 
+```mermaid
+flowchart TD
+    subgraph EV["Early Vote Period"]
+        E1["Track Daily Who Voted"] --> E2["Contact Those Who Haven't"]
+    end
+    subgraph AB["Absentee Chase"]
+        A1["Mail Reminder"] --> A2["Phone"] --> A3["Text"] --> A4["Door Knock"]
+        A4 --> A5{"Ballot Rejected?"}
+        A5 -->|Yes| A6["Ballot Cure"]
+        A5 -->|No| DONE1["Voted"]
+    end
+    subgraph ED["Election Day"]
+        ED1["Real-Time Check-Off"] --> W1["Wave 1: Morning\nTexts + calls to Tier 1"]
+        W1 --> W2["Wave 2: Midday\nUpdate lists, text Tier 1+2"]
+        W2 --> W3["Wave 3: Afternoon\nDoor knocks, rides to polls"]
+        W3 --> W4["Wave 4: Closing Push\nAll-hands, final blast"]
+        W4 --> PC["Polls Close"]
+    end
+    EV --> AB --> ED
+```
+
 ## Universe Prioritization Tiers
 
 Not every voter gets the same chase effort. Prioritize based on support level and vote propensity.

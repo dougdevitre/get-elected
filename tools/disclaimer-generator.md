@@ -2,6 +2,43 @@
 
 Generate legally compliant "Paid for by" disclaimers for every communication medium. Federal law (52 USC 30120) and FEC regulations (11 CFR 110.11) require disclaimers on all public political communications. State laws add additional requirements.
 
+```mermaid
+flowchart TD
+    A{What type of communication?}
+    A --> P[Print]
+    A --> TV[TV]
+    A --> R[Radio]
+    A --> DA[Digital Ad]
+    A --> E[Email]
+    A --> TM[Text Message]
+    A --> SM[Social Media]
+    A --> YS[Yard Sign]
+
+    P --> P1["Font size min 12pt,
+    clearly readable"]
+    TV --> TV1["On screen 4+ seconds"]
+    R --> R1["Spoken clearly"]
+    DA --> DA1["Visible in ad
+    or landing page"]
+    E --> E1["Header or footer"]
+    TM --> TM1["Abbreviated OK if
+    links to full"]
+    SM --> SM1["In post or
+    pinned comment"]
+    YS --> YS1["Readable from normal
+    viewing distance"]
+
+    P1 --> D["Paid for by
+    Committee Name"]
+    TV1 --> D
+    R1 --> D
+    DA1 --> D
+    E1 --> D
+    TM1 --> D
+    SM1 --> D
+    YS1 --> D
+```
+
 ---
 
 ## Core Disclaimer Components

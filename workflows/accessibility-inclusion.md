@@ -14,6 +14,34 @@ Making your campaign accessible to all voters -- people with disabilities, non-E
 
 ---
 
+## Accessibility and Inclusion Checklist Flow
+
+```mermaid
+flowchart TD
+    A["Plan Event"] --> B{"Venue Accessible?"}
+    B -- "Ramps, elevators,\nrestrooms" --> C{"Materials Accessible?"}
+    B -- No --> B1["Fix: find accessible\nvenue or add accommodations"]
+    B1 --> C
+
+    C -- "Large print,\ntranslations, captions" --> D{"Digital Accessible?"}
+    C -- No --> C1["Fix: prepare accessible\nmaterials"]
+    C1 --> D
+
+    D -- "WCAG, alt text,\nscreen reader" --> E{"Outreach Inclusive?"}
+    D -- No --> D1["Fix: update digital\ncontent for accessibility"]
+    D1 --> E
+
+    E -- "Multilingual, underserved\ncommunities" --> F{"Staff/Volunteers\nInclusive?"}
+    E -- No --> E1["Fix: expand outreach\nto all communities"]
+    E1 --> F
+
+    F -- Yes --> G["Event Ready"]
+    F -- No --> F1["Fix: recruit diverse\nstaff and volunteers"]
+    F1 --> G
+```
+
+---
+
 ## ADA Compliance at Campaign Events
 
 > **EDUCATIONAL DISCLAIMER:** The Americans with Disabilities Act (ADA) and related state and local laws impose accessibility requirements on places of public accommodation. Campaign events held in public venues may be subject to these requirements. Consult an attorney for specific legal questions. This guide is for educational purposes and does not constitute legal advice.

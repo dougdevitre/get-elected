@@ -4,6 +4,35 @@ Everything that happens after the polls close. Whether you win, lose, or face a 
 
 ---
 
+## Post-Election Decision Tree
+
+```mermaid
+flowchart TD
+    A["Election Results"] --> B{"Did you win?"}
+
+    B -- Yes --> W1["Transition Planning"]
+    W1 --> W2["Thank-yous"]
+    W2 --> W3["Final Campaign\nFinance Report"]
+    W3 --> W4["Handle Surplus Funds"]
+
+    B -- No --> L1{"Recount possible?"}
+
+    L1 -- Yes --> R1["Retain Lawyer"]
+    R1 --> R2["Observer Deployment"]
+    R2 --> R3["Legal Process"]
+    R3 --> L1B{"Result changed?"}
+    L1B -- Yes --> W1
+    L1B -- No --> L2
+
+    L1 -- No --> L2["Concession"]
+    L2 --> L3["Thank-yous"]
+    L3 --> L4["Final Campaign\nFinance Report"]
+    L4 --> L5["Debt Retirement"]
+    L5 --> L6["Committee Wind-Down"]
+```
+
+---
+
 ## Election Night Protocol
 
 ### Before Results Come In

@@ -2,6 +2,16 @@
 
 A day-by-day action plan for the first 30 days after deciding to run for office. This guide assumes you have already made the decision to run (see `should-i-run.md`) and are ready to begin building your campaign.
 
+```mermaid
+flowchart LR
+    W1["**Week 1**\nLegal & Compliance\n- File candidacy\n- Open bank account\n- Get EIN\n- Appoint treasurer"]
+    W2["**Week 2**\nInfrastructure\n- Website & domain\n- Social media\n- Email system\n- Phone line"]
+    W3["**Week 3**\nStrategy\n- Campaign plan\n- Vote goal\n- Budget\n- Calendar"]
+    W4["**Week 4**\nLaunch\n- Announcement\n- Fundraising push\n- First events"]
+
+    W1 --> W2 --> W3 --> W4
+```
+
 ---
 
 ## Week 1: Legal and Compliance Foundation (Days 1-7)

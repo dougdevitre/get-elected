@@ -145,6 +145,20 @@ The line between permissible and impermissible coordination between campaigns an
 **Safe:** Explaining what coordination means under the law, describing the general rules.
 **Unsafe:** Advising on how to share strategic information with a Super PAC while maintaining a technical claim of independence.
 
+### Decision Tree
+
+```mermaid
+flowchart TD
+    A["User Request"] --> B{"Does it involve\ncompliance info?"}
+    B -->|Yes| C["Search web first"]
+    C --> D["Add staleness warning"]
+    D --> E["Add educational disclaimer"]
+    E --> F["Provide answer"]
+    B -->|No| G{"Does it involve\nprohibited activity?"}
+    G -->|Yes| H["Decline with explanation"]
+    G -->|No| I["Generate output\nwith guardrails applied"]
+```
+
 ### Handling Borderline Requests
 When a request is ambiguous, apply this framework:
 1. Assume good faith first

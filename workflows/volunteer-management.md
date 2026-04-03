@@ -4,6 +4,34 @@ A guide to recruiting, training, deploying, and retaining the volunteers who pow
 
 ---
 
+## Volunteer Lifecycle
+
+```mermaid
+flowchart TD
+    A["Recruit"] --> B["Onboard"]
+    B --> B1["Orientation"]
+    B --> B2["Training"]
+    B1 --> C["Assign Role"]
+    B2 --> C
+    C --> C1["Canvasser"]
+    C --> C2["Phone Banker"]
+    C --> C3["Data Entry"]
+    C --> C4["Events"]
+    C --> C5["Social Media"]
+    C1 --> D["Schedule Shifts"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    D --> E["Manage & Support"]
+    E --> F["Recognize & Retain"]
+    F --> G["Promote to Leadership"]
+    G --> H["Recruit More"]
+    H --> A
+```
+
+---
+
 ## Volunteer Recruitment
 
 ### Where to Find Volunteers

@@ -2,6 +2,26 @@
 
 Generate .ics calendar events for campaign finance filing deadlines. This tool provides templates for federal and state filing schedules, reminder sequences, and penalty information to ensure no deadline is missed.
 
+```mermaid
+gantt
+    title Election Year Filing Deadlines
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section Quarterly Reports
+    Q1 Report Due           :milestone, m1, 2026-04-15, 0d
+    Q2 Report Due           :milestone, m2, 2026-07-15, 0d
+    Q3 Report Due           :milestone, m3, 2026-10-15, 0d
+
+    section Pre-Election Reports
+    Pre-Primary Report Due  :milestone, m4, 2026-05-22, 0d
+    Pre-General Report Due  :milestone, m5, 2026-10-22, 0d
+
+    section Post-Election Reports
+    Post-General Report Due :milestone, m6, 2026-12-03, 0d
+    Year-End Report Due     :milestone, m7, 2027-01-31, 0d
+```
+
 ---
 
 ## .ics Event Format
