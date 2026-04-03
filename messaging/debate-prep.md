@@ -2,6 +2,17 @@
 
 A comprehensive guide for preparing for, executing, and capitalizing on candidate debates. Covers opponent research, message pillar development, pivot techniques, hostile question preparation, logistics, and post-debate strategy.
 
+```mermaid
+flowchart TD
+    A["Research Opponent\n(Positions, record, style)"] --> B["Develop 3 Message Pillars"]
+    B --> C["Practice Pivots &\nBridge Phrases"]
+    C --> D["Prepare for\nHostile Questions"]
+    D --> E["Practice Closing Statement"]
+    E --> F["Night-of Prep\n(Arrival, demeanor)"]
+    F --> G["During Debate\n(Listen, respond, pivot to message)"]
+    G --> H["Post-Debate\n(Spin room, social media clips,\nrapid response)"]
+```
+
 ---
 
 ## Pre-Debate Preparation Timeline

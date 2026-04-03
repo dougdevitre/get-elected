@@ -5,38 +5,22 @@ Generate legally compliant "Paid for by" disclaimers for every communication med
 ```mermaid
 flowchart TD
     A{What type of communication?}
-    A --> P[Print]
-    A --> TV[TV]
-    A --> R[Radio]
-    A --> DA[Digital Ad]
-    A --> E[Email]
-    A --> TM[Text Message]
-    A --> SM[Social Media]
-    A --> YS[Yard Sign]
-
-    P --> P1["Font size min 12pt,
-    clearly readable"]
-    TV --> TV1["On screen 4+ seconds"]
-    R --> R1["Spoken clearly"]
-    DA --> DA1["Visible in ad
-    or landing page"]
-    E --> E1["Header or footer"]
-    TM --> TM1["Abbreviated OK if
-    links to full"]
-    SM --> SM1["In post or
-    pinned comment"]
-    YS --> YS1["Readable from normal
-    viewing distance"]
-
-    P1 --> D["Paid for by
-    Committee Name"]
-    TV1 --> D
-    R1 --> D
-    DA1 --> D
-    E1 --> D
-    TM1 --> D
-    SM1 --> D
-    YS1 --> D
+    A --> P["Print: Font size min 12pt, clearly readable"]
+    A --> TV["TV: On screen 4+ seconds"]
+    A --> R["Radio: Spoken clearly"]
+    A --> DA["Digital Ad: Visible in ad or landing page"]
+    A --> E["Email: Header or footer"]
+    A --> TM["Text: Abbreviated OK if links to full"]
+    A --> SM["Social Media: In post or pinned comment"]
+    A --> YS["Yard Sign: Readable from normal viewing distance"]
+    P --> D["Generate: Paid for by Committee Name"]
+    TV --> D
+    R --> D
+    DA --> D
+    E --> D
+    TM --> D
+    SM --> D
+    YS --> D
 ```
 
 ---

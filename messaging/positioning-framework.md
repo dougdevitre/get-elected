@@ -8,6 +8,25 @@ A systematic approach to developing your campaign's core message. This framework
 
 The Message Box is a four-quadrant framework developed by political strategist Tully Plesser. Every campaign operates in all four quadrants simultaneously. Your job is to control as many quadrants as possible.
 
+```mermaid
+flowchart TD
+    CENTER["THE RACE"]
+    TL["What WE say about US\n(Our positive message)"]
+    TR["What WE say about THEM\n(Contrast/attack)"]
+    BL["What THEY say about THEM\n(Their positive message)"]
+    BR["What THEY say about US\n(Their attacks on us)"]
+
+    TL --- CENTER
+    TR --- CENTER
+    BL --- CENTER
+    BR --- CENTER
+
+    TL <-->|"Offense vs Defense"| BR
+    TR <-->|"Contrast vs Counter"| BL
+    TL -->|"Leads to contrast"| TR
+    BL -->|"Informs attacks"| BR
+```
+
 ```
 ┌─────────────────────────────┬─────────────────────────────┐
 │                             │                             │

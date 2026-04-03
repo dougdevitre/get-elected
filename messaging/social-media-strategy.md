@@ -6,6 +6,24 @@ A complete social media playbook for political campaigns at every level. Social 
 
 ## Platform Selection by Race Size
 
+```mermaid
+flowchart TD
+    Q{"What level is\nyour race?"} -->|"Local\n(City/County/School Board)"| L["Facebook + NextDoor"]
+    Q -->|"Statewide"| S["Add Instagram + X/Twitter"]
+    Q -->|"Federal"| F["Add TikTok + YouTube"]
+    L --> S
+    S --> F
+
+    subgraph "Weekly Content Cycle"
+        Mon["Mon\nPersonal/Story"] --> Tue["Tue\nPolicy"]
+        Tue --> Wed["Wed\nEngagement/Question"]
+        Wed --> Thu["Thu\nContrast"]
+        Thu --> Fri["Fri\nCommunity"]
+        Fri --> Sat["Sat\nEvents/Photos"]
+        Sat --> Sun["Sun\nGOTV/Values"]
+    end
+```
+
 ### Local Races (City Council, School Board, County)
 - **Facebook**: Primary platform. Highest concentration of regular voters in local races. Join and post in local community groups.
 - **NextDoor**: Hyper-local reach. Neighborhood-level targeting. Post as a verified candidate.

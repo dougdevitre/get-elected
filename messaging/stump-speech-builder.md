@@ -8,6 +8,19 @@ A structured guide for writing campaign speeches at every length. The stump spee
 
 Every campaign speech, regardless of length, follows the same six-part structure:
 
+```mermaid
+flowchart TD
+    A["Hook\n(Personal story or local reference)"] --> B["Bridge\n('That''s why I''m running')"]
+    B --> C["Issue 1"]
+    C --> C1["Problem --> Solution --> Contrast"]
+    C1 --> D["Issue 2"]
+    D --> D1["Problem --> Solution --> Contrast"]
+    D1 --> E["Issue 3"]
+    E --> E1["Problem --> Solution --> Contrast"]
+    E1 --> F["Call to Action\n(Vote, Donate, Volunteer)"]
+    F --> G["Close\n(Vision + Emotional Landing)"]
+```
+
 ```
 1. HOOK (5-10% of time)
    Grab attention. Make them stop checking their phones.
