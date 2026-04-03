@@ -1,242 +1,234 @@
 # Election Protection Playbook
 
-Election protection ensures that every eligible voter can cast a ballot and that every valid ballot is counted. This module covers the legal framework, poll watcher programs, recount preparation, provisional ballot strategy, and the Election Day boiler room.
+Election protection ensures that every eligible voter can cast a ballot and that every valid ballot is counted. This playbook covers the legal framework, poll watcher programs, recount preparation, provisional ballot tracking, and the Election Day boiler room.
 
 ---
 
-## Election Lawyer: When and Why You Need One
+## Election Lawyer: When to Retain and What They Do
 
 ### When to Engage Counsel
+Retain an election lawyer at the time of filing -- not after election day when it is too late.
 
-- **Before filing:** Review ballot access requirements, residency rules, and filing deadlines
-- **During the campaign:** Campaign finance compliance, FEC/state filing deadlines, coordination rules
-- **Pre-election:** Poll watcher credentialing, early vote monitoring, ballot access challenges
-- **Election Day:** Real-time legal response to voter suppression, machine issues, poll worker errors
+- **At filing:** Review ballot access requirements, residency rules, filing deadlines, committee formation
+- **During the campaign:** Campaign finance compliance, coordination rules, FEC/state filing deadlines
+- **Pre-election:** Poll watcher credentialing, early vote monitoring, ballot access challenges, recount statute review
+- **Election Day:** Real-time legal response to voter issues, machine problems, poll worker errors, intimidation
 - **Post-election:** Recount procedures, ballot challenges, canvass observation, legal contests
 
-### What to Look for in Election Counsel
+### Pre-Election Legal Checklist
+- [ ] Confirm ballot access and filing completed properly
+- [ ] Review state poll watcher laws and credential requirements
+- [ ] Review state recount thresholds and petition deadlines
+- [ ] Review provisional ballot and ballot cure laws
+- [ ] Prepare recount petition template (ready to file if needed)
+- [ ] Establish Election Day hotline with counsel on call
+- [ ] Brief campaign team on election law basics (electioneering zones, voter ID rules, provisional ballot rights)
+- [ ] Budget for legal costs: $2,000-$10,000 for local races, $10,000-$50,000+ for competitive state/federal
 
-- Experience with election law in your specific state (election law is highly state-specific)
-- Availability on Election Day and the days following (they must be reachable in real time)
-- Relationships with county and state election officials
-- Familiarity with recount procedures and election contest litigation
-- Willingness to be on retainer (not just available when crisis hits)
-
-### Budget Guidance
-
-- Local/state races: $2,000-$10,000 retainer for election counsel
-- Competitive state legislative or congressional races: $10,000-$50,000
-- This is not optional in competitive races. Legal preparation is as important as GOTV.
+### Day-of Legal Hotline
+- Election counsel available by phone from polls-open to final count
+- Direct line published to all poll watchers and boiler room staff
+- Counsel has authority to file emergency motions, contact election officials, and escalate issues
+- Pre-drafted emergency pleadings for common issues (poll watcher access denial, machine failures, extended hours)
 
 ---
 
 ## Poll Watcher Program
 
 ### Legal Framework
+Poll watcher rules vary significantly by state. Research before building your program:
 
-Poll watcher rules vary significantly by state. Before building your program, research:
+1. **Who can serve:** Some states require watchers to be registered voters in the jurisdiction; others allow any state-registered voter
+2. **Credentialing:** Most states require formal designation by the candidate or party, submitted in advance
+3. **Number allowed:** Typically 1-2 watchers per candidate per polling place
+4. **What watchers CAN do:** Observe voter check-in, observe ballot counting, take notes, report irregularities
+5. **What watchers CANNOT do:** Interact with voters, handle ballots, electioneer, use cameras or recording devices (varies by state), interfere with poll workers, challenge voters without legal basis
+6. **Location rules:** Watchers must remain in a designated area at a specified distance from check-in and voting booths
+7. **Hours:** Some states require full-shift service; others allow rotation
 
-1. **Who can serve:** Some states require poll watchers to be registered voters in the jurisdiction. Others allow any registered voter in the state.
-2. **Credentialing process:** Most states require candidates or parties to formally designate poll watchers and submit names in advance.
-3. **Number allowed:** Most states limit the number of poll watchers per candidate per polling place (typically 1-2).
-4. **What watchers can do:** Observe the voting process, verify voter check-in procedures, observe ballot counting, take notes.
-5. **What watchers cannot do:** Interact with voters, challenge voters (in some states), handle ballots, use cameras or recording devices (varies), interfere with poll workers.
-6. **Location rules:** Watchers must typically remain in a designated area, at a specified distance from the check-in table and voting booths.
-7. **Hours:** Some states require watchers to serve a full shift. Others allow rotation.
+**Critical:** Violations can result in removal, criminal charges, and devastating campaign press. Train thoroughly.
 
-**Critical:** Violating poll watcher rules can result in removal, criminal charges, and bad press for the campaign. Train thoroughly.
+### Recruitment: Every Precinct Matters
+**Target:** One watcher per precinct in your universe. Two per precinct for comprehensive coverage.
 
-### Recruitment
-
-**Target pool:**
+**Ideal recruits:**
 - Lawyers and law students (legal awareness, calm under pressure)
 - Retired professionals (available during work hours, mature temperament)
-- Experienced campaign volunteers (understand the process)
-- Civic-minded community members with no record of voter intimidation or confrontational behavior
+- Experienced campaign volunteers who understand the process
+- Civic-minded community members with no history of confrontational behavior
 
 **Recruitment pitch:**
-"We need responsible, detail-oriented volunteers to serve as our eyes and ears at polling places. Your role is to observe, document, and report — not to confront. This is one of the most important things you can do for our democracy and our campaign."
+"We need responsible, detail-oriented volunteers to serve as our eyes and ears at polling places. Your role is to observe, document, and report -- not to confront. This is one of the most important things you can do for our campaign and our democracy."
 
-**Number needed:**
-- 1 watcher per polling place for a basic program
-- 2 per polling place for comprehensive coverage (one at check-in, one at ballot counting)
-- Plus 2-3 floaters per region who can respond to problems at any location
-- Plus a coordinator managing all watchers
+**Numbers needed:**
+- 1 watcher per polling place (basic coverage)
+- 2 per polling place (check-in + counting)
+- 2-3 floaters per region (respond to problem locations)
+- 1 coordinator managing all watchers
 
-### Training Curriculum
+### Training (Required for Every Watcher)
 
-**Session 1: Legal Framework (45 minutes)**
+**Session 1 -- Legal Framework (45 min):**
 - State-specific poll watcher laws and regulations
-- What you can and cannot do — with specific scenarios
-- Credentialing process and how to display credentials
+- What you can and cannot do -- with realistic scenarios
+- How to display credentials
 - Consequences of violations (for you and the campaign)
-- Your right to be there and what to do if challenged
+- Your right to be there and what to do if challenged by poll workers
 
-**Session 2: What to Watch For (45 minutes)**
-- Voter check-in procedures: are poll workers following correct ID verification?
-- Machine operation: are machines functioning properly? Calibrated?
-- Ballot handling: are ballots secure? Proper chain of custody?
-- Accessibility: are disabled voters being accommodated?
-- Electioneering: is anyone campaigning within the restricted zone?
-- Voter challenges: is anyone improperly challenging voters' right to vote?
-- Wait times: are they excessive? Is the line moving?
-- Irregularities: anything that looks wrong, even if you are not sure why
+**Session 2 -- What to Watch For (45 min):**
+- Voter check-in procedures: correct ID verification?
+- Machine operation: functioning properly? Calibrated?
+- Ballot handling: secure? Proper chain of custody?
+- Accessibility: disabled voters accommodated?
+- Electioneering: anyone campaigning within the restricted zone?
+- Voter challenges: anyone improperly challenging voters' rights?
+- Wait times: excessive? Line moving?
+- Irregularities: anything that looks wrong
 
-**Session 3: Documentation and Reporting (30 minutes)**
+**Session 3 -- Recording and Reporting (30 min):**
 - How to fill out the incident report form
-- What to document: time, location, description, names if available, photos only if legally permitted
+- What to document: time, location, description, names if available
+- Photography rules for your state
 - Who to call: the campaign's election protection hotline number
-- When to escalate: incidents requiring immediate legal response
-- When NOT to act: situations where your intervention would make things worse
+- When to escalate vs. when to simply log
 
-**Session 4: Temperament and Conduct (30 minutes)**
+**Session 4 -- Conduct and Temperament (30 min):**
 - Remain calm and professional at all times
-- Do not argue with poll workers — document and report
-- Do not speak to voters — you are an observer, not a participant
-- Do not use your phone in ways that could be perceived as photographing voters
-- If asked to leave, comply and immediately call the campaign hotline
-- You represent the candidate — your conduct reflects on the campaign
+- Do not argue with poll workers -- document and report
+- Do not speak to voters -- you are an observer, not a participant
+- If asked to leave, comply immediately and call the hotline
+- You represent the candidate -- your behavior IS the campaign's reputation
 
-### Credentialing
+### Credentialing Process
+1. Obtain credential application from county elections office (deadline often 1-2 weeks before election day)
+2. Submit watcher names and information by deadline
+3. Distribute credentials to watchers before election day with assignment and instructions
+4. Maintain master list of all credentialed watchers with locations and contact info
 
-1. Obtain the credential application from the county elections office (or state, depending on jurisdiction)
-2. Submit watcher names and information by the deadline (often 1-2 weeks before Election Day)
-3. Distribute credentials to watchers before Election Day with instructions on when to arrive and how to present credentials
-4. Keep a master list of all credentialed watchers with their assigned locations and contact information
+### Deployment Plan
+**Before polls open:** Watchers arrive 30-60 min early. Check in with chief election judge. Identify designated area. Note physical setup.
 
-### Deployment
+**During voting:** Observe quietly. Take notes. Report concerns to hotline, not to poll workers (unless immediate safety issue). Shift changes overlap by 15 minutes.
 
-**Before polls open:**
-- Watchers arrive 30-60 minutes before polls open
-- Check in with the chief election judge/poll worker and present credentials
-- Identify the designated watcher area
-- Note the physical setup: machine placement, ballot storage, check-in flow
+**After polls close:** Observe closing procedures, machine shutdown, ballot counting, results tabulation. Document posted results. Report final numbers to boiler room immediately.
 
-**During voting hours:**
-- Observe quietly and take notes
-- Report any concerns to the campaign hotline, not to poll workers (unless it is an immediate safety issue)
-- Shift changes should overlap by 15 minutes for continuity
-
-**After polls close:**
-- Observe the closing procedures: machine shutdown, ballot counting, results tabulation
-- Document the posted results at each precinct
-- Report final numbers to the boiler room immediately
+### Communication Chain
+Poll Watcher --> Hotline Operator --> Boiler Room Director --> Legal Counsel (if needed) --> Candidate (if critical)
 
 ---
 
 ## Recount Preparation
 
-### Know the Thresholds
+### Automatic Recount Thresholds by State Type
+Thresholds vary, but common patterns:
+- **Percentage-based:** Automatic recount if margin below 0.5% (some states use 0.25% or 1%)
+- **Fixed-number:** Automatic if margin is fewer than a set number of votes
+- **No automatic recount:** Only requested recounts allowed
+- **Paid recount:** Requesting candidate pays if margin is above automatic threshold (refunded if result changes)
 
-Every state has different recount rules:
-- **Automatic recount:** Triggered when the margin is below a specified threshold (e.g., 0.5% of total votes)
-- **Requested recount:** The losing candidate can request a recount if the margin is within a larger threshold (e.g., 1%)
-- **Paid recount:** In some states, the requesting candidate must pay for the recount if the margin is above the automatic threshold
+**Know your state's rules before election night.** If the race is expected to be close, have the recount petition drafted and ready to file.
 
-**Know your state's rules before Election Day.** If the race is expected to be close, have the recount petition template drafted and ready to file.
+### Recount Process
+1. Determine if the margin triggers automatic recount or if you must request
+2. File recount petition by the deadline (often 2-5 days after canvass certification)
+3. Assess cost and arrange funding (recounts can cost $10,000-$100,000+)
+4. Recruit and credential recount observers for every counting location
+5. Legal counsel manages the process, challenges, and any court filings
 
-### Evidence Preservation
+### Evidence Preservation (Start Election Night)
+- [ ] Photograph posted precinct results at every polling place
+- [ ] Preserve all internal campaign tracking data (chase program, voter contact records)
+- [ ] Document all irregularities reported by poll watchers with supporting detail
+- [ ] Preserve all digital records (emails, texts, social media) that may be relevant
+- [ ] Retain copies of all ballots, voter rolls, and election records the campaign can legally obtain
+- [ ] Maintain chain of custody documentation: who collected what, when, how stored
 
-Starting on Election Night and continuing through the canvass:
-- Photograph posted precinct results at every polling place
-- Preserve all internal campaign tracking data (chase program results, voter contact records)
-- Document any irregularities reported by poll watchers with supporting evidence
-- Preserve all digital records (emails, texts, social media) that may be relevant
-- Retain copies of all ballots, voter rolls, and election records that the campaign is entitled to receive
+### Observer Deployment for Recounts
+- Different rules than poll watchers -- research your state's recount observer requirements
+- Train observers on recount-specific procedures: ballot review, adjudication of ambiguous ballots, machine recalibration, tally procedures
+- Each observer has a direct line to legal counsel
+- Observers document every challenged ballot and the basis for the challenge
+- Deploy enough observers to cover every simultaneous counting location
 
-**Chain of custody matters.** Document who collected what, when, and how it was stored.
-
-### Recount Observers
-
-If a recount is triggered:
-- Recruit and credential observers for every recount location (different rules than poll watchers — research your state)
-- Train observers on what to watch during a recount: ballot review procedures, adjudication of ambiguous ballots, machine recalibration, tally procedures
-- Each observer should have a direct communication line to the campaign's legal team
-- Observers document every challenged ballot and the reason for the challenge
+### Legal Costs
+Budget a recount reserve if the race is expected to be competitive:
+- Small local race: $5,000-$20,000
+- State legislative: $20,000-$75,000
+- Congressional or statewide: $100,000+
+- Have a rapid fundraising plan ready to activate if a recount is triggered
 
 ---
 
-## Provisional Ballot Strategy
+## Provisional Ballots
 
-Provisional ballots are cast by voters whose eligibility cannot be confirmed at the polls. They are counted after Election Day if eligibility is verified. In close races, provisional ballots can determine the outcome.
-
-### Common Reasons for Provisional Ballots
-
-- Voter's name does not appear on the rolls (may have registered but record was not updated)
+### When Provisional Ballots Are Issued
+- Voter's name does not appear on the rolls
 - Voter lacks required identification
 - Voter requested an absentee ballot but wants to vote in person
 - Voter's registration information does not match (address, name change)
-- Voter is at the wrong precinct
+- Voter is at the wrong precinct (still has the right to cast a provisional ballot in most states)
 
-### Campaign Strategy
-
-**Before Election Day:**
-- Train canvassers and texters to remind voters to check their registration and polling place
-- Provide a voter registration lookup tool link in all GOTV communications
-- Identify voters who may face provisional ballot issues (recent address changes, new registrants)
-
-**On Election Day:**
-- If a supporter is offered a provisional ballot, your poll watcher or hotline should guide them through the process
-- Voters should fill out the provisional ballot affidavit completely and accurately
+### Tracking Provisional Ballots
 - Record every supporter who casts a provisional ballot and the reason
-- Remind voters of any follow-up required (some states require voters to return with ID within a specified window)
+- Track the total number of outstanding provisional ballots (the elections office will report this)
+- In close races, provisionals can determine the outcome
+- Monitor the adjudication timeline and process
 
-**After Election Day:**
-- Track the provisional ballot count and canvass timeline
-- If the race is close, have legal counsel monitor the provisional ballot adjudication process
-- Challenge improperly rejected provisional ballots if the voter was eligible
+### Cure Process
+Some jurisdictions allow voters to cure deficiencies in their provisional ballot (provide missing ID, verify identity):
+- Know the cure deadline for your state (often 2-7 days after election)
+- Contact affected supporters within 24 hours with specific instructions
+- Provide transportation to the elections office if needed
+- Track which ballots have been cured and which remain outstanding
 
 ---
 
 ## Election Day Boiler Room
 
-The boiler room is the campaign's election day command center — the central hub where all information flows, decisions are made, and problems are resolved.
-
-### Setup
-
-**Location:** Campaign headquarters or a nearby space with reliable internet, phone service, and room for 8-15 people to work simultaneously.
+### Location and Setup
+**Location:** Campaign headquarters or nearby space with reliable internet, phone, and room for 8-15 people.
 
 **Equipment:**
-- Multiple phone lines (landline or cell — reliable connection is critical)
+- Multiple phone lines (reliable landline or cell connections)
 - Computers with voter file access and chase program dashboard
-- Whiteboard or large monitors for tracking precinct results and turnout
+- Whiteboard or large monitors for precinct tracking
 - Printer for generating updated contact lists
-- Snacks, coffee, meals — people will be here for 14+ hours
+- Food, coffee, and meals -- people will be here 14+ hours
 
-**Communications infrastructure:**
-- Dedicated hotline number for poll watchers (published to all watchers before Election Day)
+### Communication Tools
+- Dedicated hotline number for poll watchers (published to all watchers in advance)
 - Group text or messaging channel for real-time watcher communication
 - Direct line to election counsel
 - Direct line to the candidate
+- Backup communication method (if primary channel fails)
 
 ### Staffing
 
-| Role | Responsibility | Number Needed |
+| Role | Responsibility | Count |
 |---|---|---|
-| Boiler Room Director | Overall operations, decision-making, escalation authority | 1 |
-| Legal Hotline Operator | Receives poll watcher calls, triages issues, loops in counsel | 1-2 |
-| Data Manager | Processes voter check-off data, updates chase lists, monitors turnout | 1-2 |
-| Chase Coordinator | Manages phone/text/door chase waves using updated lists | 1-2 |
-| Rides Dispatcher | Coordinates ride-to-polls volunteers | 1 |
+| Boiler Room Director | Overall operations, decision authority, escalation | 1 |
+| Legal Hotline Operator | Receives watcher calls, triages, loops in counsel | 1-2 |
+| Data Manager | Processes voter check-off, updates chase lists, monitors turnout | 1-2 |
+| Chase Coordinator | Manages phone/text/door chase waves from updated lists | 1-2 |
+| Rides Dispatcher | Coordinates ride-to-polls drivers | 1 |
 | Field Coordinator | Manages canvass teams and precinct captains | 1-2 |
-| Communications Monitor | Watches social media and news for election-related issues | 1 |
-| Runner | Delivers supplies, picks up check-off lists, handles errands | 1-2 |
+| Communications Monitor | Watches social media and news for election issues | 1 |
+| Runner | Delivers supplies, picks up check-off lists | 1-2 |
 
-### Incident Reporting Protocol
+### Incident Reporting and Escalation
 
-**Level 1 — Informational:** Poll worker asks watcher to move, minor wait times, machine glitch that is quickly resolved. Log and monitor. No escalation needed.
+**Level 1 -- Informational:** Poll worker asks watcher to move, minor wait times, machine glitch quickly resolved. Log it. No escalation.
 
-**Level 2 — Concerning:** Voter turned away without being offered provisional ballot, equipment malfunction not being addressed, electioneering in restricted zone, watcher being denied access. Boiler room director notified. Legal counsel may be contacted.
+**Level 2 -- Concerning:** Voter turned away without provisional ballot, equipment malfunction not addressed, electioneering in restricted zone, watcher denied access. Boiler room director notified. Legal counsel contacted if needed.
 
-**Level 3 — Critical:** Systematic voter suppression, machine failures affecting multiple machines, physical intimidation, poll watcher illegally removed, ballots mishandled. Immediate escalation to legal counsel. Possible media notification. Consider emergency court filing.
+**Level 3 -- Critical:** Systematic voter suppression, multi-machine failures, physical intimidation, watcher illegally removed, ballots mishandled. Immediate legal counsel escalation. Possible emergency court filing. Consider media notification.
 
-### Escalation Chain
-
-1. Poll watcher calls the boiler room hotline
-2. Hotline operator logs the incident and assesses severity
+### Escalation Procedures
+1. Poll watcher calls boiler room hotline
+2. Hotline operator logs incident and assesses severity
 3. Level 1: log and file
-4. Level 2: notify boiler room director, consult legal counsel if needed
-5. Level 3: boiler room director and legal counsel immediately, candidate notified, consider public response
+4. Level 2: notify director, consult counsel if warranted
+5. Level 3: director and counsel immediately, candidate notified, public response considered
 
 ---
 
@@ -244,29 +236,29 @@ The boiler room is the campaign's election day command center — the central hu
 
 | Issue | Response |
 |---|---|
-| Voter told they are not on the rolls | Insist on a provisional ballot (federal law guarantees this right). Note the voter's name and follow up. |
-| Voting machine is down | Poll workers should provide paper ballots or redirect to functioning machines. Report if not happening. |
-| Long lines / slow processing | Document wait times. If over 30 minutes, report to boiler room. May warrant a media alert or legal action. |
-| Voter intimidation at the polls | Document everything. Report to boiler room and legal counsel immediately. Do not confront the intimidators. |
-| Campaign materials within restricted zone | Politely note it to the chief election judge. Document if not addressed. |
-| Poll watcher denied entry | Call the boiler room immediately. Legal counsel contacts the county election office. |
-| Voter asked for ID they do not have | Know your state's ID law. Ensure the voter is offered a provisional ballot if they cannot produce ID. |
-| Absentee ballot not received | Voter may vote provisionally or, in some states, vote in person if the absentee is surrendered. Check state law. |
-| Voter at wrong precinct | Direct them to the correct precinct. In some states, they can vote a provisional ballot at the wrong precinct. |
-| Election worker making errors | Document, report to boiler room. Do not train or correct the worker yourself. |
+| Voter told not on rolls | Insist on provisional ballot (federal law guarantees this). Note voter name and follow up. |
+| Voting machine down | Poll workers must provide paper ballots or redirect to functioning machines. Report if not happening. |
+| Long lines (30+ min wait) | Document wait times. Report to boiler room. May warrant legal action or media alert. |
+| Voter intimidation | Document everything. Report to boiler room and counsel immediately. Do not confront. |
+| Campaign material in restricted zone | Note to chief election judge. Document if not addressed. |
+| Watcher denied entry | Call hotline immediately. Counsel contacts election office. |
+| Voter lacks required ID | Ensure voter is offered provisional ballot. Know your state's ID law cold. |
+| Voter at wrong precinct | Direct to correct precinct. In many states, they can vote provisionally where they are. |
+| Absentee ballot not received | Voter may vote provisionally. In some states, can vote in person if absentee is surrendered. |
+| Poll worker errors | Document, report. Do not train or correct the worker yourself. |
 
 ---
 
-## Post-Election Checklist
+## Post-Election Day Checklist
 
 Within 24 hours of polls closing:
 - [ ] Collect and compile all poll watcher reports
 - [ ] Preserve all documentation and evidence
 - [ ] Review unofficial results against internal tracking
-- [ ] Assess whether the margin triggers a recount or contest
-- [ ] Consult with election counsel on next steps
+- [ ] Assess whether margin triggers recount or contest
+- [ ] Consult election counsel on next steps
 - [ ] Thank all poll watchers and election protection volunteers
-- [ ] Brief the candidate on results and any outstanding issues
-- [ ] If a recount is likely, begin recruiting recount observers immediately
-- [ ] Monitor the official canvass process and timeline
-- [ ] Prepare public statement on results (win, lose, or too-close-to-call)
+- [ ] Brief candidate on results and outstanding issues
+- [ ] If recount likely, begin recruiting recount observers immediately
+- [ ] Monitor official canvass process and timeline
+- [ ] Prepare public statement (win, lose, or too-close-to-call)

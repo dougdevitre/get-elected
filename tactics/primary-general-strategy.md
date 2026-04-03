@@ -1,196 +1,182 @@
 # Primary vs. General Election Strategy
 
-A primary and a general election are fundamentally different contests requiring different strategies, messages, and resource allocations. Campaigns that fail to adjust between the two phases lose winnable races. This module covers the strategic differences, the pivot between them, and how to execute both.
+The primary and the general election are fundamentally different contests. They have different electorates, different strategic imperatives, and different messaging requirements. Understanding these differences -- and managing the pivot between them -- is essential for winning both.
 
 ---
 
 ## Primary Election Strategy
 
-### The Electorate
+### The Electorate Is Different
+- Primary voters are fewer, more partisan, and more ideologically committed
+- Turnout ranges from 10-30% of registered party voters
+- These voters are higher-propensity, pay close attention to intra-party politics, and know policy details
+- They respond to endorsements, credentials, and demonstrated party loyalty
+- Many have voted in previous primaries and have established preferences
 
-Primary electorates are smaller, more partisan, more ideological, and more informed than general electorates. Typical primary turnout ranges from 10-30% of registered voters in the party. These voters are:
-- More politically engaged and opinionated
-- More likely to hold strong ideological positions
-- More likely to follow political news closely
-- More responsive to endorsements from party leaders and advocacy organizations
-- More likely to have voted in previous primaries
+### Base Mobilization Is Everything
+- You are not persuading swing voters -- you are activating and mobilizing party faithful
+- The campaign that best identifies its supporters and turns them out wins most primaries
+- Early voter ID through canvassing and phone calls is the foundation
+- Targeted GOTV to identified supporters in the final 10 days is the closer
+- Absentee and early vote pushes bank votes before election day
 
-**Implication:** You are talking to a smaller, more intense audience. Broad, milquetoast messaging does not work. You need to give these voters a clear reason to choose you over someone they probably agree with on most issues.
+### Party Loyalty Signals
+- Demonstrate commitment to the party and its values through action, not just words
+- Attend party events, support party candidates, volunteer for party activities
+- Reference the party platform and how your positions align
+- Use party language and framing -- this audience responds to insider signals
+- Never attack the party itself, even if you disagree with specific leaders
 
-### Primary Strategy Pillars
+### Endorsement Importance
+In a primary, endorsements carry outsized weight because voters are choosing between candidates who largely agree on issues:
+- **Party leaders and elected officials:** Signal insider trust and viability
+- **Advocacy organizations:** Unions, environmental groups, issue organizations that primary voters belong to
+- **Community leaders:** Pastors, neighborhood leaders, respected voices in the base
+- Seek endorsements early -- being first to lock up key endorsers creates momentum
+- Display endorsements prominently in all materials and on your website
 
-**1. Base mobilization, not persuasion.**
-In a primary, most voters agree on general direction. Your job is to convince them you are the best candidate to deliver, not to change their minds on issues. Mobilize your natural base — the people who are already predisposed to support your candidacy — and ensure they turn out.
+### Differentiating from Same-Party Opponents
+This is the hardest part of a primary. You largely agree with your opponents on direction. How do you stand out?
 
-**2. Differentiation without destruction.**
-You must give voters a reason to choose you over your primary opponents without creating wounds that hurt you (or them) in the general. Draw contrasts on:
-- Experience and qualifications
-- Electability (can you win the general?)
-- Specific policy differences (where they exist)
-- Commitment and energy
-- Community roots and relationships
+**Experience and qualifications:**
+"I have the experience to do this job on day one" -- highlight relevant professional, community, or public service background.
 
-Avoid personal attacks. The voters you need will punish nastiness in a primary. Your primary opponents' supporters are people you will need in November.
+**Judgment and character:**
+"We agree on goals. The question is who has the judgment to achieve them" -- use personal stories to demonstrate values.
 
-**3. Credential stacking.**
-Endorsements, qualifications, and organizational support matter more in primaries because voters are choosing between similar candidates. Stack your credentials early:
-- Key endorsements (especially from party leaders, advocacy groups, and elected officials)
-- Professional and community achievements
-- Organizational support (labor, environmental, business groups)
-- Fundraising totals (signal of viability)
+**Electability:**
+"I can win the general election. Can my opponent?" -- show polling, coalition breadth, crossover appeal.
 
-**4. Turnout targeting.**
-Identify and turn out voters who support you. The campaign that best identifies its supporters and ensures they vote wins most primaries. This means:
-- Early voter ID through canvassing and phone calls
-- Targeted GOTV to identified supporters in the final 10 days
-- Absentee/early vote push to bank votes before Election Day
+**Specificity:**
+"My opponent talks about fixing roads. I have a $12 million plan with a funding source" -- be the most concrete candidate in the field.
 
-### Primary Messaging
+**Community roots:**
+"I have lived in this district for 20 years. I coached your kids" -- deep roots are a powerful primary differentiator.
 
-**Message framework:**
-"I am the [strongest/most experienced/most committed] candidate to [achieve the shared goal]. Here is why I am different: [specific differentiator]. Here is why I can win: [electability argument]."
-
-**Tone:** Passionate, specific, confident without arrogance. Show you want this and will fight for it.
-
-**Avoid:**
-- Generic platitudes that every candidate in the primary could say
-- Attacking primary opponents on character (attack on issues if necessary, never on character)
-- Positioning too far from center — remember, you need to win a general election too
-
-### Primary Resource Allocation
-
-| Resource | Allocation | Rationale |
-|---|---|---|
-| Voter ID (canvass + phones) | 40% of field effort | Finding your supporters is the primary within the primary |
-| GOTV | 30% of field effort | Turning out identified supporters wins low-turnout primaries |
-| Persuasion (mail, digital) | 20% | Targeted to undecided primary voters |
-| Earned media | 10% | Endorsement announcements, forums, press |
+**Tone in a primary:** Passionate but not destructive. Draw contrasts on issues and qualifications, but avoid personal attacks that leave scars. Your opponents' supporters are people you will need in November.
 
 ---
 
 ## General Election Strategy
 
-### The Electorate
+### The Electorate Expands
+- General election turnout ranges from 40-70% depending on the race
+- Many general voters did not vote in the primary and have no opinion about intra-party debates
+- Issue awareness is lower -- your message must be simpler and more accessible
+- The universe of persuadable voters is much larger
+- You are now competing for independents, low-propensity voters, and potential crossovers
 
-The general electorate is larger, more diverse, less informed, and less ideological. General election turnout ranges from 40-70% depending on the race and year. Many general election voters:
-- Pay little attention to politics between elections
-- Make decisions based on party ID, likability, and 1-2 issues
-- Are more persuadable because they are less ideologically committed
-- Respond to emotional appeals and personal stories more than policy detail
-- Include many people who did not vote in the primary
+### Persuasion of Independents and Swing Voters
+- The central challenge: hold your base while winning the middle
+- Identify persuadable voters through data, polling, and canvassing (see `voter-targeting.md`)
+- Message to shared values, not partisan identity: community, family, fairness, results
+- Deploy validators who appeal beyond your base: business leaders, non-partisan community figures, crossover endorsers
+- Invest in paid media to reach voters who do not attend events or answer doors
 
-**Implication:** You need to reach a broader audience with a simpler, more inclusive message. The intense ideological debate of the primary is over. Now you are competing for the middle while holding your base.
+### Contrast with the Opposing Party
+- In the primary, you contrasted on judgment and experience with allies
+- In the general, you contrast on values, vision, and record with an opponent from the other party
+- Draw clear distinctions: "My opponent supports X. I support Y. Here is why that matters for your family."
+- Use the opponent's own record and statements -- let them speak for themselves
+- Focus on policy, record, and fitness for office. Avoid purely personal attacks.
 
-### General Election Strategy Pillars
+### Coalition Building
+- Assemble groups who each have their own reason to support you (see `coalition-building.md`)
+- Reach out to primary opponents and their supporters -- unify the party first
+- Build bridges to independent voters and moderate members of the opposing party
+- Organize constituency groups: parents, veterans, small business, labor, faith leaders, etc.
 
-**1. Persuasion is central.**
-Unlike the primary, the general requires moving voters from undecided or soft-opposition to your column. This means:
-- Identifying and targeting persuadable voters (soft partisans, true independents)
-- Developing contrast messaging that defines both you and your opponent
-- Investing in paid media (TV, digital, mail) to reach low-information voters
-- Deploying surrogates who reach beyond your base
-
-**2. Coalition assembly.**
-Primaries are about your base. Generals are about building the broadest possible coalition. You need:
-- Your primary supporters (energized and unified)
-- Your primary opponents' supporters (reconciled and engaged)
-- Persuadable independents
-- Cross-over voters from the other party (where possible)
-- Low-propensity voters who lean your way but often skip elections
-
-**3. Contrast and definition.**
-The general is a choice between two candidates. You must define both yourself and your opponent before they define you. This requires:
-- A clear, positive self-definition ("I am...")
-- A contrast narrative ("The choice is between...")
-- Opposition research deployed strategically
-- Rapid response to opponent attacks
-
-**4. Expanded GOTV.**
-Your GOTV universe in the general is much larger than in the primary. You need to turn out:
-- All identified supporters from the primary
-- New supporters identified through general election voter contact
-- Low-propensity voters who support you (the biggest untapped resource in most campaigns)
-
-### General Election Messaging
-
-**Message framework:**
-"This election is about [big, inclusive theme]. I will [1-2 specific commitments]. My opponent will [1-2 specific contrasts]. The choice is clear."
-
-**Tone:** Inclusive, forward-looking, presidential (or mayoral, or whatever the office). Confident but not combative. You are speaking to the whole community now, not just your party.
-
-**Avoid:**
-- Primary-only language that alienates the middle
-- Assuming everyone knows who you are (many general election voters are meeting you for the first time)
-- Ignoring the opponent — undefined opponents fill the vacuum with their own narrative
-
-### General Election Resource Allocation
-
-| Resource | Allocation | Rationale |
-|---|---|---|
-| Paid media (TV, digital, mail) | 40% of budget | Reaching low-information voters who do not attend events or answer doors |
-| Field (canvass, phone, text) | 30% of budget | Persuasion and GOTV at scale |
-| GOTV operations | 20% of budget | Final push to turn out identified supporters |
-| Earned media and events | 10% of budget | Visibility, credibility, momentum |
+### Moderated Tone
+- General election messaging is broader, more inclusive, and less ideological
+- Speak to the whole district, not just your party
+- Acknowledge complexity -- non-partisan voters respect nuance and honesty
+- Be the candidate who listens, not just the candidate who fights
 
 ---
 
-## The Pivot: Transitioning from Primary to General
+## The Pivot: Primary to General
 
-The pivot is the most strategically delicate moment of the campaign. Done well, you enter the general with momentum and unity. Done poorly, you lose your base, alienate the middle, or both.
+The pivot is the most strategically delicate moment of the campaign. You must broaden your appeal without appearing to flip-flop or abandon your base.
 
 ### Timeline
+- **Primary night:** Thank supporters, congratulate opponents, begin unity language immediately. Call each opponent personally within 24 hours.
+- **Week 1 post-primary:** Meet with primary opponents and their key supporters. Ask for endorsements. Launch updated website and social media with broader tone.
+- **Weeks 2-3:** Announce unity endorsements. Release expanded general election platform. Begin general election fundraising push. Launch expanded field program.
+- **Week 4+:** Full general election posture. New ad creative, updated mail, refreshed digital content. Opponent contrast begins.
 
-**Night of primary victory:**
-- Thank supporters, congratulate opponents, begin unity language immediately
-- "I am honored to be our party's nominee, and I look forward to bringing our party together"
-- Call each primary opponent personally within 24 hours
+### What to Keep
+- Your core values and the 2-3 signature issues that define your candidacy
+- Your personal story and biography
+- Your base messaging -- continue speaking to party faithful even as you expand
+- All endorsements and validators from the primary
+- Your grassroots infrastructure and volunteer network
 
-**Week 1 after primary:**
-- Meet with primary opponents and their key supporters. Ask for endorsements and unity.
-- Begin reaching out to independent and cross-over organizations
-- Launch new website and social media branding for the general (updated bio, expanded platform, broader tone)
-- Staff assessment: do you need to add general election specialists?
+### What to Shift
+- **Tone:** From rally-the-base to bring-everyone-together
+- **Issue emphasis:** From partisan priorities to shared concerns (economy, safety, schools, infrastructure)
+- **Audience:** From party faithful to the full electorate including independents
+- **Validators:** Add non-partisan and crossover endorsers alongside party endorsers
+- **Vocabulary:** Fewer partisan buzzwords, more common-ground language
+- **Channels:** From party events and activist networks to broad media (TV, radio, newspaper, digital)
 
-**Week 2-3:**
-- Announce unity endorsements from primary opponents (if secured)
-- Release general election platform (broader than primary platform)
-- Begin general election fundraising push (different donor pool)
-- Launch general election field program (expanded voter universe)
+### Messaging Bridge Language
+The key is expansion, not reversal. Never say "I changed my mind." Say "I want to expand this conversation."
 
-**Month 2:**
-- Fully operational in general election mode
-- Paid media begins
-- Opponent contrast research deployed
-- Coalition outreach in full swing
+**Bridge examples:**
+- "In the primary, I talked about holding our party to its values on [issue]. Now I want to bring that same accountability to the whole government."
+- "During the primary, I focused on [issue] because it matters to our community. In the general, I want to show how this connects to every family in this district."
+- "My opponent may try to define me by the primary. But this community knows me. I have always been about [core value], and that does not change based on which election we are in."
+- "I ran in the primary because I believe in [value]. I am running in the general because every voter in this district deserves a representative who fights for [broader framing]."
 
-### What to Keep from the Primary
-
-- Your core message and values (the foundation does not change)
-- Your most passionate volunteers (they are your organizational backbone)
-- Your fundraising infrastructure and donor relationships
-- Issue positions (do not flip — expand and re-emphasize)
-- Personal relationships built during the primary
-
-### What to Shift for the General
-
-- **Tone:** From passionate partisan to inclusive leader
-- **Audience:** From base voters to the broader electorate
-- **Message emphasis:** From differentiation among allies to contrast with opponent
-- **Issue framing:** From ideological language to kitchen-table language
-- **Channels:** From targeted (endorsement meetings, party events) to broad (TV, digital, mail)
-- **Events:** From house parties and forums to rallies, town halls, and debates
-
-### What NOT to Do During the Pivot
-
-1. **Do not repudiate primary positions.** Voters and opponents will use the contradiction against you. Expand and re-contextualize, but do not contradict.
-2. **Do not ignore your primary opponents.** If they do not endorse you, their supporters may not come home. Court them actively.
-3. **Do not assume your base is locked in.** Bases need continued attention and motivation. A candidate who pivots so far to the middle that the base feels abandoned will lose both.
-4. **Do not rush the pivot.** Take 1-2 weeks to unify before repositioning. A hasty pivot looks cynical.
-5. **Do not underestimate the opponent.** The primary was a warm-up. The general is the fight.
+### What NOT to Do
+- Do not disavow positions you took in the primary -- you are on video
+- Do not pretend the primary did not happen
+- Do not ignore your primary opponents -- their supporters are your path to victory
+- Do not change your core message -- expand it
+- Do not rush the pivot -- take 1-2 weeks to unify before repositioning
 
 ---
 
-## Strategic Comparison Table
+## Resource Reallocation Plan
+
+### Fundraising
+| Phase | Primary Sources | General Sources |
+|---|---|---|
+| Donors | Party donors, ideological donors, personal network | Add business donors, PACs, party committees, crossover donors |
+| First action | -- | "We won, now we need help for November" appeal to full list |
+| Opponent's donors | -- | Reach out to primary opponents' donor lists (with their cooperation) |
+
+### Staff and Volunteers
+- **Primary:** Lean team, heavy volunteer reliance, grassroots energy
+- **General:** Expand staff for field, comms, digital. Professionalize operations.
+- Recruit primary opponents' volunteers -- they are already trained and motivated
+- Add general-election specialists: opposition research, debate prep, coalition outreach
+
+### Field Operations
+- **Primary turf:** Party strongholds, high-propensity primary voters
+- **General turf:** Expand to swing precincts, independent-heavy areas, low-propensity general voters
+- Rebuild canvass universe from scratch -- different voters, different message, different scripts
+- New walk lists, new phone lists, new text universes
+
+### Communications
+- **Primary:** Partisan media, party channels, activist networks
+- **General:** Local TV, radio, newspaper, expanded digital ads to broader audiences
+- Refresh all creative: website, social media, mail, ads. New look for a new phase.
+- Update candidate bio to emphasize breadth, bipartisan accomplishments, crossover appeal
+
+### Budget Shift
+| Category | Primary Allocation | General Allocation |
+|---|---|---|
+| Fundraising | 60% | 30% |
+| Voter contact (field + paid media) | 25% | 40% |
+| Digital | 10% | 20% |
+| Operations | 5% | 10% |
+
+Spend the first 2 weeks post-primary building the war chest. Then shift aggressively to voter contact.
+
+---
+
+## Strategic Comparison
 
 | Dimension | Primary | General |
 |---|---|---|
@@ -198,35 +184,21 @@ The pivot is the most strategically delicate moment of the campaign. Done well, 
 | Voter knowledge | High | Low to moderate |
 | Key task | Differentiate + mobilize | Persuade + mobilize |
 | Message tone | Passionate, specific | Inclusive, forward-looking |
-| Contrast target | Primary opponents (gentle) | General opponent (sharp) |
+| Contrast target | Same-party opponents (gentle) | Opposing-party opponent (sharp) |
 | Endorsement value | Very high (credential stacking) | High (coalition signals) |
 | Paid media role | Secondary | Primary |
-| Field role | Primary (voter ID + GOTV) | Major (persuasion + GOTV) |
-| GOTV universe | Narrow (identified supporters) | Broad (supporters + leaners) |
+| Field role | Primary (voter ID + GOTV) | Major (persuasion + expanded GOTV) |
 | Coalition scope | Party base | Cross-party |
-| Risk of going negative | High (hurts party unity) | Moderate (expected, but calibrate) |
-| Budget allocation | Field-heavy | Media-heavy |
+| Risk of negativity | High (hurts party unity) | Moderate (expected, but calibrate) |
 
 ---
 
-## Dual-Track Planning
+## Common Mistakes
 
-Smart campaigns plan both phases simultaneously from the start:
-
-1. **Do not spend all your money in the primary.** Reserve 60-70% of your total budget for the general.
-2. **Build your voter file from Day 1.** Every primary contact is a potential general election asset.
-3. **Do not make enemies you cannot reconcile with.** Every primary opponent and their supporters are potential general election allies.
-4. **Hire for both phases.** Your primary team may need different skills than your general team. Plan transitions early.
-5. **Research your general election opponent during the primary.** Do not wait until after the primary to understand who you will face.
-6. **Build coalition relationships during the primary** that you activate in the general. Meet with organizations, community leaders, and across-the-aisle allies early.
-
----
-
-## The Candidate's Mindset
-
-The primary tests your ability to fight for your position among allies. The general tests your ability to lead a diverse coalition. The candidate must internalize this shift:
-
-- **Primary mindset:** "I am the best choice among good options, and here is why."
-- **General mindset:** "I am the leader this community needs, and together we will move forward."
-
-The pivot is not cynical repositioning. It is the natural evolution from winning a nomination to earning a mandate. The values stay the same. The audience, tone, and emphasis grow.
+1. **Pivoting too early.** Talking about the general before winning the primary alienates your base.
+2. **Pivoting too late.** Staying in primary mode lets your general opponent define you first.
+3. **Flip-flopping.** Taking opposite positions in primary and general. Everything is recorded.
+4. **Ignoring primary opponents.** They have supporters, donors, and volunteers you need in November.
+5. **Abandoning your base.** In the rush to win the middle, you lose the people who got you here.
+6. **Same campaign, different election.** Failing to change strategy, budget, and tactics for a fundamentally different electorate.
+7. **Not planning for both phases from day one.** Smart campaigns budget, staff, and strategize for both the primary and the general simultaneously.
