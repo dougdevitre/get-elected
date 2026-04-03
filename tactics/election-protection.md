@@ -217,6 +217,21 @@ Some jurisdictions allow voters to cure deficiencies in their provisional ballot
 
 ### Incident Reporting and Escalation
 
+```mermaid
+flowchart TD
+    IR["Incident Reported<br/>by Poll Watcher"] --> CL{"Classify<br/>Severity"}
+
+    CL -->|"Level 1:<br/>Informational"| L1["Log & Monitor"]
+    CL -->|"Level 2:<br/>Needs Response"| L2["Deploy Field Response<br/>Contact Election Officials"]
+    CL -->|"Level 3:<br/>Legal Emergency"| L3["Activate Legal Team<br/>Document Everything<br/>Consider Court Action"]
+
+    L1 --> BR["Report to<br/>Boiler Room"]
+    L2 --> BR
+    L3 --> BR
+
+    BR --> LOG["Update<br/>Running Log"]
+```
+
 **Level 1 -- Informational:** Poll worker asks watcher to move, minor wait times, machine glitch quickly resolved. Log it. No escalation.
 
 **Level 2 -- Concerning:** Voter turned away without provisional ballot, equipment malfunction not addressed, electioneering in restricted zone, watcher denied access. Boiler room director notified. Legal counsel contacted if needed.

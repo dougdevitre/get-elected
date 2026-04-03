@@ -62,6 +62,35 @@ Practice pivots until they are automatic. You should pivot from any question to 
 
 ## Media Training
 
+```mermaid
+flowchart TD
+    Q{"What type of<br/>appearance?"} --> TV["TV Interview"]
+    Q --> Radio["Radio"]
+    Q --> Print["Print Interview"]
+    Q --> Debate["Debate"]
+    Q --> TH["Town Hall"]
+
+    TV --> TV1["Look at interviewer"]
+    TV --> TV2["Short answers (8-12 sec)"]
+    TV --> TV3["Bridge to message"]
+
+    Radio --> R1["Energy up"]
+    Radio --> R2["Paint pictures with words"]
+    Radio --> R3["Smile while talking"]
+
+    Print --> P1["Nothing off the record"]
+    Print --> P2["Provide quotable sound bites"]
+    Print --> P3["Take your time"]
+
+    Debate --> D1["Listen carefully"]
+    Debate --> D2["Respond, then pivot"]
+    Debate --> D3["Strong closing statement"]
+
+    TH --> TH1["Empathy first"]
+    TH --> TH2["Be specific"]
+    TH --> TH3["Follow up afterward"]
+```
+
 ### Television
 - **Look at the interviewer** during the interview, not the camera (unless delivering a direct-to-viewer statement or the producer instructs otherwise)
 - **Short answers.** TV quotes are 8-12 seconds. Answers over 20 seconds give them the edit -- they will cut to the part you least want aired.
