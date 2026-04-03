@@ -11,6 +11,21 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $50 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report (C/OH Form)"]
+    PREPARE --> FILE{"Office Level"}
+    FILE -->|"State/Multi-County"| TEC["File with TEC"]
+    FILE -->|"County/Municipal"| LOCAL["File with County Clerk or City Secretary"]
+    TEC --> CONFIRM["Confirm Receipt"]
+    LOCAL --> CONFIRM
+    CONFIRM --> LARGE{"$5,000+ After 30-Day Pre-Election?"}
+    LARGE -->|"Yes"| RUSH["File Telegram Report Within 1 Business Day"]
+    LARGE -->|"No"| TRACK
+    RUSH --> TRACK
+```
+
 ## Filing Agency
 
 Campaign finance reports are filed with the **Texas Ethics Commission (TEC)** for state

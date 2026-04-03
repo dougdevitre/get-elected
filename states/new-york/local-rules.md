@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["New York State Rules (NYSBOE)"] --> COUNTY["County Rules"]
+    STATE --> NYC["NYC Rules"]
+    STATE --> TOWN["Town Rules"]
+    STATE --> VILLAGE["Village Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    NYC --> CFB{"Participating in Matching Funds?"}
+    CFB -->|"Yes"| DUAL["File with NYSBOE AND NYC CFB"]
+    CFB -->|"No"| NYSBOE["File with NYSBOE Only"]
+    COUNTY --> LOCAL["File with NYSBOE"]
+    TOWN --> LOCAL
+    VILLAGE --> VILCLK["File with Village Clerk"]
+    SCHOOL --> SDCLK["File with School District Clerk"]
+```
+
 ## Overview
 
 New York local elections operate under state Election Law supplemented by city charters,

@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> METHOD{"Access Method"}
+    METHOD --> FEE["Filing Fee (2% or 1% of Salary)"]
+    METHOD --> PET["Petition in Lieu of Filing Fee"]
+    METHOD --> BOTH["Combination (Partial Petition + Reduced Fee)"]
+    FEE --> FILE["File with Secretary of State"]
+    PET --> FILE
+    BOTH --> FILE
+    FILE --> PRIMARY["Top-Two Primary"]
+    PRIMARY --> TOP2{"Finish in Top Two?"}
+    TOP2 -->|"Yes"| GENERAL["On the General Election Ballot"]
+    TOP2 -->|"No"| OUT["Eliminated"]
+```
+
 ## Overview
 
 California uses a **top-two primary** system (also called "jungle primary") for most

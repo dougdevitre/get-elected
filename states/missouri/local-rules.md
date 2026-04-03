@@ -11,6 +11,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Missouri State Rules (MEC)"] --> COUNTY["County Rules (114 Counties)"]
+    STATE --> KC["Kansas City Rules"]
+    STATE --> STL["St. Louis City Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts"]
+    COUNTY --> CLERK["File with County Clerk"]
+    KC --> KCEB["File with KC Election Board"]
+    STL --> STLEB["File with STL Election Board"]
+    SCHOOL --> DISTRICT["File with School District"]
+    SPECIAL --> DIST2["File with District Authority"]
+    CLERK --> LOCAL["All Subject to MEC Campaign Finance Rules"]
+    KCEB --> LOCAL
+    STLEB --> LOCAL
+    DISTRICT --> LOCAL
+    DIST2 --> LOCAL
+```
+
 ## Overview
 
 Missouri local elections operate under a layered system. State campaign finance law

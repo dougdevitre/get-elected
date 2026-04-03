@@ -12,6 +12,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $150 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report (Schedule A-1)"]
+    PREPARE --> FILE["File via Illinois Sunshine"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> LARGE{"$1,000+ Between Reports?"}
+    LARGE -->|"Yes"| RUSH["File D-2 Within 5 Business Days"]
+    LARGE -->|"No"| TRACK
+    RUSH --> TRACK
+```
+
 ## Filing Agency
 
 All campaign finance reports in Illinois are filed with the **Illinois State Board of

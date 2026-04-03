@@ -12,6 +12,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Arizona State Rules"] --> COUNTY["County Rules (Maricopa, Pima)"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts"]
+    CITY --> CHARTER{"Charter City?"}
+    CHARTER -->|"Yes"| CUSTOM["May Customize Election Rules"]
+    CHARTER -->|"No"| DEFAULT["State Defaults Apply"]
+    COUNTY --> LOCAL["Check Local Filing Requirements"]
+    CUSTOM --> LOCAL
+    DEFAULT --> LOCAL
+    SCHOOL --> LOCAL
+    SPECIAL --> LOCAL
+```
+
 ## Overview
 
 Arizona has 15 counties and over 90 incorporated cities and towns. Local elections

@@ -12,6 +12,15 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $50 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE["File with Department of State"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> TRACK
+```
+
 ## Overview
 
 Because Pennsylvania has no contribution limits, disclosure is the primary

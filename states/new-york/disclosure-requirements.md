@@ -11,6 +11,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $99 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE{"NYC Matching Funds?"}
+    FILE -->|"Yes"| DUAL["File with NYSBOE (EFS) AND NYC CFB (C-SMART)"]
+    FILE -->|"No"| STATE["File with NYSBOE (EFS)"]
+    DUAL --> CONFIRM["Confirm Receipt"]
+    STATE --> CONFIRM
+    CONFIRM --> TRACK
+```
+
 ## Filing Agencies
 
 New York has two primary filing authorities, and NYC candidates may need to file with both:

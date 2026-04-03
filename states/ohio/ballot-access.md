@@ -12,6 +12,26 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> PARTISAN["Partisan Primary"]
+    TYPE --> IND["Independent"]
+    TYPE --> MINOR["Minor Party"]
+    PARTISAN --> PET["Collect Petition Signatures (50-1,000)"]
+    IND --> PET2["Collect Higher Petition Threshold (up to 5,000)"]
+    MINOR --> PET3["Same as Major Party Requirements"]
+    PET --> FILE["File with SOS or County BOE"]
+    PET2 --> FILE
+    PET3 --> FILE
+    FILE --> PROTEST{"Protest Filed?"}
+    PROTEST -->|"Yes"| REVIEW["Board of Elections Review"]
+    PROTEST -->|"No"| BALLOT["On the Ballot"]
+    REVIEW -->|"Valid"| BALLOT
+    REVIEW -->|"Invalid"| REMOVED["Removed from Ballot"]
+```
+
 ## Overview
 
 Ohio uses a combination of petition signatures and filing deadlines to regulate

@@ -11,6 +11,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> MAJOR["Major Party Primary"]
+    TYPE --> IND["Independent"]
+    TYPE --> THIRD["Third Party"]
+    MAJOR --> METHOD{"Access Method"}
+    METHOD --> FEE["Pay Filing Fee ($750-$5,000)"]
+    METHOD --> PET["Petition in Lieu of Fee"]
+    IND --> PET2["Collect Petition Signatures"]
+    THIRD --> CONV["Party Convention Nomination"]
+    FEE --> FILE["File with Party Chair or SOS"]
+    PET --> FILE
+    PET2 --> FILE2["File with SOS or County Judge"]
+    CONV --> FILE2
+    FILE --> CERT["Certification"]
+    FILE2 --> CERT
+    CERT --> BALLOT["On the Ballot"]
+```
+
 ## Overview
 
 Texas uses a traditional partisan primary system. Major party candidates (Republican

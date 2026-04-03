@@ -10,6 +10,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Texas State Rules (TEC)"] --> COUNTY["County Rules (254 Counties)"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules (1,000+ ISDs)"]
+    STATE --> SPECIAL["Special Districts"]
+    CITY --> HR{"Home-Rule City?"}
+    HR -->|"Yes"| CUSTOM["May Set Local Contribution Limits"]
+    HR -->|"No"| DEFAULT["State Rules Apply"]
+    COUNTY --> CLERK["File with County Clerk"]
+    CUSTOM --> CITYSEC["File with City Secretary/Clerk"]
+    DEFAULT --> CITYSEC
+    SCHOOL --> ISD["File with ISD"]
+    SPECIAL --> DIST["File with District Authority"]
+```
+
 ## Overview
 
 Texas local elections are governed by a combination of the Texas Election Code and local

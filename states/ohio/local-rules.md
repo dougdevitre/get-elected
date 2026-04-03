@@ -12,6 +12,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Ohio State Rules"] --> COUNTY["County Rules (88 Counties)"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> TWP["Township Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    CITY --> CHARTER{"Charter City?"}
+    CHARTER -->|"Yes"| CUSTOM["May Customize Election Procedures"]
+    CHARTER -->|"No"| DEFAULT["State Defaults Apply"]
+    COUNTY --> BOE["File with County Board of Elections"]
+    CUSTOM --> BOE
+    DEFAULT --> BOE
+    TWP --> BOE
+    SCHOOL --> BOE
+```
+
 ## Overview
 
 Ohio has 88 counties, hundreds of municipalities, and thousands of townships and

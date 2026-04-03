@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> METHOD{"Access Method"}
+    METHOD --> FEE["Pay Qualifying Fee (3-4.5% of Salary)"]
+    METHOD --> PET["Petition Signatures (1% of Eligible Voters)"]
+    FEE --> QUAL["Qualify During Qualifying Week"]
+    PET --> QUAL
+    QUAL --> FILE["File Paperwork with Party or SOS"]
+    FILE --> PRIMARY["Primary Election"]
+    PRIMARY --> MAJ{"Majority (50%+1)?"}
+    MAJ -->|"Yes"| GENERAL["Advance to General"]
+    MAJ -->|"No"| RUNOFF["Runoff Election"]
+    RUNOFF --> GENERAL
+```
+
 ## Overview
 
 Georgia uses a qualifying fee system as the primary ballot access mechanism for

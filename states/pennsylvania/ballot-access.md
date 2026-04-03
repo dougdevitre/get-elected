@@ -12,6 +12,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> MAJOR["Major Party"]
+    TYPE --> THIRD["Third-Party / Independent"]
+    MAJOR --> PET["Collect Petition Signatures"]
+    MAJOR --> FEE["Pay Filing Fee ($100-$200)"]
+    THIRD --> PET2["Collect Nomination Papers (2% of Last Top Vote)"]
+    PET --> FILE["File with Department of State or County BOE"]
+    FEE --> FILE
+    PET2 --> FILE
+    FILE --> CHALLENGE{"Challenge Filed?"}
+    CHALLENGE -->|"Yes"| COURT["Commonwealth Court Review"]
+    CHALLENGE -->|"No"| BALLOT["On the Ballot"]
+    COURT -->|"Sustained"| REMOVED["Removed from Ballot"]
+    COURT -->|"Overruled"| BALLOT
+```
+
 ## Overview
 
 Pennsylvania uses a combination of filing fees and petition signatures to regulate

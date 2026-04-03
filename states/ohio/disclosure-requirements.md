@@ -12,6 +12,15 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $100 (Individuals) or $25 (Entities)"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE["File with Secretary of State or County BOE"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> TRACK
+```
+
 ## Overview
 
 Ohio requires candidates, PACs, party committees, and other political entities to

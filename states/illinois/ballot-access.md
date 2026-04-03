@@ -11,6 +11,26 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> MAJOR["Major Party"]
+    TYPE --> IND["Independent"]
+    TYPE --> NEW["New Party"]
+    MAJOR --> PET["Collect Nominating Petition Signatures"]
+    IND --> PET2["Collect Higher Petition Threshold (1-5%)"]
+    NEW --> PET3["Collect Party Qualification Signatures"]
+    PET --> FILE["File with SBE During Filing Week"]
+    PET2 --> FILE
+    PET3 --> FILE
+    FILE --> OBJ{"Objection Filed?"}
+    OBJ -->|"Yes"| HEARING["Electoral Board Hearing"]
+    OBJ -->|"No"| BALLOT["On the Ballot"]
+    HEARING -->|"Sustained"| REMOVED["Removed from Ballot"]
+    HEARING -->|"Overruled"| BALLOT
+```
+
 ## Overview
 
 Illinois uses a partisan primary system for most offices. Major party candidates file

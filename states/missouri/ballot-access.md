@@ -11,6 +11,24 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> MAJOR["Major Party"]
+    TYPE --> IND["Independent"]
+    TYPE --> THIRD["Third Party"]
+    MAJOR --> FEE["Pay Filing Fee ($50-$200)"]
+    IND --> PET["Collect Petition Signatures"]
+    THIRD --> PARTY["Qualify Party (2% Petition or Prior Vote)"]
+    FEE --> FILE["File Declaration of Candidacy with SOS or County Clerk"]
+    PET --> FILE
+    PARTY --> CONV["Nominate by Convention"]
+    CONV --> FILE
+    FILE --> CERT["Certification"]
+    CERT --> BALLOT["On the Ballot"]
+```
+
 ## Overview
 
 Missouri ballot access rules differ based on whether a candidate is seeking nomination

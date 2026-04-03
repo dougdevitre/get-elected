@@ -11,6 +11,23 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> PATH{"Funding Path"}
+    PATH --> TRAD["Traditional Candidate"]
+    PATH --> CLEAN["Clean Elections Candidate"]
+    TRAD --> PET["Collect Petition Signatures"]
+    TRAD --> FEE["Pay Filing Fee"]
+    CLEAN --> QUAL["Collect $5 Qualifying Contributions"]
+    PET --> FILE["File with Secretary of State"]
+    FEE --> FILE
+    QUAL --> CCEC["Submit to CCEC for Verification"]
+    CCEC --> FILE
+    FILE --> CERT["Certification"]
+    CERT --> BALLOT["On the Ballot"]
+```
+
 ## Overview
 
 Arizona uses nomination petitions as the primary ballot access mechanism. The number

@@ -11,6 +11,24 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Illinois State Rules (SBE)"] --> COUNTY["County Rules"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts"]
+    STATE --> TWP["Township Rules"]
+    CITY --> HR{"Home Rule Municipality?"}
+    HR -->|"Yes"| CUSTOM["May Adopt Ethics Ordinances"]
+    HR -->|"No"| DEFAULT["State Election Code Applies"]
+    COUNTY --> LOCAL["All File Campaign Finance with SBE"]
+    CUSTOM --> LOCAL
+    DEFAULT --> LOCAL
+    SCHOOL --> LOCAL
+    SPECIAL --> LOCAL
+    TWP --> LOCAL
+```
+
 ## Overview
 
 Illinois local elections are governed by the Illinois Election Code (10 ILCS 5) and the

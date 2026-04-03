@@ -12,6 +12,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Georgia State Rules"] --> COUNTY["County Rules (159 Counties)"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> CONSOL["Consolidated Governments"]
+    COUNTY --> BOE["File with County Board of Elections"]
+    CITY --> CLERK["File with Municipal Clerk"]
+    SCHOOL --> SUPT["File with County Election Superintendent"]
+    CONSOL --> ENABLING["Check Enabling Legislation"]
+    BOE --> LOCAL["Check Local Filing Requirements"]
+    CLERK --> LOCAL
+    SUPT --> LOCAL
+    ENABLING --> LOCAL
+```
+
 ## Overview
 
 Georgia has 159 counties (second most in the nation) and hundreds of municipalities.

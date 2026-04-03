@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> RESIGN{"Resign-to-Run Applies?"}
+    RESIGN -->|"Yes"| RESIGN2["Submit Irrevocable Resignation"]
+    RESIGN -->|"No"| ELIG["Verify Eligibility"]
+    RESIGN2 --> ELIG
+    ELIG --> METHOD{"Access Method"}
+    METHOD --> FEE["Pay Qualifying Fee (4-6% of Salary)"]
+    METHOD --> PET["Petition Signatures (1% of Registered Voters)"]
+    FEE --> QUAL["Qualify During Qualifying Week"]
+    PET --> QUAL
+    QUAL --> FILE["File All Required Documents"]
+    FILE --> CERT["Certification"]
+    CERT --> BALLOT["On the Ballot"]
+```
+
 ## Overview
 
 Florida uses a closed primary system for partisan offices. Only voters registered with a

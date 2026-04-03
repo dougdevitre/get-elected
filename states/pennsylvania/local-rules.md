@@ -12,6 +12,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Pennsylvania State Rules (No Contribution Limits)"] --> COUNTY["County Rules"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts"]
+    CITY --> PHL{"Philadelphia?"}
+    PHL -->|"Yes"| PHILLY["Local Limits Apply + Board of Ethics"]
+    PHL -->|"No"| DEFAULT["State Rules Apply (No Limits)"]
+    COUNTY --> LOCAL["File with County Board of Elections"]
+    PHILLY --> LOCAL
+    DEFAULT --> LOCAL
+    SCHOOL --> LOCAL
+    SPECIAL --> LOCAL
+```
+
 ## Overview
 
 Pennsylvania has 67 counties, over 2,500 municipalities (boroughs, townships, and

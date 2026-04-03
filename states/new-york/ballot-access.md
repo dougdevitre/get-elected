@@ -12,6 +12,26 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> TYPE{"Candidate Type"}
+    TYPE --> PARTY["Party Primary"]
+    TYPE --> IND["Independent"]
+    PARTY --> ENROLLED{"Enrolled in Party?"}
+    ENROLLED -->|"Yes"| PET["Collect Designating Petition Signatures"]
+    ENROLLED -->|"No"| WP["Obtain Wilson-Pakula Certificate"]
+    WP --> PET
+    IND --> PET2["Collect Independent Nominating Petition Signatures"]
+    PET --> FILE["File with Board of Elections"]
+    PET2 --> FILE
+    FILE --> OBJ{"Objection Filed?"}
+    OBJ -->|"Yes"| REVIEW["Board/Court Review"]
+    OBJ -->|"No"| BALLOT["On the Ballot"]
+    REVIEW -->|"Sustained"| REMOVED["Removed from Ballot"]
+    REVIEW -->|"Overruled"| BALLOT
+```
+
 ## Overview
 
 New York's ballot access system is among the most complex in the nation. It features

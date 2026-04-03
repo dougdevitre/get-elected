@@ -11,6 +11,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $100 Threshold"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE["File via GEFS"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> LARGE{"$1,000+ Within 15 Days of Election?"}
+    LARGE -->|"Yes"| RUSH["File 24-Hour Report"]
+    LARGE -->|"No"| TRACK
+    RUSH --> TRACK
+```
+
 ## Overview
 
 Georgia requires all candidates, campaign committees, PACs, and independent committees

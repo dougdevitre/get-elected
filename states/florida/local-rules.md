@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Florida State Rules"] --> COUNTY["County Rules (67 Counties)"]
+    STATE --> CITY["Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts (CDDs, etc.)"]
+    COUNTY --> CHARTER{"Charter County?"}
+    CHARTER -->|"Yes"| CUSTOM["May Customize Structure"]
+    CHARTER -->|"No"| DEFAULT["State Defaults Apply"]
+    CITY --> SOE["File with Supervisor of Elections"]
+    CUSTOM --> SOE
+    DEFAULT --> SOE
+    SCHOOL --> SOE
+    SPECIAL --> LOCAL["Check District-Specific Filing"]
+```
+
 ## Overview
 
 Florida local elections operate under state law (Chapters 97-106 and 166, Florida

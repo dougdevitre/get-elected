@@ -12,6 +12,18 @@
 
 ---
 
+```mermaid
+flowchart LR
+    TRACK["Track Transactions"] --> ITEMIZE["Itemize Above $100 (Individuals) or $50 (PACs)"]
+    ITEMIZE --> PREPARE["Prepare Report"]
+    PREPARE --> FILE["File with Bureau of Elections"]
+    FILE --> CONFIRM["Confirm Receipt"]
+    CONFIRM --> LARGE{"$1,000+ After Pre-Election Close?"}
+    LARGE -->|"Yes"| RUSH["File 48-Hour Report"]
+    LARGE -->|"No"| TRACK
+    RUSH --> TRACK
+```
+
 ## Overview
 
 Michigan requires candidates, PACs, party committees, independent committees, and

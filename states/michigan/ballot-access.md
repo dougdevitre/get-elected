@@ -12,6 +12,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    START["Decide to Run"] --> ELIG["Verify Eligibility"]
+    ELIG --> METHOD{"Access Method"}
+    METHOD --> FEE["Pay Filing Fee ($100)"]
+    METHOD --> PET["Collect Petition Signatures"]
+    FEE --> AFF["File Affidavit of Identity"]
+    PET --> AFF
+    AFF --> FILE["File with Secretary of State or County Clerk"]
+    FILE --> CHALLENGE{"Challenge Filed?"}
+    CHALLENGE -->|"Yes"| REVIEW["Board of State Canvassers Review"]
+    CHALLENGE -->|"No"| BALLOT["On the Ballot"]
+    REVIEW -->|"Valid"| BALLOT
+    REVIEW -->|"Invalid"| REMOVED["Removed from Ballot"]
+```
+
 ## Overview
 
 Michigan uses a combination of filing fees and petition signatures to regulate

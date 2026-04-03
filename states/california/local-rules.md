@@ -11,6 +11,22 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["California State Rules (FPPC)"] --> COUNTY["County Rules"]
+    STATE --> CITY["City/Municipal Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    STATE --> SPECIAL["Special Districts"]
+    CITY --> CHARTER{"Charter City?"}
+    CHARTER -->|"Yes"| CUSTOM["Own Limits, Public Financing, Filing"]
+    CHARTER -->|"No"| DEFAULT["State FPPC Rules Apply"]
+    COUNTY --> LOCAL["Check Local Filing Requirements"]
+    CUSTOM --> LOCAL
+    DEFAULT --> LOCAL
+    SCHOOL --> LOCAL
+    SPECIAL --> LOCAL
+```
+
 ## Overview
 
 California local elections are governed by a combination of state law (Elections Code,

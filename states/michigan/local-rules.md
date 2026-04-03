@@ -12,6 +12,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    STATE["Michigan State Rules"] --> COUNTY["County Rules (Partisan)"]
+    STATE --> CITY["City Rules (Nonpartisan)"]
+    STATE --> TWP["Township Rules (Partisan)"]
+    STATE --> VILLAGE["Village Rules"]
+    STATE --> SCHOOL["School Board Rules"]
+    COUNTY --> CLERK["File with County Clerk"]
+    CITY --> CITYCLK["File with City Clerk"]
+    TWP --> TWPCLK["File with Township Clerk"]
+    VILLAGE --> VILCLK["File with Village Clerk"]
+    SCHOOL --> ISDCLK["File with ISD or County Clerk"]
+    CLERK --> LOCAL["State Bureau of Elections Oversees Campaign Finance"]
+    CITYCLK --> LOCAL
+    TWPCLK --> LOCAL
+    VILCLK --> LOCAL
+    ISDCLK --> LOCAL
+```
+
 ## Overview
 
 Michigan has 83 counties, 275 cities, 1,240 townships, and 255 villages. Local
