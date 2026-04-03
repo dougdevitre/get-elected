@@ -12,6 +12,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> LO{"Limits-Off Triggered?"}
+    LO -->|"Yes"| ACCEPT["Accept Unlimited"]
+    LO -->|"No"| DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against $5,800 Limit"]
+    PAC --> CHECK2["Check Against $58,400 Limit"]
+    CORP --> CHECK
+    PARTY --> RULE{"State/Caucus Committee?"}
+    RULE -->|"Yes"| EXEMPT["No Limit -- Accept"]
+    RULE -->|"No (County/Local)"| CHECK2
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+    CHECK2 --> OK
+    CHECK2 --> OVER
+```
+
 ## Background
 
 Illinois reinstated contribution limits in 2009 after operating without them for decades.

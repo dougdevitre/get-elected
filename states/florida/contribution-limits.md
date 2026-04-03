@@ -11,6 +11,23 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC / CCE"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against $3,000 Per-Election Limit"]
+    PAC --> CHECK
+    CORP --> CHECK
+    PARTY --> RULE{"State Executive Committee?"}
+    RULE -->|"Yes"| EXEMPT["No Limit -- Accept"]
+    RULE -->|"No (County)"| CHECK
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+```
+
 ## Background
 
 Florida maintains a uniform contribution limit structure -- the same dollar limit applies

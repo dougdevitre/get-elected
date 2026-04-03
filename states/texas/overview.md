@@ -6,6 +6,20 @@
 
 ---
 
+```mermaid
+flowchart TD
+    TEC["Texas Ethics Commission"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Qualifying"]
+    ENF["Enforcement & Advisory Opinions"]
+    LOCAL["County Clerks & City Secretaries"]
+
+    TEC --> CF
+    TEC --> BA
+    TEC --> ENF
+    TEC --> LOCAL
+```
+
 ## Filing Agency
 
 **Texas Ethics Commission (TEC)**

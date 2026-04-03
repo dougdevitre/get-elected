@@ -6,6 +6,21 @@
 
 ---
 
+```mermaid
+flowchart TD
+    DOS["PA Department of State"]
+    PHILLY["Philadelphia Board of Ethics"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Petitions"]
+    COUNTY["County Boards of Elections"]
+    LOCAL["Philadelphia Local Limits & Filing"]
+
+    DOS --> CF
+    DOS --> BA
+    DOS --> COUNTY
+    PHILLY --> LOCAL
+```
+
 ## Filing Agency
 
 **Pennsylvania Department of State (DOS)**

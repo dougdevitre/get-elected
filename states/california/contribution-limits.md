@@ -12,6 +12,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> SCC["Small Contributor Committee"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against Per-Election Limits"]
+    PAC --> CHECK
+    SCC --> CHECK2["Check Against Higher SCC Limits"]
+    PARTY --> EXEMPT["No Limit -- Accept"]
+    CORP --> RULE{"Allowed in CA?"}
+    RULE -->|"Yes"| CHECK
+    RULE -->|"No (Foreign/Prohibited)"| REJECT["Reject"]
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+    CHECK2 --> OK
+    CHECK2 --> OVER
+```
+
 ## Background
 
 California has maintained contribution limits since the passage of the Political Reform

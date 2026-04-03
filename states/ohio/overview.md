@@ -6,6 +6,20 @@
 
 ---
 
+```mermaid
+flowchart TD
+    SOS["Ohio Secretary of State"]
+    CF["Campaign Finance Disclosure"]
+    BA["Ballot Access & Candidate Filing"]
+    ENF["Enforcement & Compliance"]
+    BOE["88 County Boards of Elections"]
+
+    SOS --> CF
+    SOS --> BA
+    SOS --> ENF
+    SOS --> BOE
+```
+
 ## Filing Agency
 
 **Ohio Secretary of State**

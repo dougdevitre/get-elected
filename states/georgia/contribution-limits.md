@@ -12,6 +12,27 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    DT --> LOB["Lobbyist"]
+    IND --> CHECK["Check Against Per-Election Limits"]
+    PAC --> CHECK
+    CORP --> CHECK
+    PARTY --> RULE{"State/National Party?"}
+    RULE -->|"Yes"| EXEMPT["No Limit -- Accept"]
+    RULE -->|"No (County/Local)"| CHECK
+    LOB --> SESSION{"During Legislative Session?"}
+    SESSION -->|"Yes"| REJECT["Reject -- Blackout Period"]
+    SESSION -->|"No"| CHECK
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+```
+
 ## Background
 
 Georgia's campaign finance laws are codified in Title 21, Chapter 5 of the Official

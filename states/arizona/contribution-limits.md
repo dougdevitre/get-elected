@@ -12,6 +12,25 @@
 
 ---
 
+```mermaid
+flowchart TD
+    D["Donation Received"] --> DT{"Donor Type"}
+    DT --> IND["Individual"]
+    DT --> PAC["PAC / Mega PAC"]
+    DT --> PARTY["Party Committee"]
+    DT --> CORP["Corporate / Union"]
+    IND --> CHECK["Check Against Limits"]
+    PAC --> CHECK
+    PARTY --> RULE2{"State Party?"}
+    CORP --> RULE{"Allowed in AZ?"}
+    RULE -->|"Yes"| CHECK
+    RULE -->|"No (Foreign/Prohibited)"| REJECT["Reject"]
+    RULE2 -->|"Yes"| EXEMPT["No Limit -- Accept"]
+    RULE2 -->|"No"| CHECK
+    CHECK --> OK["Accept"]
+    CHECK --> OVER["Return Excess"]
+```
+
 ## Background
 
 Arizona has a dual campaign finance system:
