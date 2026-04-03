@@ -1,328 +1,197 @@
 # Social Media Strategy
 
-A campaign social media playbook covering platform selection, content strategy, posting cadence, paid social advertising, disclaimer requirements, performance metrics, and crisis response. Organized by platform with tactical guidance for each.
+A complete social media playbook for political campaigns at every level. Social media is the primary way voters under 50 will encounter your campaign. This guide covers platform selection, content planning, posting cadence, paid amplification, compliance, and crisis management.
 
 ---
 
-## Platform Selection by Race Type
+## Platform Selection by Race Size
 
-Not every campaign needs to be on every platform. Choose based on your race, audience, and capacity.
+### Local Races (City Council, School Board, County)
+- **Facebook**: Primary platform. Highest concentration of regular voters in local races. Join and post in local community groups.
+- **NextDoor**: Hyper-local reach. Neighborhood-level targeting. Post as a verified candidate.
+- **Instagram**: Secondary. Useful for visual storytelling (canvassing photos, community events).
+- Budget your time: 60% Facebook, 25% NextDoor, 15% Instagram.
 
-| Platform | Best For | Audience | Priority By Race |
-|---|---|---|---|
-| Facebook | All races; broadest reach for 35+ voters | 35-65+, suburban/rural | Must-have for all races |
-| Instagram | Visual storytelling, younger voters, events | 25-45 | High priority for competitive races |
-| X (Twitter) | Press/media engagement, rapid response, political junkies | Media, activists, politicos | Essential for federal; optional for local |
-| TikTok | Reaching voters under 35, viral potential | 18-35 | High value if candidate is comfortable on camera |
-| YouTube | Long-form video, ad pre-roll, debate clips | All ages | Important for TV-market races |
-| NextDoor | Hyperlocal races, neighborhood issues | Homeowners, 30-65 | High priority for city council, school board, county |
-| LinkedIn | Professional credibility, endorsements | Professionals, donors | Low priority; occasional use |
-| Threads | Emerging platform, text-based | Early adopters | Monitor; low priority for now |
+### Statewide Races (State Legislature, Governor, AG)
+- **Facebook**: Still your largest audience for voters 35+.
+- **Instagram**: Strong for voters 25-45. Reels and Stories drive engagement.
+- **X/Twitter**: Media narrative shaping. Reporters monitor this platform. Your rapid response channel.
+- **YouTube**: Long-form video home (town halls, ads, speeches).
+- Budget your time: 35% Facebook, 25% Instagram, 20% X, 15% YouTube, 5% other.
 
-### Minimum Viable Social Presence
-
-```
-LOCAL RACE (school board, city council):
-  Required: Facebook + NextDoor
-  Recommended: Instagram
-  Optional: Everything else
-
-STATE LEGISLATIVE RACE:
-  Required: Facebook + Instagram
-  Recommended: X + NextDoor
-  Optional: TikTok, YouTube
-
-CONGRESSIONAL / STATEWIDE RACE:
-  Required: Facebook + Instagram + X + YouTube
-  Recommended: TikTok
-  Optional: NextDoor, LinkedIn
-```
+### Federal Races (U.S. House, Senate, President)
+- All of the above, plus:
+- **TikTok**: Voters 18-35. Authentic, informal content performs best. Policy explainers in 60 seconds.
+- **Threads**: Growing platform, mirrors Instagram audience.
+- **LinkedIn**: Niche but valuable for professional endorsements and policy credibility.
+- Dedicated staff or agency for each major platform is recommended.
 
 ---
 
-## Content Calendar
+## Content Calendar Framework
 
-### Weekly Posting Schedule
+Use daily themes to maintain variety and reduce decision fatigue for your content team.
 
-| Day | Content Type | Platform Focus |
-|---|---|---|
-| Monday | Issue post (connect to Issue #1, #2, or #3) | Facebook, Instagram, X |
-| Tuesday | Behind-the-scenes / on-the-trail content | Instagram Stories, TikTok |
-| Wednesday | Community spotlight or endorsement | Facebook, NextDoor |
-| Thursday | Video content (short speech clip, constituent story) | All platforms |
-| Friday | Fundraising ask or volunteer recruitment | Facebook, Instagram, email tie-in |
-| Saturday | Event coverage or canvassing photos | Instagram Stories, Facebook |
-| Sunday | Personal/values post (why I'm running, family, community) | Facebook, Instagram |
+| Day | Theme | Content Type |
+|-----------|--------------------------|------------------------------------------|
+| Monday | Motivation / Week Ahead | Campaign update, goals for the week |
+| Tuesday | Policy Tuesday | Issue deep-dive, position statement |
+| Wednesday | Community Spotlight | Highlight a local person, org, or business|
+| Thursday | Throwback / Story | Personal story, candidate background |
+| Friday | Fun / Behind-the-Scenes | Canvassing moments, team culture, humor |
+| Saturday | Action Day | Volunteer asks, event promotion, GOTV |
+| Sunday | Values / Vision | Big-picture message, why you're running |
 
-### Content Mix Ratio
-
-```
-40% — VALUE CONTENT: Issue positions, policy explainers, 
-       constituent stories, community information
-25% — ENGAGEMENT CONTENT: Behind-the-scenes, Q&A, polls, 
-       "ask me anything," response to local news
-20% — SOCIAL PROOF: Endorsements, volunteer photos, event 
-       recaps, donor milestones, yard sign photos
-10% — ASK CONTENT: Donate, volunteer, vote, share
-5%  — PERSONAL: Candidate's family, hobbies, non-political 
-      humanity (humanizes the candidate)
-```
+Overlay this calendar with your campaign's actual schedule. Real events always override planned themes.
 
 ---
 
-## Content Types and Templates
+## Content Types
 
-### Issue Post Template
-```
-[Eye-catching image or graphic with key statistic]
+### 1. Personal / Behind-the-Scenes
+- Candidate at home, with family (if they consent), at local businesses
+- "Day in the life" stories during canvassing or travel
+- Authentic, unpolished content outperforms studio-quality on most platforms
+- Humanizes the candidate and builds trust
 
-Caption: "[Community] families are paying [X]% more for [issue] 
-than they were [X years] ago. That's not acceptable.
+### 2. Policy Positions
+- One issue per post; do not combine multiple topics
+- Use simple language and concrete examples ("Under my plan, a family of four saves $X")
+- Pair text with an infographic, short video, or carousel
+- Link to full policy page on your website for depth
 
-My plan: [2-3 bullet points].
+### 3. Contrast Content
+- Draw clear distinctions with your opponent on issues, record, or values
+- Always lead with YOUR position before mentioning the opponent
+- Cite verifiable sources for any factual claims
+- Never use personal attacks; focus on votes, positions, and public statements
+- Have legal review any contrast content before posting
 
-My opponent [contrast — one sentence].
+### 4. Engagement / Questions
+- Polls, questions, "what matters to you" posts drive algorithm engagement
+- Respond to every comment within 4 hours during business hours
+- Ask questions you actually intend to use the answers for
+- Town hall announcements with live Q&A drive strong interaction
 
-I'll fight for [solution]. That's my commitment. 
-[Website link] #[CandidateName]For[Office]"
-```
+### 5. GOTV (Get Out The Vote)
+- Start 45 days before election; intensify in final 14 days
+- Registration deadlines, early voting dates/locations, Election Day logistics
+- "I voted" sticker photos from supporters (with permission)
+- Rides to polls, poll location lookup links, what to bring
 
-### Behind-the-Scenes Post
-```
-[Photo/video of candidate knocking doors, at an event, prepping]
-
-Caption: "[X] doors knocked today in [neighborhood]. The #1 thing 
-I heard: [issue]. Every conversation makes us stronger. 
-[X] days until Election Day. Want to join us? [volunteer link]"
-```
-
-### Endorsement Post
-```
-[Photo of candidate with endorser OR graphic with endorser quote]
-
-Caption: "Honored to earn the endorsement of [Name/Organization]. 
-
-'[Direct quote from endorser — 1-2 sentences]' — [Endorser Name]
-
-Together, we're building a coalition to [vision]. 
-[Website link] #Endorsed"
-```
-
-### Fundraising Post
-```
-[Graphic with fundraising goal thermometer or deadline]
-
-Caption: "We're $[amount] away from our [goal/deadline] goal. 
-[X donors] grassroots supporters have already chipped in.
-
-Every dollar goes directly to [voter contact / door knocking / 
-getting our message out].
-
-Can you chip in $[amount]? [Donate link]
-
-Avg donation: $[amount]. This campaign is funded by people, 
-not PACs."
-```
+### 6. Endorsement Highlights
+- Quote graphic from endorser with photo
+- Video endorsement clip (30-60 seconds ideal)
+- Tag the endorser and their organization
+- Share across all platforms simultaneously for maximum impact
 
 ---
 
 ## Posting Frequency
 
-| Platform | Minimum | Optimal | Maximum |
-|---|---|---|---|
-| Facebook | 3x/week | 5-7x/week | 2x/day |
-| Instagram Feed | 3x/week | 4-5x/week | 1x/day |
-| Instagram Stories | 3x/week | Daily | 5x/day |
-| X | 1x/day | 3-5x/day | 10x/day |
-| TikTok | 2x/week | 4-5x/week | 1-2x/day |
-| YouTube | 1x/week | 2x/week | 3x/week |
-| NextDoor | 1x/week | 2-3x/week | 4x/week |
+| Platform | Minimum | Ideal | Maximum |
+|-----------|---------|-------|---------|
+| Facebook | 1/day | 1-2/day | 3/day |
+| Instagram Feed | 3/week | 5/week | 1/day |
+| Instagram Stories | 3/week | daily | 5/day |
+| X/Twitter | 2/day | 4-6/day | 10/day |
+| TikTok | 3/week | 5/week | 2/day |
+| YouTube | 1/week | 2/week | 3/week |
+| NextDoor | 2/week | 3/week | 5/week |
 
-**Ramp schedule:**
-- Campaign launch to 90 days out: minimum frequency
-- 90 to 30 days out: optimal frequency
-- Final 30 days: maximum frequency
-- Final 7 days: all-out push on all platforms
+Post more frequently in the final 30 days of the campaign. Increase by 50-100% in the last two weeks.
 
 ---
 
-## Paid Social Advertising
+## Paid Social Basics
 
-### Budget Allocation by Platform
+- **Budget allocation**: Dedicate 20-40% of your digital budget to paid social
+- **Start small**: Test $25-50/day on multiple ad variations before scaling
+- **Lookalike audiences**: Upload your donor list and voter file contacts to create lookalike audiences
+- **Retargeting**: Pixel your website; retarget visitors with donation and volunteer asks
+- **A/B testing**: Always run at least 2 creative variations per ad set; kill the underperformer after 72 hours
+- **Scaling rule**: When an ad achieves your target cost-per-action, increase budget by 20% every 3 days
 
-| Platform | Share of Digital Ad Budget | Best Use |
-|---|---|---|
-| Meta (Facebook + Instagram) | 50-70% | Persuasion, fundraising, GOTV |
-| YouTube/Google | 15-25% | Pre-roll video, search ads |
-| X | 5-10% | Awareness, rapid response |
-| TikTok | 5-15% | Youth turnout, name ID |
-| Programmatic/OTT | 10-20% | Streaming TV (Hulu, etc.) |
-
-### Ad Types and When to Use Them
-
-```
-NAME ID ADS (early campaign — 6+ months out):
-  Goal: Introduce candidate to voters
-  Format: Video (30-60 sec), photo carousel
-  Targeting: Broad geographic; likely voters
-  Budget: 20% of total digital spend
-
-PERSUASION ADS (mid-campaign — 3-6 months out):
-  Goal: Move voters on your issues
-  Format: Video, issue graphics, constituent testimonials
-  Targeting: Persuadable voters (modeled or interest-based)
-  Budget: 40% of total digital spend
-
-FUNDRAISING ADS (ongoing):
-  Goal: Drive donations
-  Format: Video or graphic with donate button
-  Targeting: Likely supporters, past donors, lookalike audiences
-  Budget: 15% of total digital spend
-
-GOTV ADS (final 2 weeks):
-  Goal: Drive turnout among supporters
-  Format: "Vote on [Date]" with polling location info
-  Targeting: Identified supporters, high-propensity voters
-  Budget: 25% of total digital spend
-```
-
-### Political Ad Compliance by Platform
-
-| Platform | Registration Required | Disclaimer | Transparency |
-|---|---|---|---|
-| Meta | Yes — must verify identity and register | "Paid for by" in ad + Meta disclaimer tool | Ads appear in Meta Ad Library |
-| Google/YouTube | Yes — must verify and be certified | "Paid for by" in ad | Ads appear in Google Transparency Report |
-| X | Varies (political ad policies change frequently) | "Paid for by" in ad text | Check current X ad policy |
-| TikTok | Political ads currently prohibited in many markets | N/A | Check current TikTok policy |
-| Snapchat | Registration required | "Paid for by" | Snap Political Ads Library |
+### Disclaimer Requirements
+- **Federal races**: All paid digital ads must include "Paid for by [Committee Name]" per FEC regulations
+- **State/local**: Check your state election commission; most require similar disclaimers
+- **Platform-specific**: Facebook/Meta requires "Paid for by" on all political ads and advertiser identity verification. X requires political ad registration. TikTok prohibits political advertising in some markets.
+- **Record retention**: Save screenshots of every ad with its disclaimer, spend, and targeting parameters
+- File all paid social spending in your campaign finance reports as required by law
 
 ---
 
-## Disclaimer Requirements for Social Media
+## Key Metrics to Track
 
-See `tools/disclaimer-generator.md` for full details. Summary for social media:
-
-```
-PAID/BOOSTED POSTS: Must include "Paid for by [Committee Name]" 
-in the post text or as a visible overlay on images/video.
-
-ORGANIC POSTS FROM CAMPAIGN ACCOUNT: Best practice to include 
-disclaimer; not strictly required at federal level but some 
-states require it.
-
-PROFILE/BIO: Include "Paid for by [Committee Name]" in the 
-account bio on all platforms.
-
-VIDEO ADS: "Paid for by" must appear on screen for at least 
-4 seconds. Candidate stand-by-your-ad statement required for 
-broadcast-quality video ads.
-```
+| Metric | Why It Matters | Target |
+|----------------------|---------------------------------------|------------------|
+| Follower growth | Audience size trajectory | 5-10% monthly |
+| Engagement rate | Content resonance | 3-5% on Facebook |
+| Link clicks | Website/donation traffic | Track weekly |
+| Video views (25%+) | Message penetration | 1,000+ per video |
+| Share/retweet count | Organic amplification | 2%+ of reach |
+| Cost per acquisition | Paid efficiency for donations/signups | Under $5 |
+| Sentiment | Public perception trend | Monitor daily |
 
 ---
 
-## Metrics and Reporting
+## Crisis Response Protocol
 
-### Key Performance Indicators
+When negative news breaks or a social media controversy erupts:
 
-| Metric | What It Measures | Target |
-|---|---|---|
-| Reach | Unique people who saw your content | Growing week over week |
-| Engagement rate | (Likes + comments + shares) / reach | 3-5% organic; 1-2% paid |
-| Link clicks | Clicks to website, donate page, volunteer form | Track by content type |
-| Video views (3+ sec) | People who watched at least 3 seconds | 25%+ of reach |
-| Video completion rate | People who watched to the end | 15-25% |
-| Follower growth | Net new followers per week | Steady growth |
-| Cost per result (paid) | Cost per click, view, donation | Varies; benchmark against past campaigns |
-| Share/retweet rate | Organic amplification | Higher = message resonating |
+1. **Pause** all scheduled posts immediately (within 15 minutes)
+2. **Assess**: Gather facts. Do NOT respond until you know what happened.
+3. **Convene**: Campaign manager, comms director, and candidate review within 1 hour
+4. **Draft response**: Short, factual, empathetic. Acknowledge the issue. State your position.
+5. **Approve**: Legal and candidate sign off
+6. **Post**: Single statement across all platforms simultaneously
+7. **Monitor**: Track response in real time for 24 hours; do NOT engage with trolls
+8. **Resume**: Return to regular posting schedule after 24-48 hours with a forward-looking post
 
-### Weekly Reporting Template
-
-```
-WEEK OF: [Date Range]
-Platform: [Platform Name]
-
-Posts published: [#]
-Total reach: [#]
-Total engagements: [#]
-Engagement rate: [%]
-Link clicks: [#]
-New followers: [#]
-Top performing post: [Link or description]
-Ad spend: $[Amount]
-Cost per click (ads): $[Amount]
-Donations attributed: $[Amount]
-
-Notes/Insights: [What worked, what didn't, what to try next week]
-```
+Response time target: Statement posted within 2-4 hours of the triggering event.
 
 ---
 
 ## Platform-Specific Tips
 
 ### Facebook
-- Groups are more powerful than Pages for local races — join local community groups and engage (not spam)
-- Facebook Events drive attendance better than any other platform feature
-- Long-form text posts (200-500 words) with a compelling opening line perform well
-- Live video gets prioritized by the algorithm — go live from events, canvasses, town halls
+- Long-form posts (150-300 words) perform well in the feed
+- Facebook Groups are more valuable than your Page for organic reach
+- Go Live for town halls and Q&A sessions; Lives get priority in the algorithm
+- Respond to every comment; it signals to the algorithm that the post is engaging
 
 ### Instagram
 - Carousel posts (multiple images) get the highest engagement
-- Reels (short video) get the most reach — the algorithm favors them heavily
-- Use 3-5 relevant hashtags, not 30 — quality over quantity
-- Instagram Stories with polls, questions, and countdowns drive interaction
+- Use 5-10 relevant hashtags (mix of broad and local)
+- Reels under 30 seconds get priority distribution
+- Stories with polls/questions drive direct engagement
+- Use a consistent visual template for branded content (issue graphics, quotes)
 
-### X (Twitter)
-- Quote-tweet local news articles with your take — this is how reporters find you
-- Threads (multi-tweet posts) perform well for policy explanations
-- Engage with reporters, endorsers, and ally organizations — X is a networking tool
-- Do not get into fights with anonymous accounts — it never helps
+### X / Twitter
+- Threads outperform single tweets for policy content
+- Quote-tweet local news with your take to insert yourself into conversations
+- Pin your strongest message or campaign announcement to your profile
+- Use lists to monitor reporters, opponents, and key influencers
+- Rapid response lives here; be first but be accurate
 
 ### TikTok
-- Authenticity wins over production quality — use your phone, not a studio
-- First 3 seconds determine if someone watches — hook immediately
-- Trending sounds and formats get more distribution — adapt them to campaign content
-- Show personality — voters want to see the human, not the politician
+- Authenticity over production quality; phone-shot video wins
+- Hook in the first 2 seconds or viewers scroll past
+- Use trending sounds when they fit naturally; do not force them
+- Policy explainers in "story time" format perform well
+- Engage with comments via video replies
+- Do NOT use TikTok for attack content; the audience punishes negativity
 
 ### YouTube
-- Optimize titles and descriptions for search (voters Google candidate names)
-- Create playlists: "Issue Videos," "Endorsements," "Events," "Ads"
-- Upload full debate and forum appearances — voters search for these
-- YouTube Shorts (vertical short video) compete with TikTok for younger audiences
+- Upload every ad, speech, town hall, and debate clip
+- Write detailed titles and descriptions with keywords voters would search
+- Create playlists by topic (economy, education, endorsements)
+- Timestamps in descriptions improve viewer retention
+- YouTube Shorts can repurpose TikTok/Reels content
 
 ### NextDoor
-- Tone must be neighborly, not political-sounding — you are a neighbor first
-- Respond to community concerns (pothole complaints, safety issues) with helpful information
-- Announce local events and town halls — this platform excels at hyperlocal
-- Do not over-post — NextDoor communities react negatively to perceived spam
-
----
-
-## Crisis Response Protocol
-
-When something goes wrong on social media — a gaffe, a viral attack, a misquote, an old post surfaces:
-
-```
-STEP 1: ASSESS (0-30 minutes)
-  - What happened? Get the facts.
-  - How widely has it spread? (10 shares vs 10,000 shares = different responses)
-  - Is it accurate or false?
-  - Who is driving it? (opponent campaign, media, random account, bot network)
-
-STEP 2: DECIDE (30-60 minutes)
-  - IGNORE: If it has minimal reach and responding would amplify it
-  - CORRECT: If it contains factual errors that can be easily debunked
-  - RESPOND: If it has significant reach and threatens your narrative
-  - APOLOGIZE: If you made a genuine mistake (brief, sincere, no excuses)
-
-STEP 3: EXECUTE (within 2 hours if responding)
-  - Post a response on the same platform where the crisis originated
-  - Keep it short, factual, and pivot to your message
-  - Brief surrogates so they are on the same page
-  - Do NOT delete posts unless they contain factual errors — 
-    deletion looks like a cover-up and screenshots live forever
-
-STEP 4: MONITOR (24-48 hours)
-  - Watch for follow-up stories or continued spread
-  - Prepare additional responses if needed
-  - Move the news cycle forward with new positive content
-```
+- Keep it neighborly; overtly political posts get flagged and removed
+- Focus on community issues: roads, schools, parks, public safety
+- Respond to neighborhood concerns with your policy position
+- Post as a verified neighbor, not a campaign account when possible
+- Do not argue with critics; thank them for their perspective and move on

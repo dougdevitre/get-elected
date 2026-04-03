@@ -1,171 +1,169 @@
 # Ballot Chase Program: GOTV Operations Core
 
-Ballot chasing is the systematic process of tracking which of your identified supporters have voted and contacting those who have not until they do. It is the single most important operational program in the final weeks of a campaign. Elections are decided by who actually votes, not who says they will.
+Ballot chasing is the systematic process of tracking which supporters have voted and contacting those who have not until they do. This is the single most important operational program in the final weeks of a campaign. Elections are decided by who actually votes, not who says they will.
 
 ---
 
 ## Program Overview
 
 A ballot chase program has three phases:
-1. **Early vote period:** Track and encourage early/absentee voting among your supporters
+1. **Early vote period:** Track and encourage early/absentee voting among supporters
 2. **Absentee ballot chase:** Ensure every supporter who requested a mail ballot returns it
 3. **Election Day chase:** Real-time voter check-off with same-day contact to non-voters
 
-Every phase uses the same core loop: identify your universe, track who has voted, contact those who have not, repeat.
+Every phase uses the same core loop: identify your universe, track who has voted, contact those who have not, repeat daily.
 
 ---
 
-## Universe Prioritization
+## Universe Prioritization Tiers
 
-Not every voter gets the same level of chase effort. Prioritize based on two factors: support level and vote propensity.
+Not every voter gets the same chase effort. Prioritize based on support level and vote propensity.
 
-### Priority Tiers
+**Tier 1 -- Chase Hard (highest priority):**
+- Identified supporters who are infrequent voters (support you but may not vote without a push)
+- They get every round of contact: mail, phone, text, door knock
+- This tier wins or loses your election
 
-**Tier 1 — Chase Hard (highest priority):**
-- Identified supporters (ID'd through canvassing, phone calls, or data) who are infrequent voters
-- These are people who support you but may not vote without a push
-- They get every round of contact: mail, phone, text, door
-
-**Tier 2 — Chase Firm:**
-- Identified supporters who are moderate-propensity voters
-- They usually vote but not always. A reminder may be the difference.
+**Tier 2 -- Chase Firm:**
+- Identified supporters who are moderate-propensity voters (usually vote but not always)
 - They get phone, text, and one door knock if resources allow
 
-**Tier 3 — Chase Light:**
-- Identified supporters who are high-propensity voters
-- They will probably vote on their own. A reminder is insurance.
-- They get one text or phone call
+**Tier 3 -- Chase Light:**
+- Identified supporters who are high-propensity voters (will probably vote on their own)
+- They get one text or phone reminder -- insurance, not heavy lifting
 
-**Tier 4 — Persuasion GOTV:**
+**Tier 4 -- Persuasion GOTV:**
 - Lean supporters or soft undecideds who could break your way
-- They get a persuasion-plus-GOTV message: "Here is why [Candidate] and here is how to vote"
+- Persuasion-plus-GOTV message: "Here is why [Candidate] and here is how to vote"
 - Only pursue if Tiers 1-3 are fully covered
 
-**Do not chase:**
-- Identified opponent supporters (you are turning out their voters)
-- Hard undecideds with no lean (resource intensive with uncertain return)
+**Do NOT chase:**
+- Identified opponent supporters (you would be turning out their voters)
+- Hard undecideds with no lean (resource intensive, uncertain return)
 
 ---
 
 ## Early Vote Tracking
 
-### Setup
+### Obtaining Daily Early/Absentee Vote Data
+1. Contact your county or state elections office to request daily early vote and absentee ballot files
+2. Most states provide these files daily or several times per week during the early vote period
+3. File formats vary: CSV, tab-delimited, or proprietary. Confirm format before the early vote period starts.
+4. Assign a data manager to download, process, and match files every morning by 9 AM
 
-1. Obtain the early voting and absentee ballot file from the county elections office. Most states make this available daily or several times per week during the early vote period.
-2. Match the early vote file against your voter universe to identify which supporters have already voted.
-3. Remove voters who have already voted from all contact lists immediately — contacting someone who has already voted is a waste of resources and an annoyance.
-4. Generate a daily "still outstanding" list: supporters who have not yet voted.
+### Daily Universe Updates
+1. Match the early vote file against your supporter universe by voter ID or name/DOB
+2. Mark voters who have already voted as "banked" -- remove them from all contact lists immediately
+3. Generate a fresh "still outstanding" list: supporters who have not yet voted
+4. Distribute updated contact lists to phone, text, and field teams by 10 AM daily
+5. Update your daily chase report (see format below)
 
-### Early Vote Encouragement
+**Critical rule:** Contacting someone who has already voted wastes resources and annoys supporters. Update lists daily without exception.
 
-**Timeline:**
-- **3 weeks before Election Day:** Begin encouraging early voting via email, text, and social media
-- **2 weeks before:** Targeted calls and texts to Tier 1 supporters with early vote locations, hours, and logistics
-- **1 week before:** Door knocks to Tier 1 supporters who have not yet voted early
-- **Final days of early vote:** All-hands push with specific asks: "Can you vote today? The location at [address] is open until [time]."
+### Early Vote Encouragement Timeline
+- **3 weeks out:** Email, text, and social media encouraging early voting. General audience.
+- **2 weeks out:** Targeted calls and texts to Tier 1 supporters with early vote locations, hours, and logistics
+- **1 week out:** Door knocks to Tier 1 supporters who have not yet voted early
+- **Final days of early vote:** All-hands push. "Can you vote today? [Location] is open until [time]."
 
-**Message framework:**
-"Hi [Name], this is [Volunteer] with the [Candidate] campaign. We want to make sure you know about early voting. You can vote right now at [location], open [hours]. It takes about [estimated time] and there is no line. Can we count on you to vote this week?"
+**Script:**
+"Hi [Name], this is [Volunteer] with [Candidate]'s campaign. Early voting is open right now. You can vote at [location], open [hours]. It takes about [time] and lines are short. Can we count on you to vote this week?"
 
 ---
 
-## Absentee Ballot Chase
+## Absentee Ballot Chasing
 
-### The Chase Sequence
+### Identifying Outstanding Ballots
+- Obtain the absentee ballot request file from the elections office
+- Cross-reference with the absentee ballot return file (updated daily)
+- Generate a list of supporters who requested a ballot but have not returned it
+- This list is your absentee chase universe
 
-For every supporter who requested a mail/absentee ballot but has not returned it:
+### Contact Sequence for Outstanding Ballots
 
-**Contact 1 — Mail (7-10 days after ballot sent):**
+**Contact 1 -- Mail Reminder (7-10 days after ballot mailed):**
 Postcard or letter: "We see you requested your ballot. Have you received it? Here is how to fill it out and return it. Deadline: [date]. Questions? Call [number]."
 
-**Contact 2 — Phone (3-5 days after Contact 1):**
-"Hi [Name], this is [Volunteer] with [Candidate]'s campaign. We noticed you requested a mail ballot. Have you had a chance to fill it out and send it back? ... Great, the deadline is [date]. You can also drop it off at [locations]. ... If you have any questions about the ballot, I can help."
+**Contact 2 -- Phone Call (3-5 days after Contact 1):**
+"Hi [Name], this is [Volunteer] with [Candidate]'s campaign. We noticed you requested a mail ballot. Have you had a chance to fill it out and send it back? The deadline is [date]. You can also drop it off at [locations]."
 
-**Contact 3 — Text (3-5 days after Contact 2):**
-"[Name] — Quick reminder that your mail ballot is due by [date]. You can mail it (allow 5 days) or drop it off at [locations]. Need help? Reply here."
+**Contact 3 -- Text Message (3-5 days after Contact 2):**
+"[Name] -- Reminder: your mail ballot is due [date]. Mail it now (allow 5 days) or drop off at [locations]. Need help? Reply here."
 
-**Contact 4 — Door (7-10 days before Election Day):**
-In-person visit for ballots still outstanding. Offer to walk through the ballot, answer questions, and remind them of the deadline and drop-off options. In states where it is legal, offer to collect and deliver the ballot (know your state's ballot collection laws).
+**Contact 4 -- Door Knock (7-10 days before Election Day):**
+In-person visit. Offer to walk through the ballot, answer questions, remind of deadline and drop-off options. In states where legal, offer to collect and deliver the ballot (know your state's ballot collection laws).
 
-**Contact 5 — Final call/text (3 days before deadline):**
-"[Name] — Your ballot must be received by [date]. If you have not mailed it yet, please drop it off at [location] by [time]. This is your last chance to make your voice heard."
+**Contact 5 -- Final Call/Text (3 days before deadline):**
+"[Name] -- Your ballot MUST be received by [date]. If you haven't mailed it, drop it off at [location] by [time]. Last chance to make your voice heard."
 
-### Ballot Curing
-
-Some states allow voters to fix (cure) defective mail ballots — missing signature, signature mismatch, missing ID copy. This is a critical and often overlooked program.
+### Ballot Curing for Rejected Ballots
+Some states allow voters to cure defective mail ballots (missing signature, signature mismatch, missing ID copy).
 
 **Setup:**
-1. Monitor the rejected/defective ballot list from the elections office (available daily in most states during the cure period)
+1. Monitor the rejected/defective ballot list from elections office (available daily during cure period)
 2. Cross-reference against your supporter list
-3. Contact affected supporters immediately with specific instructions
+3. Contact affected supporters within 24 hours -- cure deadlines are often only 2-5 days
 
-**Cure outreach:**
-"[Name], we received notice that there is an issue with your mail ballot — [specific issue: missing signature / signature does not match / missing ID copy]. You can fix this by [specific cure process: going to the elections office / submitting a cure affidavit / providing ID]. The deadline is [date]. We can help — call [number] or visit [location]."
+**Cure script:**
+"[Name], there is an issue with your mail ballot -- [specific issue]. You can fix this by [specific cure process] before [deadline]. We can help -- call [number] or visit [location]."
 
-**This is time-sensitive.** Cure deadlines are often 2-5 days. Contact must happen within 24 hours of receiving the defective list.
+**This is the highest-ROI contact you will make.** Every cured ballot is a vote saved from the trash.
 
 ---
 
 ## Election Day Chase
 
-### Real-Time Voter Check-Off
-
-**The system:**
-1. Station poll watchers or poll greeters (where legal) at every precinct in your target universe
-2. Poll watchers record the names or voter numbers of every person who votes throughout the day
-3. This information is relayed to a central "boiler room" (chase headquarters) every 30-60 minutes
-4. The boiler room checks voters off the master list
-5. The remaining list — people who have not yet voted — becomes the afternoon and evening chase list
+### Real-Time Voter Check-Off at Polls
+1. Station credentialed poll watchers at every precinct in your target universe
+2. Watchers record names or voter ID numbers of every person who votes
+3. Information relayed to the central boiler room every 30-60 minutes
+4. Boiler room checks voters off the master list
+5. Remaining list becomes the afternoon and evening chase target
 
 **Technology options:**
-- **Low-tech:** Poll watchers write down names, a runner brings the list to the boiler room, staff manually checks off names
-- **Medium-tech:** Poll watchers text or call names to the boiler room
-- **High-tech:** Digital check-off app synced to voter file in real time (available through campaign tech platforms)
+- **Low-tech:** Watchers write names, runners bring lists to boiler room, staff checks off manually
+- **Medium-tech:** Watchers text or call names to boiler room
+- **High-tech:** Digital check-off app synced to voter file in real time
 
-### Chase Waves
+### Chase Waves: Deploying Volunteers Throughout the Day
 
 **Morning wave (polls open - 11 AM):**
 - Text all Tier 1 supporters: "Polls are open! Vote at [location], open until [time]. Need a ride? Call [number]."
-- Phone calls begin to Tier 1 supporters at 10 AM
+- Phone calls begin to Tier 1 at 10 AM
 
 **Midday wave (11 AM - 2 PM):**
-- First check-off arrives. Remove voters who have already voted.
-- Text remaining Tier 1 and Tier 2 supporters
+- First check-off arrives. Remove voters who have voted.
+- Text remaining Tier 1 and Tier 2
 - Phone calls continue to remaining Tier 1
 
 **Afternoon wave (2 PM - 5 PM):**
 - Second check-off. Update lists.
-- Door knocks begin to remaining Tier 1 supporters who have not voted
+- Door knocks to remaining Tier 1 who have not voted
 - Phone and text to remaining Tier 2
-- Offer rides to anyone who needs transportation
+- Deploy ride-to-polls volunteers
 
-**Evening wave (5 PM - polls close):**
+**Closing push (5 PM - polls close):**
 - Final check-off. All-hands deployment.
-- Every volunteer goes to doors of remaining Tier 1 and Tier 2 supporters
-- Final text blast to everyone still outstanding
+- Every volunteer to doors of remaining Tier 1 and Tier 2
+- Final text blast to all outstanding supporters
 - Candidate makes personal calls to key supporters who have not voted
-- Rides dispatched
+- All rides dispatched
 
-### Ride-to-the-Polls Program
-
-**Setup:**
-- Recruit volunteer drivers (background check recommended)
-- Publish a "need a ride?" phone number and text line
-- Pre-identify voters who have indicated they need transportation
-- Station drivers near target precincts for quick dispatch
-
-**Script for ride offer:**
-"Hi [Name], this is [Volunteer] with [Candidate]'s campaign. We noticed you haven't voted yet today, and we wanted to offer you a free ride to the polls. Your polling place at [location] is open until [time]. Can we pick you up? ... Great, a driver will be there in [time]."
+### Ride-to-the-Polls
+- Recruit volunteer drivers in advance (background checks recommended)
+- Publish a "Need a ride?" phone number and text line
+- Pre-identify voters who indicated transportation needs
+- Station drivers near target precincts for rapid dispatch
 
 ---
 
-## Daily Chase Reports
+## Daily Chase Report Format
 
-During the early vote and election day periods, produce a daily chase report for campaign leadership:
+Produce this report every morning during early vote and on election day:
 
 ```
 ============================================================
-DAILY CHASE REPORT — [DATE]
+DAILY CHASE REPORT -- [DATE]
 ============================================================
 
 OVERALL STATUS:
@@ -173,7 +171,7 @@ Total supporter universe:          [number]
 Votes banked (to date):            [number] ([%] of universe)
 Outstanding (not yet voted):       [number]
 Daily vote goal:                   [number]
-Actual votes today:                [number] (over/under goal by [number])
+Actual votes today:                [number] (over/under by [number])
 
 BY PRIORITY TIER:
                     Universe    Voted    Outstanding    % Complete
@@ -183,31 +181,21 @@ Tier 3:             [n]         [n]      [n]            [%]
 Tier 4:             [n]         [n]      [n]            [%]
 
 CONTACTS MADE TODAY:
-Phone calls:        [number] attempted / [number] completed
-Texts:              [number] sent / [number] responses
-Door knocks:        [number]
-Rides provided:     [number]
+Phone calls:        [n] attempted / [n] completed
+Texts:              [n] sent / [n] responses
+Door knocks:        [n]
+Rides provided:     [n]
 
 ABSENTEE BALLOT STATUS:
-Ballots requested:  [number]
-Ballots returned:   [number]
-Ballots outstanding:[number]
-Ballots defective:  [number] (cures initiated: [number])
+Ballots requested:  [n]
+Ballots returned:   [n]
+Ballots outstanding:[n]
+Ballots rejected:   [n] (cures initiated: [n])
 
-NOTES:
-[Any observations, problems, or adjustments needed]
+NOTES / ADJUSTMENTS:
+[Observations, problems, tactical shifts for tomorrow]
 ============================================================
 ```
-
----
-
-## Legal Considerations
-
-1. **Know your state's poll watcher laws.** Credentials, allowable activities, distance from the polls, and reporting requirements vary by state.
-2. **Know ballot collection laws.** Some states allow third-party ballot collection; others prohibit it.
-3. **Know ballot cure rules.** Cure processes, timelines, and notification requirements vary.
-4. **Train every volunteer** on what they can and cannot do at polling places.
-5. **Have election counsel on call** throughout the early vote period and on Election Day.
 
 ---
 
@@ -215,22 +203,22 @@ NOTES:
 
 | Role | Responsibility |
 |---|---|
-| Chase Director | Oversees entire program, manages daily reports, makes tactical decisions |
-| Data Manager | Processes voter files, generates contact lists, maintains check-off system |
+| Chase Director | Oversees program, manages daily reports, makes tactical decisions |
+| Data Manager | Processes voter files daily, generates contact lists, maintains check-off system |
 | Phone/Text Lead | Manages phone and text bank volunteers |
 | Field Lead | Manages door-to-door chase teams |
-| Poll Watcher Coordinator | Recruits, trains, credentials, and deploys poll watchers |
+| Poll Watcher Coordinator | Recruits, trains, credentials, deploys poll watchers |
 | Boiler Room Staff | Processes check-off data in real time on Election Day |
-| Rides Coordinator | Manages driver volunteers and dispatches rides |
-| Legal Hotline | Election attorney available for poll watcher issues, voter challenges, irregularities |
+| Rides Coordinator | Manages drivers, dispatches rides |
+| Legal Hotline | Election attorney for watcher issues, voter challenges, irregularities |
 
 ---
 
 ## Keys to Success
 
-1. **Start building your voter ID universe months before the chase begins.** You cannot chase voters you have not identified. Every canvass and phone call that IDs a supporter feeds this program.
-2. **Update your lists daily.** A stale list means wasted contacts.
-3. **Remove voters who have already voted immediately.** Contacting them again wastes resources and annoys supporters.
-4. **Escalate contact intensity as the deadline approaches.** Start with digital, end with doors.
-5. **Test your systems before Election Day.** Run a dress rehearsal with your check-off process, communication chain, and data flow.
-6. **Every vote banked early is one less to chase on Election Day.** Push early voting hard.
+1. **Build your voter ID universe months before the chase.** You cannot chase voters you have not identified.
+2. **Update lists daily.** Stale lists waste contacts.
+3. **Remove voters who have voted immediately.** No exceptions.
+4. **Escalate contact intensity as deadlines approach.** Start digital, end with doors.
+5. **Test your systems before Election Day.** Run a dress rehearsal of check-off, communication, and data flow.
+6. **Every vote banked early is one less to chase on Election Day.** Push early voting aggressively.

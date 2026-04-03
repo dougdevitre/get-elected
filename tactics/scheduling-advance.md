@@ -4,217 +4,218 @@ The candidate's time is the campaign's most finite and valuable resource. Every 
 
 ---
 
-## Time Allocation Framework
+## Optimal Weekly Time Allocation
 
-### Weekly Allocation Targets
-
-| Activity | % of Waking Hours | Hours/Week (70-hr week) | Purpose |
+| Activity | % of Time | Hours/Week (70-hr week) | Purpose |
 |---|---|---|---|
-| Call time (fundraising) | 40% | 28 hours | Revenue generation — the fuel for everything else |
-| Events and voter contact | 30% | 21 hours | Earned media, persuasion, visibility, volunteer energy |
-| Preparation and strategy | 15% | 10.5 hours | Briefings, debate prep, message development, staff meetings |
-| Personal time | 15% | 10.5 hours | Family, rest, exercise, meals — non-negotiable for sustainability |
+| Call time (fundraising) | 40% | 28 hours | Revenue generation -- the fuel for everything else |
+| Events and appearances | 30% | 21 hours | Earned media, persuasion, visibility, volunteer energy |
+| Preparation and meetings | 15% | 10.5 hours | Briefings, debate prep, strategy, staff meetings |
+| Personal time and rest | 15% | 10.5 hours | Family, rest, exercise, meals -- non-negotiable |
 
-**Reality check:** Most candidates resist 28 hours of call time per week. But in competitive races, fundraising determines whether the campaign can execute its field, mail, and digital programs. The campaign manager's most important job is protecting call time from being consumed by events and meetings.
-
-### Call Time Rules
-
-- Block call time in 2-3 hour sessions, minimum 2 sessions per day
-- Call from a quiet, dedicated space — not the car between events
-- Campaign finance director or call time manager sits with the candidate and manages the call sheet
-- Track every call: who, amount asked, amount pledged, follow-up needed
-- The candidate should expect to make 30-50 calls per session
-- Never cancel call time for a "more important" meeting unless the meeting involves $10,000+ or a major endorsement
-
-### Event Principles
-
-- Every event must serve at least one strategic goal: fundraising, voter contact, earned media, volunteer recruitment, coalition building, or endorsement
-- Say no to events that do not serve a goal. "It would be nice to attend" is not a reason.
-- Cluster events geographically to minimize drive time
-- The candidate should never attend an event without a briefing memo
-- Always have a staff person or trained volunteer at every event to capture contacts, photos, and follow-up items
+**Reality check:** Most candidates resist 28 hours of call time. But in competitive races, fundraising determines whether the campaign can execute its field, mail, and digital programs. The campaign manager's most important job is protecting call time from being consumed by events and meetings.
 
 ---
 
 ## Scheduling Principles
 
-### 1. Work Backwards from Election Day
+### 1. Protect Call Time Above All
+- Block call time in 2-3 hour sessions, minimum 2 sessions per day
+- Call from a quiet, dedicated space -- not the car between events
+- Finance director or call time manager sits with the candidate and manages the call sheet
+- Track every call: who, amount asked, amount pledged, follow-up needed
+- Expect 30-50 calls per session
+- Never cancel call time for a meeting unless it involves $10,000+ or a major endorsement
 
-Build the schedule in reverse:
+### 2. Minimize Travel Time
+- Cluster events geographically -- never crisscross the district in one day
+- If the candidate must travel to a distant part of the district, stack 3-4 events in that area
+- Use travel time for call time (hands-free) or briefing review, not idle scrolling
+- Map the week's events and optimize the route before finalizing the schedule
+
+### 3. Stack Events Geographically
+- If the candidate has a fundraiser in the south end at 7 PM, schedule a canvass walk in the south end at 5 PM
+- If attending a morning community meeting, add a coffee stop at a nearby diner for informal voter contact
+- Every trip to a neighborhood should generate maximum value
+
+### 4. Candidate Wellness Is Non-Negotiable
+- Reserve one full evening per week with zero campaign obligations
+- Block one morning per week for exercise, family breakfast, or personal time
+- Ensure the candidate eats real meals, not just gas station food
+- An exhausted candidate makes mistakes, gets sick, and loses effectiveness
+- Build in 30-minute buffers between events for decompression
+
+### 5. Work Backwards from Election Day
 - **Final week:** GOTV events, rallies, final voter contact, election night party
 - **Final month:** Debates, high-frequency events, earned media push, early vote encouragement
 - **3-6 months out:** Fundraising heavy, endorsement meetings, community introductions
-- **6-12 months out:** Relationship building, research, platform development, call time
-
-### 2. Protect the Calendar
-
-- Schedule call time first, events second
-- Block recurring weekly commitments: staff meeting, debate prep, family dinner
-- Leave buffer time between events (minimum 30 minutes for local, 60 for cross-town)
-- Reserve one evening per week with no campaign obligations (the candidate will burn out otherwise)
-- Do not schedule the candidate for setup or teardown — that is staff and volunteer work
-
-### 3. Maximize Every Appearance
-
-- Stack: If the candidate is in a neighborhood for a fundraiser, add a 30-minute canvass walk before
-- If the candidate is at an event with 50 people, have volunteers working the room to capture contacts
-- Every handshake is a potential volunteer, donor, or endorser — have the infrastructure to follow up
-
-### 4. Weekly Scheduling Meeting
-
-Hold every Friday or Saturday to plan the following week:
-- Campaign manager, scheduler, field director, finance director, communications director attend
-- Review the next week's calendar event by event
-- Confirm all logistics, briefing memos, and staff assignments
-- Identify gaps — any unscheduled time that should be filled with call time or voter contact
-- Confirm personal time blocks are intact
+- **6-12 months out:** Relationship building, research, platform development, call time dominant
 
 ---
 
-## Event Advance: The Execution System
+## Event Advance Work
 
-Advance work ensures every event runs smoothly. A well-advanced event makes the candidate look organized and professional. A poorly advanced event wastes the candidate's time and creates problems.
+Advance work ensures every event runs smoothly. A well-advanced event makes the candidate look organized and professional. A poorly advanced event wastes time and creates problems.
 
-### Site Visit Checklist (Complete 48+ hours before event)
+### Site Visit Checklist (Complete 48+ Hours Before Event)
 
-**Venue assessment:**
-- [ ] Confirm venue address, entrance, and parking
-- [ ] Identify the room — size, layout, lighting, acoustics
-- [ ] Check AV: microphone, projector/screen, power outlets, WiFi
-- [ ] Identify backdrop for photos and video (what will be behind the candidate?)
-- [ ] Check ADA accessibility: ramps, elevators, accessible restrooms
-- [ ] Identify overflow plan if more people attend than expected
-- [ ] Locate nearest restrooms for the candidate
-- [ ] Identify a private "hold room" where the candidate can prep, take calls, or decompress
+**Venue Assessment:**
+- [ ] Confirm venue address, entrance location, and parking
+- [ ] Assess room: size, layout, lighting, acoustics
+- [ ] Check AV: microphone, speakers, projector/screen, power outlets, WiFi
+- [ ] Identify backdrop for photos and video (what is behind the candidate?)
+- [ ] Check ADA accessibility: ramps, elevators, accessible restrooms (see `accessibility-inclusion.md`)
+- [ ] Identify overflow plan if attendance exceeds capacity
+- [ ] Locate nearest restrooms
+- [ ] Identify a private hold room for candidate prep, calls, or decompression
+- [ ] Check cell service at venue
+- [ ] Get venue contact's cell phone for day-of issues
 
 **Logistics:**
-- [ ] Confirm start time, program time, and hard end time
-- [ ] Confirm setup and teardown access times
-- [ ] Check parking: where do attendees park, where does the candidate park (close to entrance)
-- [ ] Identify the candidate's entry and exit routes (avoid walking through the crowd both ways if possible)
-- [ ] Confirm food/beverage situation: who is providing, what, when
-- [ ] Check cell service at the venue
-- [ ] Get venue contact's cell phone number for day-of issues
+- [ ] Confirm start, program, and hard end times
+- [ ] Confirm setup and teardown access windows
+- [ ] Candidate parking: close to entrance, easy exit
+- [ ] Candidate entry and exit routes (avoid walking through the full crowd both ways)
+- [ ] Food and beverage: who provides, what, when
+- [ ] Sign-in station location and setup
 
-**Materials:**
-- [ ] Sign-in sheet or digital check-in (name, email, phone, zip code)
-- [ ] Campaign literature for distribution
-- [ ] Yard signs or bumper stickers to give away
+**Materials to Bring:**
+- [ ] Sign-in sheets or digital check-in (name, email, phone, zip)
+- [ ] Campaign literature and palm cards
+- [ ] Yard signs and bumper stickers
 - [ ] Donation envelopes or QR code for on-site giving
-- [ ] Camera/phone for photos and video content
+- [ ] Camera or phone for photos and video content
 
 ### Briefing Memo Template
 
-Prepare for every event. Deliver to the candidate at least 2 hours before.
+Prepare for every event. Deliver to the candidate at least 2 hours in advance.
 
 ```
 ============================================================
 EVENT BRIEFING MEMO
 ============================================================
 
-EVENT: [Name of event]
-DATE/TIME: [Day, Date, Arrival time — Program time — Departure time]
-LOCATION: [Full address, room name/number]
-PARKING: [Where to park, any special instructions]
-STAFF CONTACT: [Name, cell phone of advance person on site]
+EVENT:      [Name of event]
+DATE/TIME:  [Day, Date | Arrive: X | Program: Y | Depart: Z]
+LOCATION:   [Full address, room name/number]
+PARKING:    [Where to park, special instructions]
+STAFF ON SITE: [Name, cell phone of advance person]
 
-PURPOSE: [Why the candidate is attending — fundraising, voter 
-contact, earned media, endorsement, etc.]
+PURPOSE:    [Why the candidate is attending: fundraising, voter
+            contact, earned media, endorsement, coalition]
 
-FORMAT: [Description — speech, town hall, roundtable, meet-and-
-greet, debate, etc.]
-AUDIENCE: [Who will be there — size, demographics, disposition]
-HOST: [Who is hosting, brief background, relationship to campaign]
+FORMAT:     [Speech, town hall, roundtable, meet-and-greet,
+            debate, canvass walk, etc.]
+AUDIENCE:   [Who, how many, demographics, disposition]
+HOST:       [Name, background, relationship to campaign]
 
-PROGRAM:
-[Time] — Candidate arrives, hold room
-[Time] — Greet host and VIPs
-[Time] — Program begins [format details]
-[Time] — Candidate remarks ([X] minutes)
-[Time] — Q&A / mingling
-[Time] — Candidate departs
+THE ASK:    [What is the candidate asking this audience to do?
+            Donate? Volunteer? Vote? Endorse? Spread the word?]
 
-CANDIDATE REMARKS:
-- Key messages for this audience: [2-3 bullets]
-- Local issue to mention: [specific to this community/audience]
-- Story to tell: [which campaign story fits this audience]
-- Ask: [What is the candidate asking this audience to do?]
+PROGRAM / RUN OF SHOW:
+[Time] -- Candidate arrives, hold room
+[Time] -- Greet host and VIPs
+[Time] -- Program begins
+[Time] -- Candidate remarks ([X] minutes)
+[Time] -- Q&A or mingling
+[Time] -- Candidate departs
+
+TALKING POINTS:
+- Key message for this audience: [specific]
+- Local issue to reference: [specific to this community]
+- Story to tell: [which campaign story fits]
+- Data point: [one statistic that resonates]
 
 KEY PEOPLE TO KNOW:
-- [Name]: [Title/role, brief background, why they matter]
-- [Name]: [Title/role, brief background, why they matter]
-- [Name]: [Title/role, brief background, why they matter]
+- [Name]: [Title, background, why they matter, convo tip]
+- [Name]: [Title, background, why they matter, convo tip]
+- [Name]: [Title, background, why they matter, convo tip]
 
-POTENTIAL SENSITIVE TOPICS:
-- [Topic]: [Brief guidance on how to handle if raised]
+SENSITIVE TOPICS:
+- [Topic]: [How to handle if raised]
 
 MEDIA:
-- [Expected media present, or "no media expected"]
-- [Key message if approached by press]
+- [Expected press, or "no media expected"]
+- [Key message if approached]
 
-FOLLOW-UP:
-- [What needs to happen after this event: thank-you notes, 
-  contact entry, social media posts, etc.]
+ENTRY/EXIT PLAN:
+- Enter through [door/route]
+- Exit through [door/route]
+- Car parked at [location], engine running at [time]
+
+POST-EVENT FOLLOW-UP:
+- Thank host (call + handwritten note)
+- Enter all sign-in contacts into CRM
+- Post photos/video to social media
+- Follow up on any promises made
 ============================================================
 ```
 
 ### Day-of Event Timeline
 
-**T-60 minutes:** Advance person arrives at venue. Confirms setup, AV, signage, sign-in station. Resolves any issues.
+**T-60 min:** Advance person arrives. Confirms setup, AV, signage, sign-in station. Resolves issues.
 
-**T-30 minutes:** Staff arrives. Set up sign-in, literature table, donation station. Test AV. Confirm photographer/videographer is ready.
+**T-30 min:** Staff arrives. Set up sign-in, literature table, donation station. Test AV. Confirm photographer ready.
 
-**T-15 minutes:** Candidate arrives. Advance person briefs on any last-minute changes. Candidate uses hold room if needed.
+**T-15 min:** Candidate arrives. Advance person briefs on any last-minute changes. Candidate uses hold room.
 
-**T-5 minutes:** Advance person introduces candidate to host and VIPs for quick greetings before program starts.
+**T-5 min:** Advance person introduces candidate to host and VIPs for quick greetings.
 
-**T-0:** Program begins. Staff manages sign-in, captures photos, monitors for any issues.
+**T-0:** Program begins. Staff manages sign-in, takes photos, monitors for issues.
 
-**During event:** Staff takes notes on notable conversations, questions asked, promises made, follow-up needed.
+**During:** Staff notes notable conversations, questions asked, promises made, follow-up items.
 
 **Event ends:** Candidate mingles if time allows. Staff collects sign-in sheets. Candidate departs on schedule.
 
-**T+30 minutes:** Staff completes teardown. Photographs any remaining setup for future reference.
+**T+30 min:** Staff completes teardown. Photographs setup for future reference.
 
-### Post-Event Follow-Up (Within 48 hours)
-
-- [ ] Enter all sign-in contacts into campaign database
-- [ ] Send thank-you email to host
-- [ ] Send follow-up email to all attendees (thank-you, next event, volunteer ask or donation link)
-- [ ] Candidate sends handwritten note to host and any VIPs
-- [ ] Post event photos/video on social media
-- [ ] Follow up on any promises made or questions the candidate could not answer
-- [ ] Log the event in the campaign calendar with attendance and outcomes
+### Post-Event Follow-Up (Within 48 Hours)
+- [ ] Enter all sign-in contacts into campaign CRM
+- [ ] Send thank-you message to host (call + handwritten note from candidate)
+- [ ] Send follow-up email to all attendees (thank-you, next event, volunteer/donate ask)
+- [ ] Post event photos and video to social media
+- [ ] Follow up on any promises made or questions candidate could not answer on the spot
+- [ ] Log event in campaign calendar with attendance count and outcomes
 - [ ] Debrief with candidate: what worked, what to improve
 
 ---
 
-## Weekly Schedule Templates
+## Sample Weekly Schedules
 
-### Standard Campaign Week (Non-Election Month)
+### Small Local Race (Part-Time Campaign, 25-30 hrs/week)
 
-| Time | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| Time | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|---|---|---|---|---|---|---|
-| 8-9 AM | Prep/briefing | Prep/briefing | Prep/briefing | Prep/briefing | Prep/briefing | Canvass launch | Personal |
-| 9-12 PM | Call time | Call time | Call time | Call time | Call time | Door knocking | Personal |
-| 12-1 PM | Lunch/personal | Lunch meeting | Lunch/personal | Lunch meeting | Lunch/personal | Lunch | Personal |
-| 1-3 PM | Call time | Call time | Staff meeting + prep | Call time | Event or meeting | Community event | Prep for week |
-| 3-5 PM | Event/meeting | Canvassing | Call time | Event/meeting | Scheduling meeting | Event | Call time |
-| 5-7 PM | Personal/travel | Event | Personal | Event | Personal | Personal | Event |
-| 7-9 PM | House party | Personal | Community event | House party | Personal | Fundraiser | Personal |
+| 6-8 AM | Day job | Day job | Day job | Day job | Day job | Canvass prep | Personal |
+| 8 AM-5 PM | Day job | Day job | Day job | Day job | Day job | Door knocking | Personal |
+| 5-6 PM | -- | Call time | -- | Call time | -- | Community event | Prep for week |
+| 6-8 PM | Call time | Event | Call time | House party | Personal | Fundraiser | Event |
+| 8-9 PM | Personal | Personal | Personal | Personal | Personal | Personal | Personal |
 
-### Final Month (Accelerated Schedule)
+**Notes:** Call time is 8 hrs/week (evenings). Events 3-4/week. Saturdays are the primary canvass day.
 
-Increase events to 3-4 per day. Reduce call time to 2 hours per day minimum. Add debates, forums, and media appearances. Every evening has an event. One day off per week is reduced to half a day but still protected.
+### Large Competitive Race (Full-Time Campaign, 65-70 hrs/week)
+
+| Time | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|---|---|---|---|---|---|---|
+| 8-9 AM | Briefing | Briefing | Briefing | Briefing | Briefing | Canvass launch | Personal |
+| 9-12 PM | Call time | Call time | Call time | Call time | Call time | Canvassing | Personal |
+| 12-1 PM | Lunch | Lunch mtg | Lunch | Lunch mtg | Lunch | Lunch | Personal |
+| 1-3 PM | Call time | Call time | Staff mtg | Call time | Endorsement mtg | Community event | Call time |
+| 3-5 PM | Debate prep | Canvassing | Call time | Media interview | Schedule review | Event | Prep |
+| 5-7 PM | Personal | Event | Personal | Event | Personal | Personal | Event |
+| 7-9 PM | House party | Personal | Forum | House party | Personal | Fundraiser | Personal |
+
+**Notes:** Call time is 24-28 hrs/week. Events daily. One protected evening per night minimum.
 
 ---
 
 ## Common Scheduling Mistakes
 
-1. **Over-scheduling the candidate.** An exhausted candidate makes mistakes, gets sick, and loses effectiveness. Protect personal time.
-2. **Under-scheduling call time.** Events feel productive. Call time feels tedious. But call time funds the campaign.
-3. **Accepting every invitation.** A candidate who goes to everything goes to nothing strategically. Every event must serve a purpose.
-4. **No briefing memos.** The candidate walks into events unprepared, misses key people, and fails to make the ask.
-5. **No follow-up system.** The event happened, contacts were made, and nothing comes of it because no one followed up.
-6. **Ignoring travel time.** A 30-minute event across town is really 90 minutes when you add drive time.
-7. **Scheduling the candidate for tasks others can do.** The candidate should not be setting up chairs, stuffing envelopes, or driving to pick up supplies. Protect their time for what only they can do: raising money, meeting voters, and making the case.
+1. **Over-scheduling the candidate.** Exhaustion leads to mistakes, illness, and poor performance.
+2. **Under-scheduling call time.** Events feel productive; call time feels tedious. But call time funds everything.
+3. **Accepting every invitation.** Every event must serve a strategic purpose. "It would be nice" is not a reason.
+4. **No briefing memos.** Candidate walks in unprepared, misses key people, fails to make the ask.
+5. **No follow-up system.** Contacts made at events go nowhere because nobody followed up.
+6. **Ignoring travel time.** A 30-minute event across town is really 90 minutes with drive time.
+7. **Scheduling the candidate for tasks others can do.** The candidate should not set up chairs, stuff envelopes, or drive to pick up supplies.
