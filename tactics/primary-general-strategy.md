@@ -4,6 +4,48 @@ The primary and the general election are fundamentally different contests. They 
 
 ---
 
+## Strategy Overview
+
+```mermaid
+flowchart TD
+    subgraph Primary["Primary Season"]
+        BM["Base Mobilization"]
+        PL["Party Loyalty"]
+        DF["Differentiation"]
+    end
+
+    Primary --> WP{"Win Primary?"}
+    WP -->|No| Out["Concede Gracefully"]
+    WP -->|Yes| Pivot["THE PIVOT<br/>(1-week transition)"]
+
+    Pivot --> General
+
+    subgraph General["General Season"]
+        BC["Broaden Coalition"]
+        PI["Persuade Independents"]
+        CO["Contrast with Opponent"]
+    end
+
+    General --> ED["Election Day"]
+
+    subgraph Keep["KEEP in Pivot"]
+        K1["Core message"]
+        K2["Base support"]
+    end
+
+    subgraph Shift["SHIFT in Pivot"]
+        S1["Tone"]
+        S2["Targeting"]
+        S3["Coalition"]
+        S4["Issues emphasis"]
+    end
+
+    Pivot --- Keep
+    Pivot --- Shift
+```
+
+---
+
 ## Primary Election Strategy
 
 ### The Electorate Is Different

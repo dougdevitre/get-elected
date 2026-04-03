@@ -16,6 +16,37 @@ Guerrilla tactics break through the noise by being unexpected, memorable, and sh
 
 ---
 
+## Budget Decision Flowchart
+
+```mermaid
+flowchart TD
+    Start["What's your budget?"] --> VL["Very Low: $0-1K"]
+    Start --> Low["Low: $1K-5K"]
+    Start --> Med["Medium: $5K+"]
+
+    VL --> VL1["Community cleanups"]
+    VL --> VL2["Walk every street"]
+    VL --> VL3["Handwritten notes"]
+    VL --> VL4["Public transit campaigning"]
+
+    Low --> L1["Pop-up town halls"]
+    Low --> L2["Themed campaign days"]
+    Low --> L3["Local business partnerships"]
+
+    Med --> M1["Flash mob canvassing"]
+    Med --> M2["Creative mailers"]
+    Med --> M3["Social media stunts"]
+
+    VL1 & VL2 & VL3 & VL4 --> Check{"Is it legal<br/>and ethical?"}
+    L1 & L2 & L3 --> Check
+    M1 & M2 & M3 --> Check
+
+    Check -->|Yes| Execute["Execute"]
+    Check -->|No| Dont["Don't do it"]
+```
+
+---
+
 ## Tactics
 
 ### 1. Pop-Up Town Halls

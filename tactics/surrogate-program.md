@@ -6,6 +6,27 @@ A surrogate program extends the candidate's reach by deploying trusted voices wh
 
 ## The 3-Tier Surrogate Model
 
+```mermaid
+graph TD
+    subgraph Tiers["3-Tier Surrogate Model"]
+        T1["<b>Tier 1: High-Profile</b><br/>Elected Officials<br/>Celebrities<br/>Major Endorsers"]
+        T2["<b>Tier 2: Community Leaders</b><br/>Business Owners<br/>Faith Leaders<br/>Nonprofit Directors"]
+        T3["<b>Tier 3: Peer Surrogates</b><br/>Enthusiastic Volunteers"]
+    end
+
+    T1 --- T2 --- T3
+
+    subgraph Workflow["Surrogate Workflow"]
+        direction LR
+        R[Recruit] --> V[Vet]
+        V --> B["Brief<br/>(talking points,<br/>do's & don'ts)"]
+        B --> D["Deploy<br/>(events, canvass,<br/>social media, calls)"]
+        D --> TM["Track &<br/>Manage"]
+    end
+
+    Tiers --> Workflow
+```
+
 ### Tier 1: High-Profile Surrogates
 
 **Who they are:** Elected officials, celebrities, major endorsers, former officeholders, nationally recognized activists, prominent academics, well-known business leaders.
