@@ -1,0 +1,105 @@
+/* ===========================================================
+   Grant for Congress (MO-02) — Campaign Document Brand Sheet
+   Used by build/md2pdf.py with WeasyPrint
+   Palette: navy #0a1f44 · red #c8102e · slate #334155 · mist #eef2f7
+   =========================================================== */
+
+@page {
+  size: Letter;
+  margin: 22mm 18mm 20mm 18mm;
+  @top-left {
+    content: string(doctitle);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt;
+    color: #94a3b8;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  @top-right {
+    content: "GRANT for CONGRESS · MO-02";
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    color: #0a1f44;
+    letter-spacing: 0.04em;
+  }
+  @bottom-left {
+    content: "Paid for by Matt Grant for Congress. Educational template — not legal advice.";
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 7pt;
+    color: #94a3b8;
+  }
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 7pt;
+    color: #94a3b8;
+  }
+}
+
+/* Cover page: no running headers, full-bleed navy band */
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+html { font-family: "Helvetica Neue", Arial, sans-serif; color: #1e293b; font-size: 10.5pt; line-height: 1.5; }
+body { margin: 0; }
+
+/* ---------- Cover ---------- */
+.cover {
+  page: cover;
+  height: 100vh;
+  background: #0a1f44;
+  color: #ffffff;
+  padding: 30mm 24mm;
+  box-sizing: border-box;
+  position: relative;
+  page-break-after: always;
+}
+.cover::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0; height: 10mm;
+  background: #c8102e;
+}
+.cover .wordmark { font-size: 13pt; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff; }
+.cover .wordmark .red { color: #ff5a6e; }
+.cover .doctype { margin-top: 80mm; font-size: 11pt; letter-spacing: 0.22em; text-transform: uppercase; color: #9db2d8; }
+.cover h1 { font-size: 34pt; line-height: 1.08; margin: 6mm 0 0 0; color: #ffffff; border: none; }
+.cover .subtitle { font-size: 13pt; color: #c7d4ec; margin-top: 6mm; font-weight: 400; }
+.cover .meta { position: absolute; bottom: 24mm; left: 24mm; right: 24mm; font-size: 9pt; color: #7e93bb; border-top: 1px solid #25406f; padding-top: 4mm; }
+
+/* ---------- Headings ---------- */
+h1 { string-set: doctitle content(); font-size: 19pt; color: #0a1f44; border-bottom: 2px solid #c8102e; padding-bottom: 2mm; margin: 0 0 4mm 0; }
+h2 { font-size: 13.5pt; color: #0a1f44; margin: 7mm 0 2mm 0; padding-left: 3mm; border-left: 4px solid #c8102e; }
+h3 { font-size: 11pt; color: #334155; margin: 5mm 0 1mm 0; text-transform: uppercase; letter-spacing: 0.04em; }
+p { margin: 0 0 2.5mm 0; }
+a { color: #1d4ed8; text-decoration: none; }
+strong { color: #0a1f44; }
+
+/* ---------- Lists ---------- */
+ul, ol { margin: 0 0 3mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+ul li::marker { color: #c8102e; }
+
+/* ---------- Tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm 0; font-size: 9.5pt; }
+th { background: #0a1f44; color: #fff; text-align: left; padding: 2.2mm 3mm; font-weight: 700; }
+td { padding: 2mm 3mm; border-bottom: 0.5pt solid #d8dee9; vertical-align: top; }
+tbody tr:nth-child(even) { background: #f3f6fb; }
+
+/* ---------- Callouts ---------- */
+blockquote { margin: 4mm 0; padding: 3mm 4mm; background: #eef2f7; border-left: 4px solid #0a1f44; color: #334155; font-style: normal; }
+blockquote p:last-child { margin-bottom: 0; }
+
+hr { border: none; border-top: 0.5pt solid #d8dee9; margin: 5mm 0; }
+
+code { background: #eef2f7; padding: 0.5mm 1.5mm; border-radius: 2px; font-size: 9pt; color: #0a1f44; }
+
+/* Disclaimer block at the end of compliance docs */
+.disclaimer { margin-top: 8mm; padding: 3mm 4mm; background: #fff6f7; border: 0.5pt solid #f3c9cf; border-left: 4px solid #c8102e; font-size: 8.5pt; color: #7a2531; }
+
+.pagebreak { page-break-before: always; }

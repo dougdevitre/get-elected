@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disclaimer Generator — Grant for Congress</title>
+<style>
+  :root { --navy:#0a1f44; --red:#c8102e; --mist:#eef2f7; --slate:#334155; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: var(--slate); margin:0; background:#f6f8fb; }
+  header { background:var(--navy); color:#fff; padding:24px 28px; border-top:8px solid var(--red); }
+  header h1 { margin:0; font-size:20px; letter-spacing:.02em; }
+  header p { margin:6px 0 0; color:#c7d4ec; font-size:13px; }
+  main { max-width:760px; margin:24px auto; padding:0 20px 60px; }
+  .card { background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:22px; margin-bottom:20px; }
+  label { display:block; font-weight:600; color:var(--navy); margin:14px 0 4px; font-size:13px; }
+  input, select { width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:7px; font-size:14px; }
+  .row { display:flex; gap:14px; } .row > div { flex:1; }
+  .out { background:var(--navy); color:#fff; padding:18px 20px; border-radius:10px; font-size:16px; line-height:1.5; }
+  .out .label { color:#9db2d8; font-size:11px; text-transform:uppercase; letter-spacing:.12em; margin-bottom:8px; }
+  button { background:var(--red); color:#fff; border:0; padding:11px 18px; border-radius:7px; font-weight:700; cursor:pointer; font-size:14px; margin-top:14px; }
+  button:hover { filter:brightness(1.08); }
+  .note { font-size:12px; color:#64748b; margin-top:14px; }
+  .disclaimer { font-size:12px; color:#7a2531; background:#fff6f7; border:1px solid #f3c9cf; border-left:4px solid var(--red); padding:12px 14px; border-radius:6px; margin-top:18px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>"Paid for by" Disclaimer Generator</h1>
+  <p>Build a compliant disclaimer for ads, mail, signs, and digital. Grant for Congress (MO-02).</p>
+</header>
+<main>
+  <div class="card">
+    <label>Committee / sponsor name</label>
+    <input id="committee" value="Matt Grant for Congress" oninput="gen()">
+    <div class="row">
+      <div>
+        <label>Who paid & authorized?</label>
+        <select id="type" onchange="gen()">
+          <option value="auth">Paid for AND authorized by the candidate's committee</option>
+          <option value="paidnotauth">Paid by committee, NOT authorized by any candidate</option>
+          <option value="indiv">Paid by an individual (not a candidate committee)</option>
+        </select>
+      </div>
+      <div>
+        <label>Medium</label>
+        <select id="medium" onchange="gen()">
+          <option value="general">General (mail, ad, flyer)</option>
+          <option value="small">Small item (button, sticker, pen)</option>
+          <option value="digital">Digital / paid social</option>
+        </select>
+      </div>
+    </div>
+    <label>Payer name (only for "individual" option)</label>
+    <input id="payer" placeholder="e.g., Jane Smith" oninput="gen()">
+    <button onclick="copyOut()">Copy disclaimer</button>
+  </div>
+
+  <div class="card">
+    <div class="out"><div class="label">Your disclaimer</div><div id="output">—</div></div>
+    <p class="note" id="guidance"></p>
+    <div class="disclaimer">
+      Educational tool, not legal advice. Federal disclaimer rules (52 U.S.C. §30120; 11 CFR 110.11) have
+      specific formatting, size, and "stand by your ad" requirements that vary by medium. Small-item and
+      certain digital exceptions may apply. <strong>Verify the exact required wording and format with the FEC
+      or a campaign finance attorney before publishing.</strong>
+    </div>
+  </div>
+</main>
+<script>
+function gen(){
+  const c = (document.getElementById('committee').value || '[Committee Name]').trim();
+  const type = document.getElementById('type').value;
+  const medium = document.getElementById('medium').value;
+  const payer = (document.getElementById('payer').value || '[Payer Name]').trim();
+  let text = '';
+  if (type === 'auth') text = `Paid for by ${c}.`;
+  else if (type === 'paidnotauth') text = `Paid for by ${c}. Not authorized by any candidate or candidate's committee.`;
+  else text = `Paid for by ${payer}. Not authorized by any candidate or candidate's committee.`;
+  document.getElementById('output').textContent = text;
+  let g = '';
+  if (medium === 'small') g = 'Small items (buttons, pens, stickers) where a disclaimer is impracticable may be exempt — confirm eligibility.';
+  else if (medium === 'digital') g = 'Paid digital ads generally require the disclaimer on the ad itself or via an adapted/indicator form when space-limited. Confirm platform + FEC rules.';
+  else g = 'Printed mail, flyers, and ads require a clear, readable disclaimer in a printed box set apart from other text.';
+  document.getElementById('guidance').textContent = g;
+}
+function copyOut(){
+  navigator.clipboard.writeText(document.getElementById('output').textContent)
+    .then(()=>{ const b=event.target; const t=b.textContent; b.textContent='Copied ✓'; setTimeout(()=>b.textContent=t,1200); });
+}
+gen();
+</script>
+</body>
+</html>

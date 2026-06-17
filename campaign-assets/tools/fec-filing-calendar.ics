@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Grant for Congress//Filing Calendar//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:grant-filing-1-20260715@campaign
+DTSTAMP:20260617T022501Z
+DTSTART;VALUE=DATE:20260715
+SUMMARY:FEC FILING DUE — July Quarterly Report (Apr 1–Jun 30)
+DESCRIPTION:Federal (FEC) reporting deadline. VERIFY exact date at fec.gov before relying on it. Pre-primary and pre-general reports are date-specific to your election and are NOT included here — add them manually. Educational reminder\, not legal advice.
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-filing-2-20261015@campaign
+DTSTAMP:20260617T022501Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:FEC FILING DUE — October Quarterly Report (Jul 1–Sep 30)
+DESCRIPTION:Federal (FEC) reporting deadline. VERIFY exact date at fec.gov before relying on it. Pre-primary and pre-general reports are date-specific to your election and are NOT included here — add them manually. Educational reminder\, not legal advice.
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-filing-3-20270131@campaign
+DTSTAMP:20260617T022501Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:FEC FILING DUE — Year-End Report (Oct 1–Dec 31)
+DESCRIPTION:Federal (FEC) reporting deadline. VERIFY exact date at fec.gov before relying on it. Pre-primary and pre-general reports are date-specific to your election and are NOT included here — add them manually. Educational reminder\, not legal advice.
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:FEC report due in 3 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR
