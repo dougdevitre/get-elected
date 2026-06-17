@@ -49,9 +49,14 @@ get-elected/
 ├── outreach/            # Voter contact, canvassing, and coalition-building
 ├── tactics/             # Field strategy, digital tactics, and GOTV operations
 ├── artifacts/           # Templates and generated document frameworks
+├── examples/            # End-to-end worked campaign examples
 ├── commands.md          # Full catalog of 80+ slash commands
 └── voter-engagement-tools.md  # 15 interactive voter engagement tools
 ```
+
+## Worked Examples
+
+The [`examples/`](examples/README.md) directory contains complete, end-to-end campaigns that show every module working together for a single race. The first is a 48-day sprint to the **August 4, 2026 Missouri primary** for **U.S. House, MO-02** — [`examples/matt-grant-mo02/`](examples/matt-grant-mo02/README.md) — covering strategy, FEC compliance, fundraising, messaging, field/GOTV, a dated execution calendar, and ready-to-send sample artifacts. Examples use fictional candidates but real, sourced law and district data.
 
 ## Coverage
 
