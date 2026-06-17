@@ -52,6 +52,7 @@ flowchart TD
 | [`05-field-and-gotv.md`](05-field-and-gotv.md) | Voter targeting, turf, door/phone scripts, absentee/ballot chase, election-day plan |
 | [`06-execution-calendar.md`](06-execution-calendar.md) | Week-by-week June 17 → Aug 4 master calendar integrating every workstream |
 | [`07-sample-artifacts.md`](07-sample-artifacts.md) | Launch press release, call script, fundraising email, social posts, endorsement ask, door script |
+| [`08-channel-implementation-playbook.md`](08-channel-implementation-playbook.md) | **Campaign manager's field manual** — the full tech stack, a Week-1 setup sprint, channel-by-channel implementation across every marketing channel/app/integration, weekly operating rhythm, KPI dashboard, and compliance overlay |
 
 ---
 
